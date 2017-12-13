@@ -1,44 +1,121 @@
-<?php
-    require_once ("../../resource/security/security.php");
+<?
+include("inc_security.php");
+checkAddEdit("add");
 
-    $modul_id = 23;
-    // check user login
-    checklogged();
-    // Check acccess module
-    if (checkAccessModule($modul_id) != 1) redirect($fs_denypath);
+//Call class menu
+$menu					= new menu();
+$listAll				= $menu->getAllChild("categories_multi", "cat_id", "cat_parent_id", 0, " cat_type='phagia' AND cat_active = 1", "cat_id,cat_name,cat_type", "cat_order ASC,cat_name ASC", "cat_has_child", 0);
+unset($menu);
 
-    $fs_table                   = "category";
-    $id_field                   = "category_id";
-    $name_field                 = "category_name";
-    $fs_filedupload             = "category_picture";
-    $fs_filepparh               = "../../../date/banner";
-    $fs_extension			    = "gif,jpg,jpe,jpeg,png,swf";
-    $fs_filesize			    = 600;
-    $width_small_image	        = 200;
-    $height_small_image	        = 300;
-    $width_normal_image	        = 300;
-    $height_normal_image	    = 300;
-    $fs_insert_logo		        = 0;
-    $break_page	= "{---break---}";
-    //Array variable
-    $arrTarger                  = array(
-                                "blank" => "Trang mới",
-                                "_self" => "Hiện hành"
-    );
-    $arrayType                  = array(
-                                1 => "Tên sản phẩm",
-                                2 => "Hình ảnh",
-                                3 => "Chi tiết sản phẩm"
-    );
-    $arrPositon				    = array(
-                                1 => "Banner top",
-                                2 => "Banner category left",
-                                3 => "Banner right",
-                                4 => "Banner bottom",
-                                5 => "Banner category center",
-                                6 => "Banner home product",
-                                7 => "Banner Tin tức - R1",
-                                8 => "Banner Tin tức - R2",
-                                9 => "Banner mobile Top"
-    );
+//Khai báo biến khi thêm mới
+$after_save_data	= getValue("after_save_data", "str", "POST", "add.php");
+$add					= "add.php";
+$listing				= "listing.php";
+$fs_title			= "Thêm mới tin tức";
+$fs_action			= getURL();
+$fs_redirect		= $after_save_data;
+$fs_errorMsg		= "";
+$ban_date			= time();
+$ban_end_time 		= 0;
+$ban_str_end_time = getValue('ban_str_end_time', "str", "POST", date("H:i:s", time()));
+$ban_str_end_date = getValue('ban_str_end_date', "str", "POST", '');
+if($ban_str_end_date != ''){
+    $ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
+}
+
+/*
+Call class form:
+1). Ten truong
+2). Ten form
+3). Kieu du lieu , 0 : string , 1 : kieu int, 2 : kieu email, 3 : kieu double, 4 : kieu hash password
+4). Noi luu giu data  0 : post, 1 : variable
+5). Gia tri mac dinh, neu require thi phai lon hon hoac bang default
+6). Du lieu nay co can thiet hay khong
+7). Loi dua ra man hinh
+8). Chi co duy nhat trong database
+9). Loi dua ra man hinh neu co duplicate
+*/
+$myform = new generate_form();
+$myform->add("db_name", "db_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
+$myform->add("db_decription", "db_decription", 0, 0, "", 0, "", 0, "");
+$myform->addTable($fs_table);
+//Get action variable for add new data
+$action				= getValue("action", "str", "POST", "");
+//Check $action for insert new data
+if($action == "execute"){
+    //Check form data
+    $fs_errorMsg .= $myform->checkdata();
+
+    //Get $filename and upload
+    $filename	= "";
+    if($fs_errorMsg == ""){
+        $upload			= new upload($fs_fieldupload, $fs_filepath, $fs_extension, $fs_filesize, $fs_insert_logo);
+        $filename		= $upload->file_name;
+        $fs_errorMsg	.= $upload->warning_error;
+    }
+
+    if($fs_errorMsg == ""){
+        if($filename != ""){
+            $$fs_fieldupload = $filename;
+            $myform->add($fs_fieldupload, $fs_fieldupload, 0, 1, "", 0, "", 0, "");
+            // resize
+            //$upload->resize_image($fs_filepath, $filename, $width_small_image, $height_small_image, "small_", $fs_filepath . "small/");
+            //$upload->resize_image($fs_filepath, $filename, $width_normal_image, $height_normal_image, "normal_");
+
+        }//End if($filename != "")
+
+        //Insert to database
+        $myform->removeHTML(0);
+
+        $db_insert = new db_execute($myform->generate_insert_SQL());
+        unset($db_insert);
+
+        //Redirect after insert complate
+        redirect($fs_redirect);
+
+    }//End if($fs_errorMsg == "")
+
+}//End if($action == "insert")
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <?=$load_header?>
+    <?
+    //add form for javacheck
+    $myform->addFormname("add");
+    $myform->checkjavascript();
+    //chuyển các trường thành biến để lấy giá trị thay cho dùng kiểu getValue
+    $myform->evaluate();
+    $fs_errorMsg .= $myform->strErrorField;
     ?>
+</head>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<? /*------------------------------------------------------------------------------------------------*/ ?>
+<?=template_top($fs_title)?>
+<? /*------------------------------------------------------------------------------------------------*/ ?>
+<p align="center" style="padding-left:10px;">
+    <?
+    $form = new form();
+    $form->create_form("add", $fs_action, "post", "multipart/form-data");
+    $form->create_table();
+    ?>
+    <?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
+    <?=$form->errorMsg($fs_errorMsg)?>
+    <?=$form->text("Tên Tiêu Đề", "db_name", "db_name", $db_name, "Tên banner", 1, 250, "", 255, "", "", "")?>
+    <?=$form->getFile("Ảnh minh họa", "db_picture", "db_picture", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)');?>
+    <?=$form->textarea("Mô tả chi tiết", "db_decription", "db_decription", $db_decription, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
+    <?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
+    <?=$form->hidden("action", "action", "execute", "");?>
+    <?
+    $form->close_table();
+    $form->close_form();
+    unset($form);
+    ?>
+</p>
+<? /*------------------------------------------------------------------------------------------------*/ ?>
+<?=template_bottom() ?>
+<? /*------------------------------------------------------------------------------------------------*/ ?>
+</body>
+</html>

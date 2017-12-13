@@ -5,7 +5,7 @@ checkAddEdit("delete");
 $returnurl 		= base64_decode(getValue("returnurl","str","GET",base64_encode("listing.php")));
 $record_id		= getValue("record_id","str","POST","0");
 //Delete data with ID
-$db_del = new db_execute("DELETE FROM ". $fs_table ." WHERE " . $id_field . " IN(" . $record_id . ")");
+$db_del = new db_execute("DELETE FROM ". $fs_tables ." WHERE " . $id_field . " IN(" . $record_id . ")");
 if($db_del->msgbox>0){
 	$msg = "Có " . $db_del->msgbox . " bản ghi đã được xóa !";
 	echo json_encode(array("msg"=>$msg,"status"=>"1"));

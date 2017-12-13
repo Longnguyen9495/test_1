@@ -1,0 +1,336 @@
+13/12/2017 07:08:22 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:08:23 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:08:23 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:08:26 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:09:29 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:09:30 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:09:30 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:09:30 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:09:32 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:11:44 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:11:45 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:11:45 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:11:45 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:11:45 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:33 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:37 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:37 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:37 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:37 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:46 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:47 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:47 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:47 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:12:47 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:13:41 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:13:41 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:13:41 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:13:42 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:13:42 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:15:54 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:15:55 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:15:55 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:15:56 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 :  
+SELECT *
+								 FROM admin_user, admin_user_right, modules
+								 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+								 adm_loginname='admin' AND adm_password='e10adc3949ba59abbe56e057f20f883e' AND adm_active=1 AND adm_delete = 0
+								 AND mod_id = 
+ -----***---- 
+13/12/2017 07:43:39 ::1 /admin/modules/category/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
