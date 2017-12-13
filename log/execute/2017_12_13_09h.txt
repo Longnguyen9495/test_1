@@ -1,0 +1,6 @@
+1|admin|13/12/2017 09:10:36 ::1 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(55)
+ -----***---- 
+1|admin|13/12/2017 09:11:55 ::1 /admin/modules/category/delete.php?
+DELETE FROM db_tintuc WHERE db_id IN(2)
+ -----***---- 

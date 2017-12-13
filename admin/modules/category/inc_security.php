@@ -1,7 +1,7 @@
 <?
 require_once("../../resource/security/security.php");
 
-$module_id = 23;
+$module_id = 21;
 //Check user login...
 checkLogged();
 //Check access module...

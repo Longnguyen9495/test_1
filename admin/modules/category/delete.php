@@ -4,7 +4,6 @@ include("inc_security.php");
 checkAddEdit("delete");
 $returnurl 		= base64_decode(getValue("returnurl","str","GET",base64_encode("listing.php")));
 $record_id		= getValue("record_id","str","POST","0");
-die;
 //Delete data with ID
 $db_del = new db_execute("DELETE FROM ". $fs_table ." WHERE " . $id_field . " IN(" . $record_id . ")");
 if($db_del->msgbox>0){
