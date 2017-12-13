@@ -1,0 +1,12 @@
+444|xeototai|19/12/2016 09:50:29 1.55.98.146 /admin/modules/statics_multi/delete.php?
+DELETE FROM statics WHERE sta_id IN(4)
+ -----***---- 
+444|xeototai|19/12/2016 09:50:31 1.55.98.146 /admin/modules/statics_multi/delete.php?
+DELETE FROM statics WHERE sta_id IN(3)
+ -----***---- 
+444|xeototai|19/12/2016 09:50:33 1.55.98.146 /admin/modules/statics_multi/delete.php?
+DELETE FROM statics WHERE sta_id IN(2)
+ -----***---- 
+444|xeototai|19/12/2016 09:50:35 1.55.98.146 /admin/modules/statics_multi/delete.php?
+DELETE FROM statics WHERE sta_id IN(1)
+ -----***---- 

@@ -1,0 +1,12 @@
+1|admin|15/11/2016 04:57:38 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 20 AND tagn_temp_key = '4ca345a1b22bb9aa67cac5f55d2a4361')
+ -----***---- 
+1|admin|15/11/2016 04:58:00 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 20 AND tagn_temp_key = '42cdebb3bc0d32e74e084d66cc5404de')
+ -----***---- 
+1|admin|15/11/2016 04:58:55 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 20 AND tagn_temp_key = '099f36fb03a2f006deb7e8c534ee8a84')
+ -----***---- 
+1|admin|15/11/2016 04:58:55 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 20 AND tagn_news_id = 2299)
+ -----***---- 

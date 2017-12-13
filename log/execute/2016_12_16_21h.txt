@@ -1,0 +1,3 @@
+444|xeototai|16/12/2016 09:19:35 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'd79ba9b5c91b378f5b8942e33c91e721')
+ -----***---- 

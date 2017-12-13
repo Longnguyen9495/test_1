@@ -1,0 +1,6 @@
+444|xeototai|01/12/2016 09:54:44 1.55.96.23 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(41)
+ -----***---- 
+444|xeototai|01/12/2016 09:54:47 1.55.96.23 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(40)
+ -----***---- 

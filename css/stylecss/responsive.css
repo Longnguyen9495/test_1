@@ -1,0 +1,70 @@
+/* CSS Document */
+@media (min-width:1200px){
+	.container_body{
+		width: 1200px;
+		margin: 0 auto;
+	} 	
+	.video_box_group_btn{
+		text-align: right;
+		margin-top: 25px;
+	}
+}
+@media (min-width:768px){
+	.video_thumbs{
+		max-height: 165px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.box_view_share{
+		text-align: right;
+	}
+	.header_search_input{
+		margin-right: 10px;
+	}
+}
+@media (max-width:768px){
+	.header_navigate{
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+	}
+	.header_search_input{ 
+		position: fixed;
+		top: 54px;
+		z-index: 2;
+		width: 96%;
+		right: -96%;
+		transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	} 
+	.header_search_input.active{
+		right: 2%;
+	}
+	.icon_search{
+		display: block;
+	}
+	.container_body{
+		padding-top: 56px;
+	}
+	.video_thumbs{
+		height: 175px;
+		text-align: center;
+		overflow: hidden;
+	}
+  	.box_view_share{
+		text-align: left;
+		padding-left: 20px;
+	}
+	.btn_viewmore{
+		padding: 5px 60px;
+	}
+	.home_video_thumbs img{
+		margin: 0 auto;
+		padding: 10px 0px;
+	}
+}
+@media (max-width:639px){
+ 
+}
+@media (max-width:360px){
+
+}

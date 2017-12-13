@@ -1,0 +1,6 @@
+444|xeototai|09/12/2016 09:32:38 42.114.65.118 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 22 AND tap_temp_key = '41ea483cf5eedac3dfbc3f6448e0e53e')
+ -----***---- 
+444|xeototai|09/12/2016 09:32:38 42.114.65.118 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 22 AND tap_product_id = 40)
+ -----***---- 

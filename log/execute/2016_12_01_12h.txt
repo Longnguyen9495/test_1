@@ -1,0 +1,8 @@
+444|xeototai|01/12/2016 12:10:07 116.111.118.219 /admin/modules/products/delete_picture.php?record_id=11&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbW9yZV9waWN0dXJlLnBocD9yZWNvcmRfaWQ9MjMm
+DELETE FROM product_pictures
+											WHERE ppic_id = 11
+ -----***---- 
+444|xeototai|01/12/2016 12:10:10 116.111.118.219 /admin/modules/products/delete_picture.php?record_id=12&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbW9yZV9waWN0dXJlLnBocD9yZWNvcmRfaWQ9MjMm
+DELETE FROM product_pictures
+											WHERE ppic_id = 12
+ -----***---- 

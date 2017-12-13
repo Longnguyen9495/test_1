@@ -1,0 +1,6 @@
+444|xeototai|07/12/2016 10:37:06 118.70.146.164 /admin/modules/products/delete.php?record_id=39&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 39
+ -----***---- 
+444|xeototai|07/12/2016 10:37:06 118.70.146.164 /admin/modules/products/delete.php?record_id=39&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 39
+ -----***---- 

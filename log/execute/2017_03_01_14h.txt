@@ -1,0 +1,3 @@
+1|admin|01/03/2017 02:52:07 ::1 /admin/modules/dangkylaithu/delete.php?
+DELETE FROM contact_testdrive WHERE id IN(0,6)
+ -----***---- 

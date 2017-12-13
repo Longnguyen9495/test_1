@@ -1,0 +1,27 @@
+444|xeototai|15/12/2016 12:02:55 118.70.146.164 /admin/modules/news_multi/delete.php?
+DELETE FROM news_multi WHERE new_id IN(2300)
+ -----***---- 
+444|xeototai|15/12/2016 12:02:58 118.70.146.164 /admin/modules/news_multi/delete.php?
+DELETE FROM news_multi WHERE new_id IN(2299)
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 
+1|admin|15/12/2016 12:06:14 118.70.146.164 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 0 AND tagn_temp_key = 'a3b7043952c5b5e7148744b1a159cf29')
+ -----***---- 

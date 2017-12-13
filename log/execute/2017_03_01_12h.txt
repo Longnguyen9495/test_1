@@ -1,0 +1,6 @@
+1|admin|01/03/2017 12:12:11 ::1 /admin/modules/dangkylaithu/delete.php?
+DELETE FROM contact_testdrive WHERE id IN(1)
+ -----***---- 
+1|admin|01/03/2017 12:12:14 ::1 /admin/modules/dangkylaithu/delete.php?
+DELETE FROM contact_testdrive WHERE id IN(2)
+ -----***---- 

@@ -1,0 +1,12 @@
+1|admin|13/02/2017 03:01:45 ::1 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(0,57)
+ -----***---- 
+1|admin|13/02/2017 03:39:42 ::1 /admin/modules/logo/delete.php?
+DELETE FROM lo_go WHERE logo_id IN(10)
+ -----***---- 
+1|admin|13/02/2017 03:39:45 ::1 /admin/modules/logo/delete.php?
+DELETE FROM lo_go WHERE logo_id IN(11)
+ -----***---- 
+1|admin|13/02/2017 03:41:12 ::1 /admin/modules/logo/delete.php?
+DELETE FROM lo_go WHERE logo_id IN(0,13)
+ -----***---- 

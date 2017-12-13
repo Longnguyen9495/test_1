@@ -1,0 +1,3 @@
+1|admin|08/03/2017 03:40:34 ::1 /admin/modules/user_order/delete.php?record_id=7&returnurl=bGlzdGluZy5waHA/
+DELETE FROM user_orders WHERE uso_id IN(0)
+ -----***---- 

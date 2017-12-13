@@ -1,0 +1,78 @@
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:55 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:57 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:58 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:58 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:01:58 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:01:58 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 0 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:20:05 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 35 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:20:05 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 35 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:20:05 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 44 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:20:05 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 44 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:20:32 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 70 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:20:32 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 70 AND tap_product_id = 44)
+ -----***---- 
+1|admin|29/12/2016 09:20:33 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 69 AND tap_temp_key = '210e3bc413305f6d7cfdfdac9dbf3604')
+ -----***---- 
+1|admin|29/12/2016 09:20:33 14.162.55.119 /admin/modules/products/ajax_removetags.php?
+DELETE FROM tag_products  WHERE  (tap_tag_id = 69 AND tap_product_id = 44)
+ -----***---- 

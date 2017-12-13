@@ -1,0 +1,9 @@
+1|admin|16/12/2016 06:09:43 118.70.146.164 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(44)
+ -----***---- 
+1|admin|16/12/2016 06:09:45 118.70.146.164 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(43)
+ -----***---- 
+1|admin|16/12/2016 06:09:48 118.70.146.164 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(42)
+ -----***---- 

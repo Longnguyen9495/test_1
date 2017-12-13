@@ -1,0 +1,6 @@
+1|admin|06/01/2017 06:20:05 14.162.38.214 /admin/modules/menus/delete.php?
+DELETE FROM menus WHERE mnu_id IN(0,109)
+ -----***---- 
+1|admin|06/01/2017 06:20:05 14.162.38.214 /admin/modules/menus/delete.php?
+DELETE FROM menus WHERE mnu_id IN(0,109)
+ -----***---- 

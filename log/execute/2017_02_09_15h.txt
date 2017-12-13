@@ -1,0 +1,6 @@
+1|admin|09/02/2017 03:31:18 ::1 /admin/modules/products/delete.php?record_id=48&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 48
+ -----***---- 
+1|admin|09/02/2017 03:31:18 ::1 /admin/modules/products/delete.php?record_id=48&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 48
+ -----***---- 

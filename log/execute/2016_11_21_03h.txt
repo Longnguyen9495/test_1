@@ -1,0 +1,3 @@
+444|xeototai|21/11/2016 03:32:35 42.114.142.159 /admin/modules/manufacturers/delete.php?
+DELETE FROM manufacturers WHERE man_id IN(12)
+ -----***---- 

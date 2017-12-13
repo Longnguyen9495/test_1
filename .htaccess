@@ -1,0 +1,104 @@
+RewriteEngine On
+
+#ErrorDocument 404 /home/not_found.php
+
+RewriteRule ^favicon.ico$ favicon.ico [L]
+
+### Order Success
+RewriteRule ^r([0-9]*)success.html$ /home/success_order.php?record_id=$1 [L]
+
+### SiteMap
+RewriteRule ^sitemap.xml$ sitemap.xml [L]
+
+### Index
+RewriteRule ^index.html$ index.php?%{QUERY_STRING} [L]
+
+
+### Type
+RewriteRule ^category/([^/]*)-id([0-9]*)$ /home/type.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^category/([^/]*)-id([0-9]*),([0-9]*)$ /home/type.php?nCat=$1&iCat=$2&page=$3 [L]
+
+RewriteRule ^category/([^/]*)/([^/]*)-id([0-9]*)$ /home/type.php?filter=$1&nCat=$2&iCat=$3 [L]
+RewriteRule ^category/([^/]*)/([^/]*)-id([0-9]*),([0-9]*)$ /home/type.php?filter=$1&nCat=$2&iCat=$3&page=$4 [L]
+
+### Manufacturers
+RewriteRule ^manufacturers/([^/]*)-id([0-9]*)$ /home/manufacture.php?nMan=$1&iMan=$2 [L]
+RewriteRule ^manufacturers/([^/]*)-id([0-9]*),([0-9]*)$ /home/manufacture.php?nMan=$1&iMan=$2&page=$3 [L]
+
+RewriteRule ^manufacturers/([^/]*)/([^/]*)-id([0-9]*)$ /home/manufacture.php?filter=$1&nMan=$2&iMan=$3 [L]
+RewriteRule ^manufacturers/([^/]*)/([^/]*)-id([0-9]*),([0-9]*)$ /home/manufacture.php?filter=$1&nMan=$2&iMan=$3&page=$4 [L]
+
+RewriteRule ^san-pham-chuan-bi-ra-mat.html$ /home/upcoming.php [L]
+RewriteRule ^san-pham-chuan-bi-ra-mat.html,([0-9]*)$ /home/upcoming.php?page=$1 [L]
+
+### Detail
+RewriteRule ^detail/product/([^/]*)-id([0-9]*)$ /home/detail.php?record_id=$2 [L]
+
+### Static
+RewriteRule ^detail/static/([^/]*)-id([0-9]*)$ /home/static.php?record_id=$2 [L]
+
+### News Cat
+RewriteRule ^news/cat/([^/]*)/([0-9]*)$ /news/type.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^news/cat/([^/]*)/([0-9]*),([0-9]*)$ /news/type.php?nCat=$1&iCat=$2&page=$3 [L]
+
+
+## News Detail
+RewriteRule ^detail/news/([^/]*)-id([0-9]*)$ /news/detail.php?record_id=$2 [L]
+
+### Đăng ký tài khoản mới
+RewriteRule ^register.html$ /home/register.php [L]
+
+RewriteRule ^search.php$ /home/search.php [L]
+RewriteRule ^payment_popup.php$ /home/payment_popup.php [L]
+RewriteRule ^login_social.php$ /home/login_social.php [L]
+RewriteRule ^login_google.php$ /home/login_google.php [L]
+RewriteRule ^act_logout.php$ /home/act_logout.php [L]
+RewriteRule ^checkout.php$ /home/checkout.php [L]
+
+##Gallery
+RewriteRule ^video$ /home/gallery.php?type=1 [L]
+RewriteRule ^gallery$ /home/gallery.php?type=0 [L]
+RewriteRule ^show/([^/]*)-id([0-9]*)$ /home/gallery_detail.php?record_id=$2 [L]
+
+##Contact
+RewriteRule ^lien-he$ /home/contact.php [L]
+
+RewriteRule ^([^/]*)$ /home/index.php [L]
+
+
+
+## phan danh cho foroto
+RewriteRule ^([^/]*)$ /foroto/home.php [L]
+RewriteRule ^detail/fornews/([^/]*)-id([0-9]*)$ /fornews/detail.php?record_id=$2 [L]
+### Manufacturers
+RewriteRule ^hang/([^/]*)-id([0-9]*)$ /foroto/manufacture.php?nMan=$1&iMan=$2 [L]
+RewriteRule ^hang/([^/]*)-id([0-9]*),([0-9]*)$ /foroto/manufacture.php?nMan=$1&iMan=$2&page=$3 [L]
+
+RewriteRule ^hang/([^/]*)/([^/]*)-id([0-9]*)$ /foroto/manufacture.php?filter=$1&nMan=$2&iMan=$3 [L]
+RewriteRule ^hang/([^/]*)/([^/]*)-id([0-9]*),([0-9]*)$ /foroto/manufacture.php?filter=$1&nMan=$2&iMan=$3&page=$4 [L]
+### Detail
+RewriteRule ^detail/foroto/([^/]*)-id([0-9]*)$ /foroto/detail.php?record_id=$2 [L]
+RewriteRule ^search.php$ /foroto/search.php [L]
+RewriteRule ^lien-he$ /foroto/contact.php [L]
+RewriteRule ^lien-he$ /foroto/dangky.php [L]
+RewriteRule ^addtocart/([^/]*)-id([0-9]*)$ /foroto/addtocart.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^giohang/([^/]*)-id([0-9]*)$ /foroto/giohang.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^delete/([^/]*)-id([0-9]*)$ /foroto/delete.php?ncat=$1&ncat=$2 [L]
+RewriteRule ^muahang/([^/]*)-id([0-9]*)$ /foroto/muahang.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^fornews/cat/([^/]*)/([0-9]*)$ /fornews/type.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^fornews/cat/([^/]*)/([0-9]*),([0-9]*)$ /fornews/type.php?nCat=$1&iCat=$2&page=$3 [L]
+
+
+###phan web video
+
+RewriteRule ^([^/]*)$ /home/index.php [L]
+### Detail
+RewriteRule ^detail/video/([^/]*)-id([0-9]*)$ /home/detail.php?record_id=$2 [L]
+RewriteRule ^searchh.php$ /home/search.php [L]
+
+
+#### category video product
+
+
+RewriteRule ^categoryvideo/cat/([^/]*)/([0-9]*)$ /home/category.php?nCat=$1&iCat=$2 [L]
+RewriteRule ^categoryvideo/cat/([^/]*)/([0-9]*),([0-9]*)$ /home/category.php?nCat=$1&iCat=$2&page=$3 [L]

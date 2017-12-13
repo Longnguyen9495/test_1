@@ -1,0 +1,65 @@
+/* CSS Main */
+*{
+	font-family: Segoe UI,'SegoeUIWF',Arial,sans-serif;
+}
+a{
+	text-decoration:none;
+}
+body{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+h1, h2, h3, h4, h5, h6, form, input, select, ul{
+	margin:0px;
+}
+img{
+	border:none;
+	-ms-interpolation-mode:bicubic;
+}
+p{
+	margin: 0px;
+}
+p.p_first{
+	margin-top:0px;
+}
+p.p_last{
+	margin-bottom:0px;
+}
+ul{
+	padding:0px;
+	list-style:none;
+}
+
+input,textarea, a, select{
+	outline: none;
+}
+.clear{
+	clear: both;
+}
+.fl{
+	float:left;
+}
+.fc{
+}
+.fr{
+	float:right;
+}
+.hidden{
+	display:none;
+}
+.block{
+   display: block;
+}
+.nowrap{
+	white-space:nowrap;
+}
+.bold{
+	font-weight: bold;
+}
+.not_allowed{
+	cursor: not-allowed;
+}
+.hide{
+	display: none;
+}

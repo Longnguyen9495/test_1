@@ -1,0 +1,102 @@
+444|xeototai|21/11/2016 01:01:33 117.6.53.146 /admin/modules/products/delete.php?record_id=1&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 1
+ -----***---- 
+444|xeototai|21/11/2016 01:01:33 117.6.53.146 /admin/modules/products/delete.php?record_id=1&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 1
+ -----***---- 
+444|xeototai|21/11/2016 01:01:37 117.6.53.146 /admin/modules/products/delete.php?record_id=2&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 2
+ -----***---- 
+444|xeototai|21/11/2016 01:01:37 117.6.53.146 /admin/modules/products/delete.php?record_id=2&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 2
+ -----***---- 
+444|xeototai|21/11/2016 01:01:39 117.6.53.146 /admin/modules/products/delete.php?record_id=21&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 21
+ -----***---- 
+444|xeototai|21/11/2016 01:01:39 117.6.53.146 /admin/modules/products/delete.php?record_id=21&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 21
+ -----***---- 
+444|xeototai|21/11/2016 01:01:41 117.6.53.146 /admin/modules/products/delete.php?record_id=16&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 16
+ -----***---- 
+444|xeototai|21/11/2016 01:01:41 117.6.53.146 /admin/modules/products/delete.php?record_id=16&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 16
+ -----***---- 
+444|xeototai|21/11/2016 01:01:41 117.6.53.146 /admin/modules/products/delete.php?record_id=15&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 15
+ -----***---- 
+444|xeototai|21/11/2016 01:01:41 117.6.53.146 /admin/modules/products/delete.php?record_id=15&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 15
+ -----***---- 
+444|xeototai|21/11/2016 01:01:43 117.6.53.146 /admin/modules/products/delete.php?record_id=14&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 14
+ -----***---- 
+444|xeototai|21/11/2016 01:01:43 117.6.53.146 /admin/modules/products/delete.php?record_id=14&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 14
+ -----***---- 
+444|xeototai|21/11/2016 01:01:44 117.6.53.146 /admin/modules/products/delete.php?record_id=13&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 13
+ -----***---- 
+444|xeototai|21/11/2016 01:01:44 117.6.53.146 /admin/modules/products/delete.php?record_id=13&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 13
+ -----***---- 
+444|xeototai|21/11/2016 01:01:46 117.6.53.146 /admin/modules/products/delete.php?record_id=12&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 12
+ -----***---- 
+444|xeototai|21/11/2016 01:01:46 117.6.53.146 /admin/modules/products/delete.php?record_id=12&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 12
+ -----***---- 
+444|xeototai|21/11/2016 01:01:48 117.6.53.146 /admin/modules/products/delete.php?record_id=11&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 11
+ -----***---- 
+444|xeototai|21/11/2016 01:01:48 117.6.53.146 /admin/modules/products/delete.php?record_id=11&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 11
+ -----***---- 
+444|xeototai|21/11/2016 01:01:49 117.6.53.146 /admin/modules/products/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 10
+ -----***---- 
+444|xeototai|21/11/2016 01:01:49 117.6.53.146 /admin/modules/products/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 10
+ -----***---- 
+444|xeototai|21/11/2016 01:01:50 117.6.53.146 /admin/modules/products/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 9
+ -----***---- 
+444|xeototai|21/11/2016 01:01:50 117.6.53.146 /admin/modules/products/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 9
+ -----***---- 
+444|xeototai|21/11/2016 01:01:51 117.6.53.146 /admin/modules/products/delete.php?record_id=8&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 8
+ -----***---- 
+444|xeototai|21/11/2016 01:01:51 117.6.53.146 /admin/modules/products/delete.php?record_id=8&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 8
+ -----***---- 
+444|xeototai|21/11/2016 01:01:52 117.6.53.146 /admin/modules/products/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 7
+ -----***---- 
+444|xeototai|21/11/2016 01:01:52 117.6.53.146 /admin/modules/products/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 7
+ -----***---- 
+444|xeototai|21/11/2016 01:01:53 117.6.53.146 /admin/modules/products/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 6
+ -----***---- 
+444|xeototai|21/11/2016 01:01:53 117.6.53.146 /admin/modules/products/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 6
+ -----***---- 
+444|xeototai|21/11/2016 01:01:54 117.6.53.146 /admin/modules/products/delete.php?record_id=5&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 5
+ -----***---- 
+444|xeototai|21/11/2016 01:01:54 117.6.53.146 /admin/modules/products/delete.php?record_id=5&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 5
+ -----***---- 
+444|xeototai|21/11/2016 01:01:55 117.6.53.146 /admin/modules/products/delete.php?record_id=4&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 4
+ -----***---- 
+444|xeototai|21/11/2016 01:01:55 117.6.53.146 /admin/modules/products/delete.php?record_id=4&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 4
+ -----***---- 
+444|xeototai|21/11/2016 01:01:57 117.6.53.146 /admin/modules/products/delete.php?record_id=3&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM product_size_color WHERE psc_product_id = 3
+ -----***---- 
+444|xeototai|21/11/2016 01:01:57 117.6.53.146 /admin/modules/products/delete.php?record_id=3&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbGlzdGluZy5waHA=
+DELETE FROM products WHERE pro_id = 3
+ -----***---- 

@@ -1,0 +1,6 @@
+1|admin|14/12/2016 10:00:25 1.55.98.146 /admin/modules/admin_user/edit.php?iAdm=444
+DELETE FROM admin_user_right WHERE adu_admin_id =444
+ -----***---- 
+1|admin|14/12/2016 10:00:25 1.55.98.146 /admin/modules/admin_user/edit.php?iAdm=444
+DELETE FROM admin_user_language WHERE aul_admin_id =444
+ -----***---- 

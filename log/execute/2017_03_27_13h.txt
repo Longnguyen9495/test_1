@@ -1,0 +1,6 @@
+1|admin|27/03/2017 01:20:30 ::1 /admin/modules/user_order/delete.php?record_id=78&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM user_orders WHERE uso_id = 78
+ -----***---- 
+1|admin|27/03/2017 01:20:32 ::1 /admin/modules/user_order/delete.php?record_id=77&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM user_orders WHERE uso_id = 77
+ -----***---- 

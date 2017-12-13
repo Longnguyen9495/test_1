@@ -1,0 +1,18 @@
+1|admin|09/03/2017 10:09:04 ::1 /admin/modules/banners/delete.php?
+DELETE FROM banners WHERE ban_id IN(45)
+ -----***---- 
+1|admin|09/03/2017 10:39:41 ::1 /admin/modules/user_order/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM products WHERE uso_id = 7
+ -----***---- 
+1|admin|09/03/2017 10:39:47 ::1 /admin/modules/user_order/delete.php?record_id=1&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM products WHERE uso_id = 1
+ -----***---- 
+1|admin|09/03/2017 10:39:59 ::1 /admin/modules/user_order/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM products WHERE uso_id = 7
+ -----***---- 
+1|admin|09/03/2017 10:40:31 ::1 /admin/modules/user_order/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM user_orders WHERE uso_id = 7
+ -----***---- 
+1|admin|09/03/2017 10:40:40 ::1 /admin/modules/user_order/delete.php?record_id=1&url=L2FkbWluL21vZHVsZXMvdXNlcl9vcmRlci9saXN0aW5nLnBocA==
+DELETE FROM user_orders WHERE uso_id = 1
+ -----***---- 

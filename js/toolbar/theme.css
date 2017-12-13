@@ -1,0 +1,340 @@
+
+/*======================theme=====================*/
+#jQueryTaskbar
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url(../../images/bg-toolbar.gif);
+    font-family: Arial !important;
+}
+
+#jQueryTaskbar ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#jQueryTaskbar li{
+    float: left;
+    height: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+		line-height:28px;
+		color:#fff;
+		font-weight:bold;
+		cursor:pointer;
+}
+
+#jQueryTaskbar li ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: -198px;
+    height: 199px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 0px solid #79A5C2;
+}
+
+#jQueryTaskbar li ul li
+{
+    background-image: url(images/item_children.png);
+    background-repeat: repeat-x;
+}
+
+#jQueryTaskbar li ul li:hover
+{
+    background-image: url(images/item_children_hover.png);
+    background-position: -5px 1px;
+    margin: 0px !important;
+    width: 215px;
+    height: 179px;
+}
+
+#jQueryTaskbar li li
+{
+    width: 215px;
+    padding: 5px;
+    padding-top: 40px;
+    height: 179px;
+}
+
+#jQueryTaskbar li .taskbar-itemcontainer
+{
+	background-image: url(images/item_children_left.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#jQueryTaskbar li .contextContainer
+{
+    display: none;
+    background-image: url(images/context_bottom.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 0px;
+    width: 262px;
+    color: #000;
+    font-size: 11px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    margin-top: 0px;
+    z-index: 500;
+}
+
+#jQueryTaskbar li.taskbar-item ul
+{
+    z-index: 550;
+}
+
+#jQueryTaskbar li .contextContainer ul
+{
+    display: block;
+    border: 0px;
+    background-image: url(images/context_top.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 6px;
+    width: 250px;
+    color: #000;
+    font-size: 11px;
+    position: static;
+    height: auto;
+}
+
+#jQueryTaskbar li .contextContainer ul img
+{
+    width: 15px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+#jQueryTaskbar li .contextContainer ul a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+#jQueryTaskbar li .contextContainer ul li
+{
+    background-image: none;
+    padding: 6px;
+    width: 180px;
+    height: auto;
+    text-align: left;
+    background-color: #fff;
+    width: 238px;
+    margin-right: 6px;
+    float: none;
+}
+
+#jQueryTaskbar li span
+{
+    display: none;
+}
+
+/*#jQueryTaskbar li:hover
+{
+    background-image: url(images/item_hover.png);
+    background-repeat: no-repeat;
+}*/
+
+#jQueryTaskbar .taskbar-win{
+    padding-right: 15px;
+		background:url(../../images/toolbar-icon-alert.gif) no-repeat left center;
+		width:120px;
+		margin-left:16px;
+}
+#jQueryTaskbar .taskbar-postcla{
+		background:url(../../images/toolbar-icon-postclas.gif) no-repeat left center;
+		width:98px;
+		margin-left:16px;
+}
+.taskbar-start-favorites{
+	display:none;
+}
+#jQueryTaskbar .taskbar-favorites{
+		background:url(../../images/toolbar-icon-favorites.gif) no-repeat left center;
+		width:135px;
+		margin-left:16px;
+		color:#013C5E;
+}
+a.link-toolbar{
+	color:#013C5E;
+}
+.box-taskbar-content{
+	border-left:1px solid #B4B4B4;
+	border-right:1px solid #B4B4B4;
+	background-color:#FDFDFD;
+}
+.box-taskbar-title{
+		background:url(../../images/bg-box-toolbar.gif) no-repeat left center;
+		height:23px;
+}
+
+
+#jQueryTaskbar .taskbar-win img
+{
+    padding-top: 5px !important;
+}
+
+#jQueryTaskbar .taskbar-submenu-left
+{
+    background-image: url(images/item_children_left.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 38px !important;
+    height: 199px !important;
+    overflow: hidden;
+    z-index: 600;
+    position: absolute;
+    top: -4px;
+    left: -10px;
+    padding: 0px !important;
+}
+
+#jQueryTaskbar .taskbar-submenu-left:hover
+{
+    background-image: url(images/item_children_left.png) !important;
+    background-position: right;
+}
+
+#jQueryTaskbar .taskbar-submenu-right
+{
+    background-image: url(images/item_children_right.png) !important;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 38px !important;
+    height: 199px !important;
+    overflow: hidden;
+    z-index: 600;
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    padding: 0px !important;
+}
+
+#jQueryTaskbar .taskbar-submenu-right:hover
+{
+    background-image: url(images/item_children_right.png);
+    background-position: left;
+}
+
+#jQueryTaskbar li li h1, #jQueryTaskbar li li h2, #jQueryTaskbar li li h3, #jQueryTaskbar li li h4, #jQueryTaskbar li li h5, #jQueryTaskbar li li h6
+{
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    top: 16px;
+    padding-left: 25px;
+}
+
+#jQueryTaskbar li li h1 img, #jQueryTaskbar li li h2 img, #jQueryTaskbar li li h3 img, #jQueryTaskbar li li h4 img, #jQueryTaskbar li li h5 img, #jQueryTaskbar li li h6 img
+{
+    position: absolute;
+    top: 0px;
+    margin-left: -23px;
+    width: 15px;
+}
+
+#jQueryTaskbar .taskbar-start-favorites
+{
+    position: absolute;
+    bottom: 40px;
+    width: 257px;
+    height: 170px;
+    left: 0px;
+    padding: 0px;
+    top: auto;
+    background-color: #fff;
+}
+
+#jQueryTaskbar ul.taskbar-start li
+{
+    float: none;
+    background-image: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+#jQueryTaskbar ul.taskbar-start li:hover
+{
+    background-image: none;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+#jQueryTaskbar ul.taskbar-start li ul
+{
+    float: none;
+    background-image: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: block;
+}
+
+#jQueryTaskbar ul.taskbar-start li a
+{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 250px;
+    text-decoration: none;
+}
+
+#jQueryTaskbar ul.taskbar-start li a:hover
+{
+    background-color: #abc;
+}
+
+#jQueryTaskbar ul.taskbar-start ul
+{
+    position: absolute;
+    left: 250px;
+    border: 1px solid #000;
+    width: 248px;
+    height: 100% !important;
+    top: 0px;
+    background-color: Transparent;
+}
+
+#jQueryTaskbar ul.taskbar-start ul.taskbar-start-shortcuts
+{
+    display: block;
+    background-color: Transparent;
+    background-image: url(images/bg.png);
+    z-index: 50 !important;
+    padding-top: 75px;
+}
+
+#jQueryTaskbar ul.taskbar-start ul.taskbar-start-shortcuts a
+{
+    color: #fff;
+    padding-left: 10px;
+    margin-left: -1px;
+}
+
+#jQueryTaskbar ul.taskbar-start ul.taskbar-start-shortcuts img
+{
+    position: absolute;
+    z-index: 1000;
+    left: 50px;
+    top: 8px;
+    width: 60px;
+}

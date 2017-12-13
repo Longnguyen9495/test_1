@@ -1,0 +1,3 @@
+1|admin|17/01/2017 04:29:35 118.70.176.99 /admin/modules/gallery/delete.php?
+DELETE FROM gallery WHERE gal_id IN(3)
+ -----***---- 

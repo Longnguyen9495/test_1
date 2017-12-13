@@ -1,0 +1,6 @@
+1|admin|15/11/2016 05:09:52 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 32 AND tagn_temp_key = 'd084e9c62404f02c8e5597cd452937e6')
+ -----***---- 
+1|admin|15/11/2016 05:09:52 ::1 /admin/modules/news_multi/ajax_removetags.php?
+DELETE FROM tag_news  WHERE  (tagn_tag_id = 32 AND tagn_news_id = 2300)
+ -----***---- 

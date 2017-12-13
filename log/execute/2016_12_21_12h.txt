@@ -1,0 +1,3 @@
+444|xeototai|21/12/2016 12:21:58 116.96.85.233 /admin/modules/news_multi/delete.php?
+DELETE FROM news_multi WHERE new_id IN(2312)
+ -----***---- 

@@ -1,0 +1,4 @@
+444|xeototai|14/12/2016 11:02:40 118.70.146.164 /admin/modules/products/delete_picture.php?record_id=127&url=L2FkbWluL21vZHVsZXMvcHJvZHVjdHMvbW9yZV9waWN0dXJlLnBocD90ZW1wX2tleT1jOTYzYWE2MzViYmYyYWE5M2MxZmY3YzNmMGJjNWU1YQ==
+DELETE FROM product_pictures
+											WHERE ppic_id = 127
+ -----***---- 
