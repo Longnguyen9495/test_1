@@ -1,0 +1,150 @@
+14/12/2017 05:25:12 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:27:54 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:27:57 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:29:31 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:29:32 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:29:33 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:29:33 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:29:34 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:31:50 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:31:51 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:31:51 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:32:23 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:32:23 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:32:23 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 
+14/12/2017 05:32:24 ::1 /admin/modules/category_batdongsan/listing.php?
+
+ -----***---- 
+Unknown column 'db_id' in 'order clause' :  
+SELECT *
+									 FROM batdongsan
+									 WHERE 1 
+									 ORDER BY db_id DESC
+									 LIMIT 0,30
+ -----***---- 

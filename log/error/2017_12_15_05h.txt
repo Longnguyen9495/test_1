@@ -1,0 +1,36 @@
+15/12/2017 05:53:56 ::1 /admin/modules/batdongsan_categories/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php
+ -----***---- 
+Unknown column 'id' in 'order clause' :  
+	SELECT *
+										FROM batdongsan
+										WHERE 1  ORDER BY id DESC
+										LIMIT 0,10
+ -----***---- 
+15/12/2017 05:53:56 ::1 /admin/modules/batdongsan_categories/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php
+ -----***---- 
+Unknown column 'id' in 'order clause' :  
+	SELECT *
+										FROM batdongsan
+										WHERE 1  ORDER BY id DESC
+										LIMIT 0,10
+ -----***---- 
+15/12/2017 05:53:57 ::1 /admin/modules/batdongsan_categories/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php
+ -----***---- 
+Unknown column 'id' in 'order clause' :  
+	SELECT *
+										FROM batdongsan
+										WHERE 1  ORDER BY id DESC
+										LIMIT 0,10
+ -----***---- 
+15/12/2017 05:53:57 ::1 /admin/modules/batdongsan_categories/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php
+ -----***---- 
+Unknown column 'id' in 'order clause' :  
+	SELECT *
+										FROM batdongsan
+										WHERE 1  ORDER BY id DESC
+										LIMIT 0,10
+ -----***---- 

@@ -15,7 +15,7 @@ $fs_title			= "Thêm mới tin tức";
 $fs_action			= getURL();
 $fs_redirect		= $after_save_data;
 $fs_errorMsg		= "";
-$ban_date			= time();
+$db_date			= time();
 $ban_end_time 		= 0;
 $ban_str_end_time = getValue('ban_str_end_time', "str", "POST", date("H:i:s", time()));
 $ban_str_end_date = getValue('ban_str_end_date', "str", "POST", '');
@@ -38,6 +38,8 @@ Call class form:
 $myform = new generate_form();
 $myform->add("db_name", "db_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
 $myform->add("db_decription", "db_decription", 0, 0, "", 0, "", 0, "");
+$myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
+$myform->add("db_date", "db_date", 1, 1, 0, 0, "", 0, "");
 $myform->addTable($fs_table);
 //Get action variable for add new data
 $action				= getValue("action", "str", "POST", "");
@@ -106,6 +108,7 @@ if($action == "execute"){
     <?=$form->text("Tên Tiêu Đề", "db_name", "db_name", $db_name, "Tên banner", 1, 250, "", 255, "", "", "")?>
     <?=$form->getFile("Ảnh minh họa", "db_picture", "db_picture", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)');?>
     <?=$form->textarea("Mô tả chi tiết", "db_decription", "db_decription", $db_decription, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
+    <?=$form->checkbox("Kích hoạt", "vid_active", "vid_active", 1, $vid_active, "Kích hoạt", 0, "", "")?>
     <?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
     <?=$form->hidden("action", "action", "execute", "");?>
     <?

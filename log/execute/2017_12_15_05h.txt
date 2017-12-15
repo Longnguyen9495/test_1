@@ -1,0 +1,27 @@
+1|admin|15/12/2017 05:00:09 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:04:51 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:48:43 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:51:29 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:52:32 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:52:35 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:53:26 ::1 /admin/modules/videoproduct/delete.php?
+DELETE FROM video_product WHERE video_id IN(21)
+ -----***---- 
+1|admin|15/12/2017 05:57:11 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 
+1|admin|15/12/2017 05:58:28 ::1 /admin/modules/batdongsan_categories/delete.php?$record_id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20variable:%20record_id%20in%20%3Cb%3EC:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php%3C/b%3E%20on%20line%20%3Cb%3E73%3C/b%3E%3Cbr%20/%3E%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20index:%20%20in%20%3Cb%3EC:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories\listing.php%3C/b%3E%20on%20line%20%3Cb%3E73%3C/b%3E%3Cbr%20/%3E
+DELETE FROM batdongsan WHERE db_id IN(0)
+ -----***---- 

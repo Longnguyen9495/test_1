@@ -16,9 +16,11 @@ $ban_position		= $arrPositon;
 4: co sap xep hay khong, co thi de la 1, khong thi de la 0
 5: co tim kiem hay khong, co thi de la 1, khong thi de la 0
 */
-$list->add($name_field,translate_text("Tên tin tức"),1,0);
-$list->add("db_picture",translate_text("Ảnh minh họa"),1,0);
+$list->add($name_field,translate_text("Tên tin tức"),"string",1,1);
+$list->add("db_picture",translate_text("Ảnh minh họa"),"picture",1,0);
+$list->add("db_active",translate_text("active"),"checkbox",1,0);
 $list->add("db_decription",translate_text("Chi tiết"),1,0);
+$list->add("db_date",translate_text("Date"),"date",1,1);
 $list->add("",translate_text("Edit"),"edit");
 $list->add("",translate_text("Delete"),"delete");
 
