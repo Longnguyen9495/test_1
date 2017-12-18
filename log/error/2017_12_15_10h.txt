@@ -1,0 +1,84 @@
+15/12/2017 10:27:33 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:27:55 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:27:55 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:28:31 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:28:32 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:28:32 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=' at line 1 :  
+SELECT * FROM batdongsan WHERE =
+ -----***---- 
+15/12/2017 10:29:02 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:04 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:04 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:04 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:04 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:04 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:05 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 
+15/12/2017 10:29:05 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM batdongsan WHERE 1 =
+ -----***---- 

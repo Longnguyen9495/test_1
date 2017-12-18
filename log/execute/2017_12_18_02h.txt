@@ -1,0 +1,3 @@
+1|admin|18/12/2017 02:49:23 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(9)
+ -----***---- 

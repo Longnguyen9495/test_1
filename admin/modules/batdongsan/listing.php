@@ -11,6 +11,7 @@ $query = new db_query("SELECT * FROM batdongsan");
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
 </head>
 <body>
 <table class="table table-condensed table-hover">
