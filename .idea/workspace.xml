@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/batdongsan/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/listing.php" afterPath="$PROJECT_DIR$/admin/modules/batdongsan/listing.php" />
       <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php" afterPath="$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php" />
     </list>
     <ignored path="videos.iws" />
@@ -27,12 +25,15 @@
             <file leaf-file-name="listing.php" pinned="false" current-in-tab="true">
               <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/listing.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="195">
-                    <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="34" />
+                  <state relative-caret-position="314">
+                    <caret line="296" column="37" lean-forward="true" selection-start-line="296" selection-start-column="37" selection-end-line="296" selection-end-column="37" />
                     <folding>
-                      <marker date="1513307802444" expanded="true" signature="541:642" ph="SELECT cat_i... categories_multi" />
-                      <marker date="1513307802444" expanded="true" signature="4585:4665" ph="SELECT count... " />
-                      <marker date="1513307802444" expanded="true" signature="5175:5319" ph="SELECT * FRO... ${$fs_table}" />
+                      <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <marker date="1513564858814" expanded="true" signature="541:642" ph="SELECT cat_i... categories_multi" />
+                      <marker date="1513564858814" expanded="true" signature="4585:4665" ph="SELECT count... " />
+                      <marker date="1513564858814" expanded="true" signature="5175:5319" ph="SELECT * FRO... ${$fs_table}" />
                     </folding>
                   </state>
                 </provider>
@@ -76,13 +77,15 @@
       <file leaf-file-name="listing.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
               <folding>
-                <marker date="1513563586565" expanded="true" signature="911:971" ph="SELECT * FRO... ${$fs_table}" />
-                <marker date="1513563586565" expanded="true" signature="911:984" ph="SELECT * FRO... ${$fs_table}" />
-                <marker date="1513563586565" expanded="true" signature="1629:1709" ph="SELECT count... " />
-                <marker date="1513563586565" expanded="true" signature="2211:2342" ph="SELECT * FRO... ${$fs_table}" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1513565060606" expanded="true" signature="911:971" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513565060606" expanded="true" signature="911:984" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513565060606" expanded="true" signature="1629:1709" ph="SELECT count... " />
+                <marker date="1513565060606" expanded="true" signature="2211:2342" ph="SELECT * FRO... ${$fs_table}" />
               </folding>
             </state>
           </provider>
@@ -414,12 +417,12 @@
       <workItem from="1513215441412" duration="12583000" />
       <workItem from="1513302260923" duration="22405000" />
       <workItem from="1513386502242" duration="7880000" />
-      <workItem from="1513560630347" duration="2181000" />
+      <workItem from="1513560630347" duration="3548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65518000" />
+    <option name="totallyTimeSpent" value="66885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -486,6 +489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,6 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -630,6 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497953078000" expanded="true" signature="726:777" ph="SELECT * FRO... video_category" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,27 +832,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/listing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="314">
+          <caret line="296" column="37" lean-forward="true" selection-start-line="296" selection-start-column="37" selection-end-line="296" selection-end-column="37" />
           <folding>
-            <marker date="1513563586565" expanded="true" signature="911:971" ph="SELECT * FRO... ${$fs_table}" />
-            <marker date="1513563586565" expanded="true" signature="911:984" ph="SELECT * FRO... ${$fs_table}" />
-            <marker date="1513563586565" expanded="true" signature="1629:1709" ph="SELECT count... " />
-            <marker date="1513563586565" expanded="true" signature="2211:2342" ph="SELECT * FRO... ${$fs_table}" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1513564858814" expanded="true" signature="541:642" ph="SELECT cat_i... categories_multi" />
+            <marker date="1513564858814" expanded="true" signature="4585:4665" ph="SELECT count... " />
+            <marker date="1513564858814" expanded="true" signature="5175:5319" ph="SELECT * FRO... ${$fs_table}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/listing.php">
+    <entry file="file://$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="34" />
+        <state relative-caret-position="310">
+          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
           <folding>
-            <marker date="1513307802444" expanded="true" signature="541:642" ph="SELECT cat_i... categories_multi" />
-            <marker date="1513307802444" expanded="true" signature="4585:4665" ph="SELECT count... " />
-            <marker date="1513307802444" expanded="true" signature="5175:5319" ph="SELECT * FRO... ${$fs_table}" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1513565060606" expanded="true" signature="911:971" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513565060606" expanded="true" signature="911:984" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513565060606" expanded="true" signature="1629:1709" ph="SELECT count... " />
+            <marker date="1513565060606" expanded="true" signature="2211:2342" ph="SELECT * FRO... ${$fs_table}" />
           </folding>
         </state>
       </provider>

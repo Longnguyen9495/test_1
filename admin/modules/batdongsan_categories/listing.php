@@ -32,6 +32,7 @@ if($create_date > 0 && $str_create_date != "" && $str_create_date != "dd/mm/yyyy
 $query = new db_query(" SELECT *
           FROM " . $fs_table . "
           WHERE 1 " . $sqlWhere);
+
 echo $sqlWhere;
 
 // Phân trang
@@ -70,7 +71,10 @@ $db_listing	= new db_query("	SELECT *
 ?>
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style>
         body {
             font-family: Arial, Tahoma, Geneva, sans-serif;
@@ -119,6 +123,9 @@ $db_listing	= new db_query("	SELECT *
 
         img {
             vertical-align: middle;
+        }
+        .search .form-control{
+            margin: 0 5px;
         }
     </style>
 </head>
@@ -177,7 +184,7 @@ $db_listing	= new db_query("	SELECT *
     while ($row = mysql_fetch_assoc($query->result)) {
         ?>
         <tr>
-            <b><?=$No?></b>
+            <td><?=$row['db_id']?></td>
             <td><?= $row['db_name'] ?></td>
             <td align="center">
                 <a href="" border="0" target="_blank">
@@ -212,6 +219,17 @@ $db_listing	= new db_query("	SELECT *
     <? } ?>
 
     </tbody>
+</table>
+<table width="100%" class="page_break">
+    <tr>
+        <td style="color: #15428B; font-weight: bold;text-align: left">Tổng số bản ghi: <span style="color: #333333;"><?=$total_record?></span></td>
+        <td width="150"></td>
+        <td></td>
+        <? if($total_record > $page_size){ ?>
+            <td><?=generatePageBar($page_prefix, $current_page, $page_size, $total_record, $url, $normal_class, $selected_class, $previous, $next, $first, $last, $break_type)?></td>
+        <? } ?>
+        <td align="right" style="text-align: right"><a title="Go to top" accesskey="T" class="top" href="#" style="font-weight: bold;">Lên trên<img align="absmiddle" border="0" hspace="5" src="<?=$fs_imagepath?>top.png" /></a></td>
+    </tr>
 </table>
 </body>
 </html>
