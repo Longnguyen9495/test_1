@@ -11,7 +11,7 @@ unset($menu);
 $after_save_data	= getValue("after_save_data", "str", "POST", "add.php");
 $add					= "add.php";
 $listing				= "listing.php";
-$fs_title			= "Thêm mới tin tức bất động sản";
+$fs_title			= "Danh mục bất động sản";
 $fs_action			= getURL();
 $fs_redirect		= $after_save_data;
 $fs_errorMsg		= "";
@@ -20,7 +20,7 @@ $ban_end_time 		= 0;
 $ban_str_end_time = getValue('ban_str_end_time', "str", "POST", date("H:i:s", time()));
 $ban_str_end_date = getValue('ban_str_end_date', "str", "POST", '');
 if($ban_str_end_date != ''){
-	$ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
+    $ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
 }
 
 /*
@@ -36,95 +36,92 @@ Call class form:
 9). Loi dua ra man hinh neu co duplicate
 */
 $myform = new generate_form();
-$myform->add("db_name", "db_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
-$myform->add("db_category", "db_category", 0, 0, "", 0, "", 0, "");
-$myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
-$myform->add("db_type", "db_type", 1, 0, "", 0, "", 0, "");
-$myform->add("db_new", "db_new", 1, 0, 0, 1, "", 0, "");
-$myform->add("db_link", "db_link", 0, 0, "", 1, "Bạn chưa nhập link.", 0, "");
+$myform->add("db_categories_name", "db_categories_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
 $myform->add("db_description", "db_description", 0, 0, "", 0, "", 0, "");
-$myform->add("db_date", "db_date", 1, 1, 0, 0, "", 0, "");
+$myform->add("db_seo_keyword", "db_seo_keyword", 0, 0, "", 1, "Bạn chưa nhập từ khóa.", 0, "");
+$myform->add("db_seo_title", "db_seo_title", 0, 0, "", 1, "Bạn chưa nhập tiêu đề.", 0, "");
+$myform->add("db_seo_description", "db_seo_description", 0, 0, "", 1, "Bạn chưa nhập mô tả.", 0, "");
+$myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
 $myform->addTable($fs_table);
 //Get action variable for add new data
 $action				= getValue("action", "str", "POST", "");
 //Check $action for insert new data
 if($action == "execute"){
-	//Check form data
-	$fs_errorMsg .= $myform->checkdata();
+    //Check form data
+    $fs_errorMsg .= $myform->checkdata();
 
-	//Get $filename and upload
-	$filename	= "";
-	if($fs_errorMsg == ""){
-		$upload			= new upload($fs_fieldupload, $fs_filepath, $fs_extension, $fs_filesize, $fs_insert_logo);
-		$filename		= $upload->file_name;
-		$fs_errorMsg	.= $upload->warning_error;
-	}
+//    //Get $filename and upload
+//    $filename	= "";
+//    if($fs_errorMsg == ""){
+//        $upload			= new upload($fs_fieldupload, $fs_filepath, $fs_extension, $fs_filesize, $fs_insert_logo);
+//        $filename		= $upload->file_name;
+//        $fs_errorMsg	.= $upload->warning_error;
+//    }
 
-	if($fs_errorMsg == ""){
-		if($filename != ""){
-			$$fs_fieldupload = $filename;
-			$myform->add($fs_fieldupload, $fs_fieldupload, 0, 1, "", 0, "", 0, "");
-			// resize
-			//$upload->resize_image($fs_filepath, $filename, $width_small_image, $height_small_image, "small_", $fs_filepath . "small/");
-			//$upload->resize_image($fs_filepath, $filename, $width_normal_image, $height_normal_image, "normal_");
+    if($fs_errorMsg == ""){
+//        if($filename != ""){
+//            $$fs_fieldupload = $filename;
+//            $myform->add($fs_fieldupload, $fs_fieldupload, 0, 1, "", 0, "", 0, "");
+//            // resize
+//            //$upload->resize_image($fs_filepath, $filename, $width_small_image, $height_small_image, "small_", $fs_filepath . "small/");
+//            //$upload->resize_image($fs_filepath, $filename, $width_normal_image, $height_normal_image, "normal_");
+//
+//        }//End if($filename != "")
 
-		}//End if($filename != "")
+        //Insert to database
+        $myform->removeHTML(0);
+//        var_dump($myform->generate_insert_SQL());
+        $db_insert = new db_execute($myform->generate_insert_SQL());
+        unset($db_insert);
 
-		//Insert to database
-		$myform->removeHTML(0);
-		$db_insert = new db_execute($myform->generate_insert_SQL());
-		unset($db_insert);
 
-		//Redirect after insert complate
-		redirect($fs_redirect);
+        //Redirect after insert complate
+        redirect($fs_redirect);
 
-	}//End if($fs_errorMsg == "")
+    }//End if($fs_errorMsg == "")
 
 }//End if($action == "insert")
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<?=$load_header?>
-<?
-//add form for javacheck
-$myform->addFormname("add");
-$myform->checkjavascript();
-//chuyển các trường thành biến để lấy giá trị thay cho dùng kiểu getValue
-$myform->evaluate();
-$fs_errorMsg .= $myform->strErrorField;
-?>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <?=$load_header?>
+    <?
+    //add form for javacheck
+    $myform->addFormname("add");
+    $myform->checkjavascript();
+    //chuyển các trường thành biến để lấy giá trị thay cho dùng kiểu getValue
+    $myform->evaluate();
+    $fs_errorMsg .= $myform->strErrorField;
+    ?>
 </head>
 <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
 <? /*------------------------------------------------------------------------------------------------*/ ?>
 <?=template_top($fs_title)?>
 <? /*------------------------------------------------------------------------------------------------*/ ?>
-	<p align="center" style="padding-left:10px;">
-		<?
-		$form = new form();
-		$form->create_form("add", $fs_action, "post", "multipart/form-data");
-		$form->create_table();
-		?>
-		<?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
-		<?=$form->errorMsg($fs_errorMsg)?>
-		<?=$form->text("Tên bất động sản", "db_name", "db_name", $db_name, "Tên banner", 1, 250, "", 255, "", "", "")?>
-		<?=$form->getFile("Ảnh minh họa", "db_image", "db_image", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)');?>
-		<?=$form->text("Link", "db_link", "db_link", $db_link, "Link", 1, 250, "", 255, "", "", "")?>
-		<?=$form->textarea("Mô tả chi tiết", "db_description", "db_description", $db_description, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
-        <?=$form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "")?>
-		<?=$form->select("Mở ra", "db_category", "db_category", $arrTarget, $db_category, "Mở ra", 0, 100, "", "", "", "")?>
-		<?=$form->select("Vị trí", "db_new", "db_new", $arrPositon, $db_new, "Vị trí", 0, 100, "", "", "", "")?>
-		<?=$form->select("Hình thức", "db_type", "db_type", $arrType, $db_type, "Hình thức", 0, 100, "", "", "", "")?>
-		<?=$form->radio("Sau khi lưu dữ liệu", "add_new" . $form->ec . "return_listing", "after_save_data", $add . $form->ec . $listing, $after_save_data, "Thêm mới" . $form->ec . "Quay về danh sách", 0, $form->ec, "");?>
-		<?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
-		<?=$form->hidden("action", "action", "execute", "");?>
-		<?
-		$form->close_table();
-		$form->close_form();
-		unset($form);
-		?>
-	</p>
+<p align="center" style="padding-left:10px;">
+    <?
+    $form = new form();
+    $form->create_form("add", $fs_action, "post", "multipart/form-data");
+    $form->create_table();
+    ?>
+    <?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
+    <?=$form->errorMsg($fs_errorMsg)?>
+    <?=$form->text("Tên danh mục", "db_categories_name", "db_categories_name", $db_categories_name, "Tên danh mục", 1, 250, "", 255, "", "", "")?>
+    <?=$form->textarea("Mô tả chi tiết", "db_description", "db_description", $db_description, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
+    <?=$form->text("Seo từ khóa", "db_seo_keyword", "db_seo_keyword", $db_seo_keyword, "Tên banner", 1, 250, "", 255, "", "", "")?>
+    <?=$form->text("Seo tiêu đề", "db_seo_title", "db_seo_title", $db_seo_title, "Tên banner", 1, 250, "", 255, "", "", "")?>
+    <?=$form->text("Seo mô tả", "db_seo_description", "db_seo_description", $db_seo_description, "Mô tả Chi tiết", 1, 250, "", 255, "", "", "")?>
+    <?=$form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "")?>
+    <?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
+    <?=$form->hidden("action", "action", "execute", "");?>
+    <?
+    $form->close_table();
+    $form->close_form();
+    unset($form);
+    ?>
+</p>
 <? /*------------------------------------------------------------------------------------------------*/ ?>
 <?=template_bottom() ?>
 <? /*------------------------------------------------------------------------------------------------*/ ?>

@@ -34,13 +34,12 @@ Call class form:
 9). Loi dua ra man hinh neu co duplicate
 */
 $myform = new generate_form();
-$myform->add("ban_name", "ban_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
-$myform->add("ban_target", "ban_target", 0, 0, "", 0, "", 0, "");
-$myform->add("ban_type", "ban_type", 1, 0, "", 0, "", 0, "");
-$myform->add("ban_position", "ban_position", 1, 0, 0, 1, "", 0, "");
-$myform->add("ban_link", "ban_link", 0, 0, "", 1, "Bạn chưa nhập link.", 0, "");
-$myform->add("ban_description", "ban_description", 0, 0, "", 0, "", 0, "");
-$myform->add("admin_id", "admin_id", 1, 1, "", 0, "", 0, "");
+$myform->add("db_categories_name", "db_categories_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
+$myform->add("db_description", "db_description", 0, 0, "", 0, "", 0, "");
+$myform->add("db_seo_keyword", "db_seo_keyword", 0, 0, "", 1, "Bạn chưa nhập từ khóa.", 0, "");
+$myform->add("db_seo_title", "db_seo_title", 0, 0, "", 1, "Bạn chưa nhập tiêu đề.", 0, "");
+$myform->add("db_seo_description", "db_seo_description", 0, 0, "", 1, "Bạn chưa nhập mô tả.", 0, "");
+$myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
 $myform->addTable($fs_table);
 
 //Get action variable for add new data
@@ -120,22 +119,20 @@ if($ban_end_time > 0){
 	$form->create_form("add", $fs_action, "post", "multipart/form-data");
 	$form->create_table();
 	?>
-	<?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
-		<?=$form->errorMsg($fs_errorMsg)?>
-		<?=$form->text("Tên banner", "ban_name", "ban_name", $ban_name, "Tên banner", 1, 250, "", 255, "", "", "")?>
-		<?=$form->getFile("Ảnh minh họa", "ban_picture", "ban_picture", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)');?>
-		<?=$form->text("Link", "ban_link", "ban_link", $ban_link, "Link", 1, 250, "", 255, "", "", "")?>
-		<?=$form->textarea("Mô tả chi tiết", "ban_description", "ban_description", $ban_description, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
-		<?=$form->select("Mở ra", "ban_target", "ban_target", $arrTarget, $ban_target, "Mở ra", 0, 100, "", "", "", "")?>
-		<?=$form->select("Vị trí", "ban_position", "ban_position", $arrPositon, $ban_position, "Vị trí", 0, 100, "", "", "", "")?>
-		<?=$form->select("Loại Banner", "ban_type", "ban_type", $arrType, $ban_type, "Loại Banner", 0, 100, "", "", "", "")?>
-		<?=$form->radio("Sau khi lưu dữ liệu", "add_new" . $form->ec . "return_listing", "after_save_data", $add . $form->ec . $listing, $after_save_data, "Thêm mới" . $form->ec . "Quay về danh sách", 0, $form->ec, "");?>
-		<?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
-		<?=$form->hidden("action", "action", "execute", "");?>
-	<?
-	$form->close_table();
-	$form->close_form();
-	unset($form);
+    <?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
+    <?=$form->errorMsg($fs_errorMsg)?>
+    <?=$form->text("Tên danh mục", "db_categories_name", "db_categories_name", $db_categories_name, "Tên danh mục", 1, 250, "", 255, "", "", "")?>
+    <?=$form->textarea("Mô tả chi tiết", "db_description", "db_description", $db_description, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
+    <?=$form->text("Seo từ khóa", "db_seo_keyword", "db_seo_keyword", $db_seo_keyword, "Tên banner", 1, 250, "", 255, "", "", "")?>
+    <?=$form->text("Seo tiêu đề", "db_seo_title", "db_seo_title", $db_seo_title, "Tên banner", 1, 250, "", 255, "", "", "")?>
+    <?=$form->text("Seo mô tả", "db_seo_description", "db_seo_description", $db_seo_description, "Mô tả Chi tiết", 1, 250, "", 255, "", "", "")?>
+    <?=$form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "")?>
+    <?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
+    <?=$form->hidden("action", "action", "execute", "");?>
+    <?
+    $form->close_table();
+    $form->close_form();
+    unset($form);
 	?>
 	</p>
 <? /*------------------------------------------------------------------------------------------------*/ ?>

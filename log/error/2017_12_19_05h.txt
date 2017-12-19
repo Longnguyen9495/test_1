@@ -1,0 +1,27 @@
+19/12/2017 05:22:54 ::1 /admin/modules/batdongsan/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan\listing.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 :  
+	SELECT *
+										FROM list_batdongsan
+										WHERE 1 
+										LIMIT 0,
+ -----***---- 
+19/12/2017 05:22:54 ::1 /admin/modules/batdongsan/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan\listing.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 :  
+	SELECT *
+										FROM list_batdongsan
+										WHERE 1 
+										LIMIT 0,
+ -----***---- 
+19/12/2017 05:22:54 ::1 /admin/modules/batdongsan/listing.php?
+C:\xampp\htdocs\dailymotion\admin\modules\batdongsan\listing.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 :  
+	SELECT *
+										FROM list_batdongsan
+										WHERE 1 
+										LIMIT 0,
+ -----***---- 

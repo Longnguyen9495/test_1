@@ -3,7 +3,7 @@ include("inc_security.php");
 //check quyền them sua xoa
 checkAddEdit("delete");
 $returnurl 		= base64_decode(getValue("returnurl","str","GET",base64_encode("listing.php")));
-$record_id		= getValue("record_id","str","POST","0");
+$record_id		= getValue("record_id","str","GET","0");
 //Delete data with ID
 $db_del = new db_execute("DELETE FROM ". $fs_table ." WHERE " . $id_field . " IN(" . $record_id . ")");
 if($db_del->msgbox>0){
@@ -13,4 +13,5 @@ if($db_del->msgbox>0){
 	echo json_encode(array("msg"=>"Lệnh xóa không thành công","status"=>"0"));
 }
 unset($db_del);
+redirect($returnurl);
 ?>

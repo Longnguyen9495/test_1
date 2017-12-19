@@ -1,0 +1,66 @@
+19/12/2017 03:57:10 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:11 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:11 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:11 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:12 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:12 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:18 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:27 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:27 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:27 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 
+19/12/2017 03:57:27 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_type' in 'field list' :  
+select db_type formbatdongsan
+ -----***---- 

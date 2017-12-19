@@ -125,7 +125,7 @@ if($ban_end_time > 0){
     <?=$form->getFile("Ảnh minh họa", "db_image", "db_image", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)');?>
     <?=$form->text("Link", "db_link", "db_link", $db_link, "Link", 1, 250, "", 255, "", "", "")?>
     <?=$form->textarea("Mô tả chi tiết", "db_description", "db_description", $db_description, "Mô tả chi tiết", 0, 450, 250, "", "", "")?>
-    <?=$form->select("Hình thức", "db_type", "db_type", $arrType, $db_type, "Loại Banner", 0, 100, "", "", "", "")?>
+    <?=$form->select("Hình thức", "db_type", "db_type", $arrTypes, $db_type, "Loại Banner", 0, 100, "", "", "", "")?>
     <?=$form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "")?>
     <?=$form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, "");?>
     <?=$form->hidden("action", "action", "execute", "");?>

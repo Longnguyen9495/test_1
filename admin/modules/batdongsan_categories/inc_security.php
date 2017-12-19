@@ -24,7 +24,7 @@ $break_page	= "{---break---}";
 $arrTarget				= array (	"_blank"=> "Trang mới",
 											"_self"	=> "Hiện hành",
 										);
-$arrType             = array (	1 => "NHÀ ĐẤT BÁN",
+$arrTypes             = array (	1 => "NHÀ ĐẤT BÁN",
                                  2 => "NHÀ ĐẤT CHO THUÊ",
                                  3 => "BÁN ĐẤT BÌNH DƯƠNG",
                                  4 => "BÁN ĐẤT ĐÀ NẴNG",
