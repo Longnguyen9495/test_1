@@ -24,19 +24,18 @@ if ($search_keyword != "") {
 
 // Search theo date
 $str_create_date  = getValue("date_pha", "str", "GET", "dd/mm/yyyy", 1);
+var_dump($str_create_date);
 $create_date     = convertDateTime($str_create_date, "00:00:00");
+var_dump($create_date);
 if($create_date > 0 && $str_create_date != "" && $str_create_date != "dd/mm/yyyy"){
     $sqlWhere   .=  " AND db_date >= " . $create_date;
 }
-
-$query = new db_query(" SELECT *
-          FROM " . $fs_table . "
-          WHERE 1 " . $sqlWhere);
-
 echo $sqlWhere;
 
+
+
 // Phân trang
-$page_size			= 10;
+$page_size			= 5;
 $page_prefix		= "Trang: ";
 $normal_class		= "page";
 $selected_class	= "page_current";
@@ -54,12 +53,15 @@ $db_count			= new db_query("  SELECT count(*) AS count
 
 
 $listing_count		= mysql_fetch_array($db_count->result);
+var_dump($listing_count);
 $total_record		= $listing_count["count"];
 $current_page		= getValue("page", "int", "GET", 1);
+var_dump($total_record);
 if($total_record % $page_size == 0) $num_of_page = $total_record / $page_size;
 else $num_of_page = (int)($total_record / $page_size) + 1;
 if($current_page > $num_of_page) $current_page = $num_of_page;
 if($current_page < 1) $current_page = 1;
+var_dump($num_of_page);
 unset($db_count);
 //End phân trang
 
@@ -73,8 +75,12 @@ $db_listing	= new db_query("	SELECT *
 <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+        function check_active_ajax()
+        {
+
+        }
+    </script>
     <style>
         body {
             font-family: Arial, Tahoma, Geneva, sans-serif;
@@ -152,7 +158,7 @@ $db_listing	= new db_query("	SELECT *
                 </td>
                 <td class="form-label-sm">Date :</td>
                 <td>
-                    <input type="text" class="form-control form-control-search form-control-sm date" placeholder="Date..." name="date_pha" value="<?=$str_create_date?>" id="date_pha"></td>
+                    <input type="date" class="form-control form-control-search form-control-sm date" placeholder="Date..." name="date_pha" value="<?=$str_create_date?>"</td>
                 <td>
                     <button class="btn btn-info btn-search">Tìm Kiếm</button>
                 </td>
@@ -181,7 +187,7 @@ $db_listing	= new db_query("	SELECT *
     <tbody>
     <?
     $No	= ($current_page - 1) * $page_size;
-    while ($row = mysql_fetch_assoc($query->result)) {
+    while ($row = mysql_fetch_assoc($db_listing->result)) {
         ?>
         <tr>
             <td><?=$row['db_id']?></td>
@@ -233,3 +239,4 @@ $db_listing	= new db_query("	SELECT *
 </table>
 </body>
 </html>
+

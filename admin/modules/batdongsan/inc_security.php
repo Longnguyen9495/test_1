@@ -43,9 +43,4 @@ $arrPositon				= array(	1 => "Banner top",
 										8 => "Banner Tin tức - R2",
 										9 => "Banner mobile Top"
                              );
-$arrayActive            = array (
-                            1 => true,
-                            2 => false
-
-)
 ?>
