@@ -183,7 +183,7 @@ function checkAccessCategory(){
 	$password	= getValue("password", "str", "SESSION", "", 1);
 	$lang_id		= getValue("lang_id", "int", "SESSION", 1);
 
-	// Danh sách category đc phép truy cập
+	// Danh sách tintuc đc phép truy cập
 	$list_id		= "";
 	$db_category= new db_query("SELECT adm_id, adm_isadmin, adm_access_category
 										 FROM admin_user
@@ -192,7 +192,7 @@ function checkAccessCategory(){
 	//Check xem user co ton tai hay khong
 	if($row = mysql_fetch_array($db_category->result)){
 
-		//Neu column adm_isadmin = 1 thi get all category
+		//Neu column adm_isadmin = 1 thi get all tintuc
 		if($row["adm_isadmin"] == 1) {
 			$db_getall = new db_query("SELECT cat_id FROM categories_multi");
 			while($getall = mysql_fetch_array($db_getall->result)){

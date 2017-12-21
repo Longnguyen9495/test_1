@@ -5,8 +5,8 @@ Hàm tạo link
 function createlink($module = "", $row = array()){
 	$strlink = '';
 	switch($module){
-		case "category":
-			$strlink = ROOT_PATH . 'category/' . removeTitle($row["nTitle"]) . '-id' . $row["iCat"];
+		case "tintuc":
+			$strlink = ROOT_PATH . 'tintuc/' . removeTitle($row["nTitle"]) . '-id' . $row["iCat"];
 			break;
 
 		case "manufacture":

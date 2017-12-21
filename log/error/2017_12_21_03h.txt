@@ -1,0 +1,132 @@
+21/12/2017 03:21:38 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:39 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:41 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:21:42 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:22:16 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:22:20 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:23:55 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:23:55 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:23:58 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:23:58 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+Unknown column 'db_name' in 'field list' :  
+SELECT db_id,db_name from list_batdongsan
+ -----***---- 
+21/12/2017 03:31:26 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_categories_name' in 'field list' :  
+select db_id,db_categories_name from batdongsan
+ -----***---- 
+21/12/2017 03:31:27 ::1 /admin/modules/batdongsan_categories/listing.php?
+
+ -----***---- 
+Unknown column 'db_categories_name' in 'field list' :  
+select db_id,db_categories_name from batdongsan
+ -----***---- 

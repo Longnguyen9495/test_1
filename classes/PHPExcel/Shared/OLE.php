@@ -32,7 +32,7 @@ $GLOBALS['_OLE_INSTANCES'] = array();
 *
 * @author   Xavier Noguer <xnoguer@php.net>
 * @author   Christian Schmidt <schmidt@php.net>
-* @category   PHPExcel
+* @tintuc   PHPExcel
 * @package    PHPExcel_Shared_OLE
 */
 class PHPExcel_Shared_OLE

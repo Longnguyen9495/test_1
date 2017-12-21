@@ -125,7 +125,7 @@
     If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a channel resource, the contentDetails property contains other properties, such as the uploads properties. As such, if you set part=contentDetails, the API response will also contain all of those nested properties.
      * @param array $optParams Optional parameters.
      *
-     * @opt_param string categoryId The categoryId parameter specifies a YouTube guide category, thereby requesting YouTube channels associated with that category.
+     * @opt_param string categoryId The categoryId parameter specifies a YouTube guide tintuc, thereby requesting YouTube channels associated with that tintuc.
      * @opt_param string forUsername The forUsername parameter specifies a YouTube username, thereby requesting the channel associated with that username.
      * @opt_param string id The id parameter specifies a comma-separated list of the YouTube channel ID(s) for the resource(s) that are being retrieved. In a channel resource, the id property specifies the channel's YouTube channel ID.
      * @opt_param bool managedByMe Set this parameter's value to true to instruct the API to only return channels managed by the content owner that the onBehalfOfContentOwner parameter specifies. The user must be authenticated as a CMS account linked to the specified content owner and onBehalfOfContentOwner must be provided.
@@ -184,11 +184,11 @@
      * Returns a list of categories that can be associated with YouTube channels. (guideCategories.list)
      *
      * @param string $part The part parameter specifies a comma-separated list of one or more guideCategory resource properties that the API response will include. The part names that you can include in the parameter value are id and snippet.
-    If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a guideCategory resource, the snippet property contains other properties, such as the category's title. If you set part=snippet, the API response will also contain all of those nested properties.
+    If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a guideCategory resource, the snippet property contains other properties, such as the tintuc's title. If you set part=snippet, the API response will also contain all of those nested properties.
      * @param array $optParams Optional parameters.
      *
      * @opt_param string hl The hl parameter specifies the language that will be used for text values in the API response.
-     * @opt_param string id The id parameter specifies a comma-separated list of the YouTube channel category ID(s) for the resource(s) that are being retrieved. In a guideCategory resource, the id property specifies the YouTube channel category ID.
+     * @opt_param string id The id parameter specifies a comma-separated list of the YouTube channel tintuc ID(s) for the resource(s) that are being retrieved. In a guideCategory resource, the id property specifies the YouTube channel tintuc ID.
      * @opt_param string regionCode The regionCode parameter instructs the API to return the list of guide categories available in the specified country. The parameter value is an ISO 3166-1 alpha-2 country code.
      * @return Google_GuideCategoryListResponse
      */
@@ -668,7 +668,7 @@
      * @opt_param string topicId The topicId parameter indicates that the API response should only contain resources associated with the specified topic. The value identifies a Freebase topic ID.
      * @opt_param string type The type parameter restricts a search query to only retrieve a particular type of resource.
      * @opt_param string videoCaption The videoCaption parameter indicates whether the API should filter video search results based on whether they have captions.
-     * @opt_param string videoCategoryId The videoCategoryId parameter filters video search results based on their category.
+     * @opt_param string videoCategoryId The videoCategoryId parameter filters video search results based on their tintuc.
      * @opt_param string videoDefinition The videoDefinition parameter lets you restrict a search to only include either high definition (HD) or standard definition (SD) videos. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available.
      * @opt_param string videoDimension The videoDimension parameter lets you restrict a search to only retrieve 2D or 3D videos.
      * @opt_param string videoDuration The videoDuration parameter filters video search results based on their duration.
@@ -806,7 +806,7 @@
      * @param array $optParams Optional parameters.
      *
      * @opt_param string hl The hl parameter specifies the language that should be used for text values in the API response.
-     * @opt_param string id The id parameter specifies a comma-separated list of video category IDs for the resources that you are retrieving.
+     * @opt_param string id The id parameter specifies a comma-separated list of video tintuc IDs for the resources that you are retrieving.
      * @opt_param string regionCode The regionCode parameter instructs the API to return the list of video categories available in the specified country. The parameter value is an ISO 3166-1 alpha-2 country code.
      * @return Google_VideoCategoryListResponse
      */
@@ -905,7 +905,7 @@
      * @opt_param string myRating Set this parameter's value to like or dislike to instruct the API to only return videos liked or disliked by the authenticated user.
      * @opt_param string onBehalfOfContentOwner USE_DESCRIPTION --- channels:list:onBehalfOfContentOwner
      * @opt_param string pageToken USE_DESCRIPTION --- channels:list:pageToken
-     * @opt_param string videoCategoryId The videoCategoryId parameter selects a video chart based on the category. If using this parameter, chart must also be set.
+     * @opt_param string videoCategoryId The videoCategoryId parameter selects a video chart based on the tintuc. If using this parameter, chart must also be set.
      * @return Google_VideoListResponse
      */
     public function listVideos($part, $optParams = array()) {

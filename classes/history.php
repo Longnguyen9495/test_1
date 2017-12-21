@@ -123,7 +123,7 @@ class history{
 			
 		}// End if($create == 1)
 		
-		$arrHistory	= array ("category"	=> "",
+		$arrHistory	= array ("tintuc"	=> "",
 									"data"		=> "",
 									"keyword"	=> "",
 									);
@@ -153,7 +153,7 @@ class history{
 			$keyword	= trim(str_replace(array("[", "]"), array("", ""), $arrTemp[3]));
 			$type		= $arrTemp[4];
 			
-			// Check category
+			// Check tintuc
 			$db_category	= new db_query("SELECT cat_id
 													 FROM categories_multi
 													 WHERE cat_active = 1 AND cat_type = 'phagia' AND cat_id = " . $cat_id,
@@ -169,24 +169,24 @@ class history{
 			// Check hash xem có đúng hay ko
 			if($hash == $arrTemp[5]){
 				
-				$arrField		= array("category" => $this->ff . "category_product", "data" => $this->ff . "product", "keyword" => $this->ff . "keyword_product");
+				$arrField		= array("tintuc" => $this->ff . "category_product", "data" => $this->ff . "product", "keyword" => $this->ff . "keyword_product");
 				
 				// Nếu là update thì gán luôn dữ liệu mặc định trong database
 				if($update == 1){
-					$arrHistory	= array ("category"	=> $row[$arrField["category"]],
+					$arrHistory	= array ("tintuc"	=> $row[$arrField["tintuc"]],
 												"data"		=> $row[$arrField["data"]],
 												"keyword"	=> $row[$arrField["keyword"]],
 												);
 				}
 				
-				if($cat_id > 0) $arrHistory["category"]	= $this->add($cat_id, $arrHistory["category"]);
+				if($cat_id > 0) $arrHistory["tintuc"]	= $this->add($cat_id, $arrHistory["tintuc"]);
 				if($data_id > 0) $arrHistory["data"]		= $this->add($data_id, $arrHistory["data"]);
 				if($keyword != "") $arrHistory["keyword"]	= $this->add($keyword, $arrHistory["keyword"]);
 				
 				// Lưu vào database
-				$queryStr	= "INSERT IGNORE INTO " . $fs_table . " (" . $this->key . ", " . $arrField["category"] . ", " . $arrField["data"] . ", " . $arrField["keyword"] . ", " . $this->ff . "last_update)
+				$queryStr	= "INSERT IGNORE INTO " . $fs_table . " (" . $this->key . ", " . $arrField["tintuc"] . ", " . $arrField["data"] . ", " . $arrField["keyword"] . ", " . $this->ff . "last_update)
 									VALUES(" . ($this->user_id > 0 ? $this->user_id : "'" . replaceMQ($this->crHH) . "'") . ",
-											 '" . replaceMQ($arrHistory["category"]) . "',
+											 '" . replaceMQ($arrHistory["tintuc"]) . "',
 											 '" . replaceMQ($arrHistory["data"]) . "',
 											 '" . replaceMQ($arrHistory["keyword"]) . "',
 											 " . time() . "
@@ -195,7 +195,7 @@ class history{
 				if($update == 1){
 					
 					$sqlSet		= "";
-					if($row[$arrField["category"]] != $arrHistory["category"])	$sqlSet .= $arrField["category"] . " = '" . replaceMQ($arrHistory["category"]) . "', ";
+					if($row[$arrField["tintuc"]] != $arrHistory["tintuc"])	$sqlSet .= $arrField["tintuc"] . " = '" . replaceMQ($arrHistory["tintuc"]) . "', ";
 					if($row[$arrField["data"]] != $arrHistory["data"])				$sqlSet .= $arrField["data"] . " = '" . replaceMQ($arrHistory["data"]) . "', ";
 					if($row[$arrField["keyword"]] != $arrHistory["keyword"])		$sqlSet .= $arrField["keyword"] . " = '" . replaceMQ($arrHistory["keyword"]) . "', ";
 					
@@ -274,7 +274,7 @@ class history{
 				$listId		= convert_string_to_list_id($row[$this->ff . "category_" . $mkey]);
 				$arrID		= convert_string_to_array($row[$this->ff . "category_" . $mkey]);
 				
-				// Lấy category theo thứ tự
+				// Lấy tintuc theo thứ tự
 				$sqlSelect	= ", 0";
 				foreach($arrID as $key => $value){
 					$sqlSelect	.= " + IF(cat_id = " . $value . ", " . $key . ", 0) ";
@@ -311,7 +311,7 @@ class history{
 					// Gán vào array trả về
 					$arrReturn[$mkey][$rowTemp[$mvalue["id_field"]]]		= $rowTemp;
 					
-					// Check xem nếu chưa có trong array category thì gán, đã có thì tăng biến count 
+					// Check xem nếu chưa có trong array tintuc thì gán, đã có thì tăng biến count 
 					if(!isset($this->array_category[$mkey][$rowTemp["cat_id"]])){
 						$this->array_category[$mkey][$rowTemp["cat_id"]]	= array ("cat_id"			=> $rowTemp["cat_id"],
 																										"cat_name"		=> $rowTemp["cat_name"],

@@ -18,7 +18,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  * @license		http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
@@ -39,7 +39,7 @@ if (!defined('PHPEXCEL_ROOT')) {
 /**
  * PHPExcel_Calculation_LookupRef
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  */
@@ -235,7 +235,7 @@ class PHPExcel_Calculation_LookupRef {
 	 *		=HYPERLINK(linkURL,displayName)
 	 *
 	 *	@access	public
-	 *	@category Logical Functions
+	 *	@tintuc Logical Functions
 	 *	@param	string	$linkURL		Value to check, is also the value returned when no error
 	 *	@param	string	$displayName	Value to return when testValue is an error condition
 	 *	@return	mixed	The value of errorpart or testValue determined by error condition

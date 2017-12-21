@@ -242,7 +242,7 @@ if($is_admin != 1){
 							</tr>
 							<tbody id="showlistcategory" <? if($edit["adm_all_category"]==1) echo 'style="display:none"';?> >
 								<tr <?=$fs_change_bg?>>
-									<td align="right" valign="middle" nowrap class="textBold" valign="top"><?=translate_text("Select category")?>:</td>
+									<td align="right" valign="middle" nowrap class="textBold" valign="top"><?=translate_text("Select tintuc")?>:</td>
 									<td class="textBold">
 										<?
 											$db_category = new db_query("SELECT cat_id,cat_name FROM categories_multi WHERE cat_parent_id = 0");

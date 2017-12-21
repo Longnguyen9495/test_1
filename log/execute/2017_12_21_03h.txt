@@ -1,0 +1,36 @@
+1|admin|21/12/2017 03:03:27 ::1 /admin/modules/batdongsan/delete.php?record_id=3&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbi9saXN0aW5nLnBocA==
+DELETE FROM list_batdongsan WHERE db_id IN(3)
+ -----***---- 
+1|admin|21/12/2017 03:03:28 ::1 /admin/modules/batdongsan/delete.php?record_id=4&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbi9saXN0aW5nLnBocA==
+DELETE FROM list_batdongsan WHERE db_id IN(4)
+ -----***---- 
+1|admin|21/12/2017 03:03:28 ::1 /admin/modules/batdongsan/delete.php?record_id=5&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbi9saXN0aW5nLnBocA==
+DELETE FROM list_batdongsan WHERE db_id IN(5)
+ -----***---- 
+1|admin|21/12/2017 03:03:29 ::1 /admin/modules/batdongsan/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbi9saXN0aW5nLnBocA==
+DELETE FROM list_batdongsan WHERE db_id IN(6)
+ -----***---- 
+1|admin|21/12/2017 03:15:43 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=8&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(8)
+ -----***---- 
+1|admin|21/12/2017 03:15:43 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(10)
+ -----***---- 
+1|admin|21/12/2017 03:15:44 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=11&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(11)
+ -----***---- 
+1|admin|21/12/2017 03:15:44 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=12&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(12)
+ -----***---- 
+1|admin|21/12/2017 03:15:45 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=13&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(13)
+ -----***---- 
+1|admin|21/12/2017 03:15:45 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=14&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(14)
+ -----***---- 
+1|admin|21/12/2017 03:15:46 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=15&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(15)
+ -----***---- 
+1|admin|21/12/2017 03:15:46 ::1 /admin/modules/batdongsan_categories/delete.php?record_id=16&url=L2FkbWluL21vZHVsZXMvYmF0ZG9uZ3Nhbl9jYXRlZ29yaWVzL2xpc3RpbmcucGhw
+DELETE FROM batdongsan WHERE db_id IN(16)
+ -----***---- 

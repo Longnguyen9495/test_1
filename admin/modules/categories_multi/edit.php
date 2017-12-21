@@ -25,7 +25,7 @@ $row		=	mysql_fetch_array($db_edit->result);
 $sql		=	" cat_type='" . $row["cat_type"] . "'";
 $menu		= 	new menu();
 $listAll	= 	$menu->getAllChild("categories_multi","cat_id","cat_parent_id","0",$sql . " AND lang_id = " . $_SESSION["lang_id"], "cat_id,cat_name,cat_order,cat_type,cat_parent_id,cat_has_child","cat_order ASC, cat_name ASC","cat_has_child");
-$myform->add('cat_name','cat_name',0,0,'',1,translate_text('Please enter category name'),0,"");
+$myform->add('cat_name','cat_name',0,0,'',1,translate_text('Please enter tintuc name'),0,"");
 $myform->add("admin_id", "admin_id", 1, 1, "", 0, "", 0, "");
 if($array_config["upper"]==1) $myform->add("cat_parent_id","cat_parent_id",1,0,0,0,"",0,"");
 if($array_config["description"]==1) $myform->add("cat_description","cat_description",0,0,"",0,"",0,"");

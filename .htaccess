@@ -97,7 +97,7 @@ RewriteRule ^detail/video/([^/]*)-id([0-9]*)$ /home/detail.php?record_id=$2 [L]
 RewriteRule ^searchh.php$ /home/search.php [L]
 
 
-#### category video product
+#### tintuc video product
 
 
 RewriteRule ^categoryvideo/cat/([^/]*)/([0-9]*)$ /home/category.php?nCat=$1&iCat=$2 [L]

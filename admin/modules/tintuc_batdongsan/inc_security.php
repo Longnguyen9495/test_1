@@ -11,7 +11,7 @@ $fs_table				= "batdongsan";
 $id_field				= "db_id";
 $name_field				= "db_name";
 $fs_fieldupload		= "db_image";
-$fs_filepath			= "../../../data/image-batdongsan/";
+$fs_filepath			= "../../../data/image-danhmuc_batdongsan/";
 $fs_extension			= "gif,jpg,jpe,jpeg,png,swf";
 $fs_filesize			= 500;
 $width_small_image	= 200;
@@ -34,13 +34,29 @@ $arrTypes             = array (	1 => "NHÀ ĐẤT BÁN",
 										);
 
 $arrPositon				= array(	1 => "Banner top",
-										2 => "Banner category left",
+										2 => "Banner tintuc left",
 										3 => "Banner right",
 										4 => "Banner bottom",
-										5 => "Banner category center",
+										5 => "Banner tintuc center",
 										6 => "Banner home product",
 										7 => "Banner Tin tức - R1",
 										8 => "Banner Tin tức - R2",
 										9 => "Banner mobile Top"
                              );
+
+// function đệ quy cha con
+function menu_parent($parent_id = 0, $space = "", $trees = array()){
+    if (!$trees){
+        $trees = array();
+    }
+    $query = new db_query("SELECT * FROM list_batdongsan WHERE db_parent_id = $parent_id");
+    while ($row = mysql_fetch_assoc($query->result)){
+        $trees[] = array( 'db_id' => $row['db_id'],
+                    'db_categories_name' => $row['db_categories_name'],
+            );
+        $trees = menu_parent($row['db_id'],$space."&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;", $trees);
+
+    }
+    return $trees;
+}
 ?>

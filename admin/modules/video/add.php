@@ -8,7 +8,7 @@ checkAddEdit("add");
 $after_save_data	= getValue("after_save_data", "str", "POST", "add.php");
 $add					= "add.php";
 $listing				= "listing.php";
-$fs_title			= "Thêm mới video category";
+$fs_title			= "Thêm mới video tintuc";
 $fs_action			= getURL();
 $fs_redirect		= $after_save_data;
 $fs_errorMsg		= "";

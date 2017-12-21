@@ -342,7 +342,7 @@ class menu
 	}
 
 
-	//lay category cap cha cao nhat (dinhtoan1905)
+	//lay tintuc cap cha cao nhat (dinhtoan1905)
 	function getCatcha($id){
 		while(@array_key_exists($id,$this->arrayCatId)){
 			$id = $this->arrayCatId[$id];

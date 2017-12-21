@@ -7,7 +7,7 @@ $field_name			= "cat_name";
 $titleSEO			= 'cat_name';
 $rewriteSEO			= 'cat_rewrite';
 $md5SEO				= 'cat_md5';
-$fs_filepath		= '../../../data/category/';
+$fs_filepath		= '../../../data/tintuc/';
 $extension_list 	= 'jpg,gif,swf,jpeg,png';
 $limit_size			= 300000;
 

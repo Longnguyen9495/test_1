@@ -1,0 +1,90 @@
+19/12/2017 09:19:57 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:58 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:58 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:58 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:19:59 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:20:00 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:20:00 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:20:00 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:20:00 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 
+19/12/2017 09:20:36 ::1 /admin/modules/batdongsan_categories/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'batdongsan' at line 1 :  
+SELECT db_id,db_name FORM batdongsan
+ -----***---- 

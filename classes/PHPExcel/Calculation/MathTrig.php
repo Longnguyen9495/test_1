@@ -18,7 +18,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  * @license		http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
@@ -39,7 +39,7 @@ if (!defined('PHPEXCEL_ROOT')) {
 /**
  * PHPExcel_Calculation_MathTrig
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  */
@@ -79,7 +79,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *	ATAN2
 	 *
 	 *	This function calculates the arc tangent of the two variables x and y. It is similar to
-	 *		calculating the arc tangent of y ÷ x, except that the signs of both arguments are used
+	 *		calculating the arc tangent of y ï¿½ x, except that the signs of both arguments are used
 	 *		to determine the quadrant of the result.
 	 *	The arctangent is the angle from the x-axis to a line containing the origin (0, 0) and a
 	 *		point with coordinates (xCoordinate, yCoordinate). The angle is given in radians between
@@ -92,7 +92,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		ATAN2(xCoordinate,yCoordinate)
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	float	$xCoordinate		The x-coordinate of the point.
 	 *	@param	float	$yCoordinate		The y-coordinate of the point.
 	 *	@return	float	The inverse tangent of the specified x- and y-coordinates.
@@ -408,7 +408,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		LOG(number[,base])
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	float	$value		The positive real number for which you want the logarithm
 	 *	@param	float	$base		The base of the logarithm. If base is omitted, it is assumed to be 10.
 	 *	@return	float
@@ -686,7 +686,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		PRODUCT(value1[,value2[, ...]])
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	mixed		$arg,...		Data values
 	 *	@return	float
 	 */
@@ -724,7 +724,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		QUOTIENT(value1[,value2[, ...]])
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	mixed		$arg,...		Data values
 	 *	@return	float
 	 */
@@ -999,7 +999,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		SUM(value1[,value2[, ...]])
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	mixed		$arg,...		Data values
 	 *	@return	float
 	 */
@@ -1029,7 +1029,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		SUMIF(value1[,value2[, ...]],condition)
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	mixed		$arg,...		Data values
 	 *	@param	string		$condition		The criteria that defines which cells will be summed.
 	 *	@return	float
@@ -1099,7 +1099,7 @@ class PHPExcel_Calculation_MathTrig {
 	 *		SUMSQ(value1[,value2[, ...]])
 	 *
 	 *	@access	public
-	 *	@category Mathematical and Trigonometric Functions
+	 *	@tintuc Mathematical and Trigonometric Functions
 	 *	@param	mixed		$arg,...		Data values
 	 *	@return	float
 	 */

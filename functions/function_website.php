@@ -4,7 +4,7 @@
  * Function tra ve danh sach banner
  * getBanner()
  *
- * @param integer $list_position	Vi tri (1->Banner top, 2->Banner left, 3->Banner right", 4->Banner bottom, 5->Banner category, 6->Banner slibar)
+ * @param integer $list_position	Vi tri (1->Banner top, 2->Banner left, 3->Banner right", 4->Banner bottom, 5->Banner tintuc, 6->Banner slibar)
  * @param integer $type			Loai banner (1->Banner Anh, 2->Banner Flash, 3->Banner HTML)
  * @param integer $active
  * @param integer $banner_id	ID banner
@@ -107,7 +107,7 @@ function getArrayCatParentToShow($limit = 10){
 }
 
 /**
- * Hàm lấy thông tin của category, có sử dụng memcache
+ * Hàm lấy thông tin của tintuc, có sử dụng memcache
  * getInfoCategory()
  *
  * @param mixed $cat
@@ -600,7 +600,7 @@ function showListProduct($arrayData = array(), $classAdd = "", $type="home", $sh
 
 	// Show tên giá nào
 	$htmlReturn .= '<div class="product_info">';
-	if($type == "category"){
+	if($type == "tintuc"){
 		$htmlReturn .= '<p class="product_name">
 								<a href="' . $linkProduct . '" title="' . $arrayData['pro_short_name'] . '">' . $arrayData['pro_short_name'] . '</a>
 							</p>

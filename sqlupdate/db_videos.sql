@@ -211,7 +211,7 @@ INSERT INTO `admin_translate` VALUES ('53d8de583ea7608b24d2aaf0edd90f0b', 'Danh 
 INSERT INTO `admin_translate` VALUES ('cd48206067ac5f62cc664794150bd319', 'Category listing', '1', 'Category listing');
 INSERT INTO `admin_translate` VALUES ('498f79c4c5bbde77f1bceb6c86fd0f6d', 'Show', '1', 'Show');
 INSERT INTO `admin_translate` VALUES ('a28c6d1503fde7e355cda9ce2b7ba5d0', 'Are you want duplicate record', '1', 'Are you want duplicate record');
-INSERT INTO `admin_translate` VALUES ('573d643cf1e507e3939566ee8cb85bfe', 'Please enter category name', '1', 'Please enter category name');
+INSERT INTO `admin_translate` VALUES ('573d643cf1e507e3939566ee8cb85bfe', 'Please enter tintuc name', '1', 'Please enter tintuc name');
 INSERT INTO `admin_translate` VALUES ('40a3f6e61efa652c8a06e67a33ada355', 'Sửa danh mục', '1', 'Sửa danh mục');
 INSERT INTO `admin_translate` VALUES ('06e0e9ebf644616fd56c521f74611b00', 'Danh mục con', '1', 'Danh mục con');
 INSERT INTO `admin_translate` VALUES ('5254652803211a21b0aafdc1b278cd09', 'Lưu lại', '1', 'Lưu lại');
@@ -274,7 +274,7 @@ INSERT INTO `admin_translate` VALUES ('eb631b70ae7c721773f91b506c815082', 'Confi
 INSERT INTO `admin_translate` VALUES ('e2f06abaff2623821632a05249f4c5f6', 'List City - District', '1', 'List City - District');
 INSERT INTO `admin_translate` VALUES ('f3d873c4bc4d8c1dea06311d3226b919', 'Admin city', '1', 'Admin city');
 INSERT INTO `admin_translate` VALUES ('c9cb3dbd637672e65c8138311808f73b', 'all_category', '1', 'all_category');
-INSERT INTO `admin_translate` VALUES ('03368e3c1eb4d2a9048775874301b19f', 'Select category', '1', 'Select category');
+INSERT INTO `admin_translate` VALUES ('03368e3c1eb4d2a9048775874301b19f', 'Select tintuc', '1', 'Select tintuc');
 INSERT INTO `admin_translate` VALUES ('97efa0b62a66b41fd988ec7fc2e694bb', 'save_change', '1', 'save_change');
 INSERT INTO `admin_translate` VALUES ('7a6e7491825990107cbfa71abe947112', 'All_category', '1', 'All_category');
 INSERT INTO `admin_translate` VALUES ('efd07a93bff07c8dd52624d900172d83', 'Thêm mới Admin User', '1', 'Thêm mới Admin User');
@@ -346,7 +346,7 @@ INSERT INTO `admin_translate` VALUES ('1c1bbfea26052dee2c2f36ad3a932a57', 'Cấu
 INSERT INTO `admin_translate` VALUES ('9424025c1f3cf8a94a26299bbd6b84a3', 'Danh sách thuộc tính', '1', 'Danh sách thuộc tính');
 INSERT INTO `admin_translate` VALUES ('c65c66b68d2029f77c4b8fe396d3c625', 'Tên thuộc tính', '1', 'Tên thuộc tính');
 INSERT INTO `admin_translate` VALUES ('8097576392e1ec1b0eddeec9d395ba11', 'Sửa thuộc tính', '1', 'Sửa thuộc tính');
-INSERT INTO `admin_translate` VALUES ('33d1d25eb9e66e6489b7d8f7ec654555', 'You must delete all the levels of this category', '1', 'You must delete all the levels of this category');
+INSERT INTO `admin_translate` VALUES ('33d1d25eb9e66e6489b7d8f7ec654555', 'You must delete all the levels of this tintuc', '1', 'You must delete all the levels of this tintuc');
 INSERT INTO `admin_translate` VALUES ('e3a655782ad91656d7efc08fdc87bf2d', 'Thuộc tính', '1', 'Thuộc tính');
 INSERT INTO `admin_translate` VALUES ('f7d5343e33c330dcecd1d398d20c8e92', 'Bạn đã nhân bản bản ghi thành công', '1', 'Bạn đã nhân bản bản ghi thành công');
 INSERT INTO `admin_translate` VALUES ('9d84bb9ccb65219e6c192288551acc80', 'Gallery Listing', '1', 'Gallery Listing');
@@ -986,19 +986,19 @@ CREATE TABLE `banners` (
 -- ----------------------------
 -- Records of banners
 -- ----------------------------
-INSERT INTO `banners` VALUES ('55', 'Ô tô Giải Phóng', 'pth1482534751.jpg', 'http://xeototai.vn/category/xe-gan-cau-id167', '', '_blank', '1', '1', '1482534751', '1', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('46', 'Ô tô Giải Phóng', 'yjq1482058804.jpg', 'http://xeototai.vn/category/xe-tai-co-trung-id178', '', '_blank', '1', '1', '1482058804', '1', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('47', 'Ô tô Giải Phóng', 'jif1482058823.jpg', 'http://xeototai.vn/category/xe-tai-co-trung-id178', '', '_blank', '1', '1', '1482058823', '0', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('48', 'Ô tô Giải Phóng', 'dyx1482058866.jpg', 'http://xeototai.vn/category/xe-tai-hang-nang-id179', '', '_blank', '1', '1', '1482058866', '1', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('49', 'Ô tô Giải Phóng', 'tnn1482058876.jpg', 'http://xeototai.vn/category/xe-tai-hang-nang-id179', '', '_blank', '1', '1', '1482058876', '0', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('50', 'Ô tô Giải Phóng', 'euz1482059720.jpg', 'http://xeototai.vn/category/xe-tai-nho-id177', '', '_blank', '1', '9', '1482059720', '1', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('51', 'Ô tô Giải Phóng', 'obn1482059798.jpg', 'http://xeototai.vn/category/xe-tai-co-trung-id178', '', '_blank', '1', '9', '1482059798', '1', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('52', 'Ô tô Giải Phóng', 'epy1482059813.jpg', 'http://xeototai.vn/category/xe-tai-co-trung-id178', '', '_blank', '1', '9', '1482059813', '0', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('53', 'Ô tô Giải Phóng', 'utm1482059852.jpg', 'http://xeototai.vn/category/xe-tai-hang-nang-id179', '', '_blank', '1', '9', '1482059852', '1', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('54', 'Ô tô Giải Phóng', 'wgr1482059862.jpg', 'http://xeototai.vn/category/xe-tai-hang-nang-id179', '', '_blank', '1', '9', '1482059862', '0', '0', '0', '444', '1');
-INSERT INTO `banners` VALUES ('45', 'Ô tô Giải Phóng - Xe tải nhỏ', 'bdc1481868532.jpg', 'http://xeototai.vn/category/xe-tai-nho-id177', 'Công ty CP XNK Ô tô Giải Phóng, Chuyên kinh doanh các dòng xe tải nhỏ đủ kích cỡ đến từ nhiều hãng sản xuất và lắp ráp như Hyundai Đồng Vàng, Veam Motor, Hyundai Đô Thành như Hyundai HD72 Nhập khẩu, Hyundai HD78 Nhập khẩu, Hyundai HD65 Nhập khẩu, Hyundai Porter H100... Đến với công ty chúng tôi, quý khách hàng sẽ được hưởng những dịch vụ hậu mãi tốt nhất, giá cả tốt nhất thị trường', '_blank', '1', '1', '1481868532', '1', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('56', 'Xe chuyên dụng, xe nâng đầu, xe bồn', 'aig1482958655.jpg', 'http://xeototai.vn/category/xe-dau-keo-id188', '', '_blank', '1', '1', '1482958655', '1', '0', '0', '1', '1');
-INSERT INTO `banners` VALUES ('57', 'Xe chuyên dụng, xe nâng đầu, xe bồn', 'ems1482958668.jpg', 'http://xeototai.vn/category/xe-dau-keo-id188', '', '_blank', '1', '1', '1482958668', '1', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('55', 'Ô tô Giải Phóng', 'pth1482534751.jpg', 'http://xeototai.vn/tintuc/xe-gan-cau-id167', '', '_blank', '1', '1', '1482534751', '1', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('46', 'Ô tô Giải Phóng', 'yjq1482058804.jpg', 'http://xeototai.vn/tintuc/xe-tai-co-trung-id178', '', '_blank', '1', '1', '1482058804', '1', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('47', 'Ô tô Giải Phóng', 'jif1482058823.jpg', 'http://xeototai.vn/tintuc/xe-tai-co-trung-id178', '', '_blank', '1', '1', '1482058823', '0', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('48', 'Ô tô Giải Phóng', 'dyx1482058866.jpg', 'http://xeototai.vn/tintuc/xe-tai-hang-nang-id179', '', '_blank', '1', '1', '1482058866', '1', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('49', 'Ô tô Giải Phóng', 'tnn1482058876.jpg', 'http://xeototai.vn/tintuc/xe-tai-hang-nang-id179', '', '_blank', '1', '1', '1482058876', '0', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('50', 'Ô tô Giải Phóng', 'euz1482059720.jpg', 'http://xeototai.vn/tintuc/xe-tai-nho-id177', '', '_blank', '1', '9', '1482059720', '1', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('51', 'Ô tô Giải Phóng', 'obn1482059798.jpg', 'http://xeototai.vn/tintuc/xe-tai-co-trung-id178', '', '_blank', '1', '9', '1482059798', '1', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('52', 'Ô tô Giải Phóng', 'epy1482059813.jpg', 'http://xeototai.vn/tintuc/xe-tai-co-trung-id178', '', '_blank', '1', '9', '1482059813', '0', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('53', 'Ô tô Giải Phóng', 'utm1482059852.jpg', 'http://xeototai.vn/tintuc/xe-tai-hang-nang-id179', '', '_blank', '1', '9', '1482059852', '1', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('54', 'Ô tô Giải Phóng', 'wgr1482059862.jpg', 'http://xeototai.vn/tintuc/xe-tai-hang-nang-id179', '', '_blank', '1', '9', '1482059862', '0', '0', '0', '444', '1');
+INSERT INTO `banners` VALUES ('45', 'Ô tô Giải Phóng - Xe tải nhỏ', 'bdc1481868532.jpg', 'http://xeototai.vn/tintuc/xe-tai-nho-id177', 'Công ty CP XNK Ô tô Giải Phóng, Chuyên kinh doanh các dòng xe tải nhỏ đủ kích cỡ đến từ nhiều hãng sản xuất và lắp ráp như Hyundai Đồng Vàng, Veam Motor, Hyundai Đô Thành như Hyundai HD72 Nhập khẩu, Hyundai HD78 Nhập khẩu, Hyundai HD65 Nhập khẩu, Hyundai Porter H100... Đến với công ty chúng tôi, quý khách hàng sẽ được hưởng những dịch vụ hậu mãi tốt nhất, giá cả tốt nhất thị trường', '_blank', '1', '1', '1481868532', '1', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('56', 'Xe chuyên dụng, xe nâng đầu, xe bồn', 'aig1482958655.jpg', 'http://xeototai.vn/tintuc/xe-dau-keo-id188', '', '_blank', '1', '1', '1482958655', '1', '0', '0', '1', '1');
+INSERT INTO `banners` VALUES ('57', 'Xe chuyên dụng, xe nâng đầu, xe bồn', 'ems1482958668.jpg', 'http://xeototai.vn/tintuc/xe-dau-keo-id188', '', '_blank', '1', '1', '1482958668', '1', '0', '0', '1', '1');
 
 -- ----------------------------
 -- Table structure for categories_multi
@@ -1149,29 +1149,29 @@ CREATE TABLE `menus` (
 -- ----------------------------
 -- Records of menus
 -- ----------------------------
-INSERT INTO `menus` VALUES ('99', 'Xe gắn cẩu', null, '/category/xe-gan-cau-id167', '_self', '1', '5', '0', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('99', 'Xe gắn cẩu', null, '/tintuc/xe-gan-cau-id167', '_self', '1', '5', '0', '98', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('98', 'Xe Chuyên Dụng', null, '/', '_self', '1', '5', '0', '0', '1', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('90', 'Giới thiệu', null, '/detail/static/gioi-thieu-id5', '_self', '1', '4', '5', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('91', 'Liên Hệ', null, '/lien-he', '_self', '1', '4', '6', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('92', 'Video', null, '/video', '_self', '1', '4', '7', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('93', 'Gallery', null, '/gallery', '_self', '1', '4', '8', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('94', 'Xe theo tải trọng', null, '/', '_self', '1', '5', '0', '0', '1', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('95', 'Xe tải nhỏ ', null, '/category/xe-tai-nho-id177', '_self', '1', '5', '0', '94', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('96', 'Xe tải hạng trung', null, '/category/xe-tai-co-trung-id178', '_self', '1', '5', '2', '94', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('97', 'Xe tải hạng nặng', null, '/category/xe-tai-hang-nang-id179', '_self', '1', '5', '3', '94', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('95', 'Xe tải nhỏ ', null, '/tintuc/xe-tai-nho-id177', '_self', '1', '5', '0', '94', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('96', 'Xe tải hạng trung', null, '/tintuc/xe-tai-co-trung-id178', '_self', '1', '5', '2', '94', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('97', 'Xe tải hạng nặng', null, '/tintuc/xe-tai-hang-nang-id179', '_self', '1', '5', '3', '94', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('89', 'Mua xe trả góp', null, '/news/cat/mua-xe-tra-gop/184', '_self', '1', '4', '4', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('88', 'Báo giá ô tô', null, '/news/cat/bao-gia-o-to/172', '_self', '1', '4', '3', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('87', 'Tin tức', null, '/news/', '_self', '1', '4', '1', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('86', 'Tư vấn', null, '/news/cat/tu-van/171', '_self', '1', '4', '2', '0', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('77', 'Trang chủ', null, '/home/', '_self', '1', '4', '0', '0', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('100', 'Xe ben tự đổ', null, '/category/xe-ben-tu-do-id168', '_self', '1', '5', '0', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('100', 'Xe ben tự đổ', null, '/tintuc/xe-ben-tu-do-id168', '_self', '1', '5', '0', '98', '0', null, '1', '1', '1');
 INSERT INTO `menus` VALUES ('101', 'Xe con du lịch', null, '/', '_self', '1', '5', '0', '0', '1', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('102', 'Xe Huyndai', null, '/category/xe-con-huyndai-id170', '_self', '1', '5', '0', '101', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('103', 'Xe tải đông lạnh', null, '/category/xe-tai-dong-lanh-id187', '_self', '1', '5', '3', '98', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('104', 'Xe đầu kéo', null, '/category/xe-dau-keo-id188', '_self', '1', '5', '4', '98', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('105', 'Xe bồn - Xe trộn bê tông', null, '/category/xe-bon-xe-tron-be-tong-id189', '_self', '1', '5', '5', '98', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('107', 'Xe Somi Romooc', null, '/category/xe-somi-romooc-id190', '_self', '1', '5', '7', '98', '0', null, '1', '1', '1');
-INSERT INTO `menus` VALUES ('108', 'Xe cuốn ép rác', null, '/category/xe-cuon-ep-rac-id191', '_self', '1', '5', '8', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('102', 'Xe Huyndai', null, '/tintuc/xe-con-huyndai-id170', '_self', '1', '5', '0', '101', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('103', 'Xe tải đông lạnh', null, '/tintuc/xe-tai-dong-lanh-id187', '_self', '1', '5', '3', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('104', 'Xe đầu kéo', null, '/tintuc/xe-dau-keo-id188', '_self', '1', '5', '4', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('105', 'Xe bồn - Xe trộn bê tông', null, '/tintuc/xe-bon-xe-tron-be-tong-id189', '_self', '1', '5', '5', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('107', 'Xe Somi Romooc', null, '/tintuc/xe-somi-romooc-id190', '_self', '1', '5', '7', '98', '0', null, '1', '1', '1');
+INSERT INTO `menus` VALUES ('108', 'Xe cuốn ép rác', null, '/tintuc/xe-cuon-ep-rac-id191', '_self', '1', '5', '8', '98', '0', null, '1', '1', '1');
 
 -- ----------------------------
 -- Table structure for modules

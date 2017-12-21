@@ -1100,7 +1100,7 @@ function isIE6(){
  * @param  [Integer] $iCat [ID của danh mục đang xem]
  * @return [String]       [r]
  */
-function generateBreadcrumbs($iCat, $module="category", $type=1){
+function generateBreadcrumbs($iCat, $module="tintuc", $type=1){
 
 	$nav	= '<span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""><a title="Trang chủ" href="' . LANG_PATH . '" itemprop="url"><i class="icon_home"></i><span itemprop="title">Trang chủ</span></a></span>';
 

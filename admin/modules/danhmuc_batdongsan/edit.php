@@ -1,26 +1,24 @@
 <?
 include("inc_security.php");
-checkAddEdit("add");
+checkAddEdit("edit");
 
-//Call class menu
-$menu					= new menu();
-$listAll				= $menu->getAllChild("categories_multi", "cat_id", "cat_parent_id", 0, " cat_type='phagia' AND cat_active = 1", "cat_id,cat_name,cat_type", "cat_order ASC,cat_name ASC", "cat_has_child", 0);
-unset($menu);
+$fs_redirect 	= base64_decode(getValue("url","str","GET",base64_encode("listing.php")));
+$record_id 		= getValue("record_id", "int", "GET", 0);
 
 //Khai báo biến khi thêm mới
-$after_save_data	= getValue("after_save_data", "str", "POST", "add.php");
+$after_save_data	= getValue("after_save_data", "str", "POST", "listing.php");
 $add					= "add.php";
 $listing				= "listing.php";
-$fs_title			= "Danh mục bất động sản";
+$fs_title			= "Edit Banner";
 $fs_action			= getURL();
 $fs_redirect		= $after_save_data;
 $fs_errorMsg		= "";
-$db_date			= time();
+
 $ban_end_time 		= 0;
-$ban_str_end_time = getValue('ban_str_end_time', "str", "POST", date("H:i:s", time()));
+$ban_str_end_time = getValue('ban_str_end_time', "str", "POST", '');
 $ban_str_end_date = getValue('ban_str_end_date', "str", "POST", '');
 if($ban_str_end_date != ''){
-    $ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
+	$ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
 }
 
 /*
@@ -43,69 +41,84 @@ $myform->add("db_seo_title", "db_seo_title", 0, 0, "", 1, "Bạn chưa nhập ti
 $myform->add("db_seo_description", "db_seo_description", 0, 0, "", 1, "Bạn chưa nhập mô tả.", 0, "");
 $myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
 $myform->addTable($fs_table);
+
 //Get action variable for add new data
 $action				= getValue("action", "str", "POST", "");
 //Check $action for insert new data
 if($action == "execute"){
-    //Check form data
-    $fs_errorMsg .= $myform->checkdata();
 
-//    //Get $filename and upload
-//    $filename	= "";
-//    if($fs_errorMsg == ""){
-//        $upload			= new upload($fs_fieldupload, $fs_filepath, $fs_extension, $fs_filesize, $fs_insert_logo);
-//        $filename		= $upload->file_name;
-//        $fs_errorMsg	.= $upload->warning_error;
-//    }
+	//Check form data
+	$fs_errorMsg .= $myform->checkdata();
 
-    if($fs_errorMsg == ""){
-//        if($filename != ""){
-//            $$fs_fieldupload = $filename;
-//            $myform->add($fs_fieldupload, $fs_fieldupload, 0, 1, "", 0, "", 0, "");
-//            // resize
-//            //$upload->resize_image($fs_filepath, $filename, $width_small_image, $height_small_image, "small_", $fs_filepath . "small/");
-//            //$upload->resize_image($fs_filepath, $filename, $width_normal_image, $height_normal_image, "normal_");
+//	//Get $filename and upload
+//	$filename	= "";
+//	if($fs_errorMsg == ""){
+//		$upload			= new upload($fs_fieldupload, $fs_filepath, $fs_extension, $fs_filesize, $fs_insert_logo);
+//		$filename		= $upload->file_name;
 //
-//        }//End if($filename != "")
+//		$fs_errorMsg	.= $upload->warning_error;
+//	}
 
-        //Insert to database
-        $myform->removeHTML(0);
-//        var_dump($myform->generate_insert_SQL());
-        $db_insert = new db_execute($myform->generate_insert_SQL());
-        unset($db_insert);
+	if($fs_errorMsg == ""){
+//		if($filename != ""){
+//			$$fs_fieldupload = $filename;
+//			$myform->add($fs_fieldupload, $fs_fieldupload, 0, 1, "", 0, "", 0, "");
+//		}//End if($filename != "")
 
+		//Update database
+		$myform->removeHTML(0);
+		$db_update	= new db_execute($myform->generate_update_SQL($id_field, $record_id));
+		unset($db_update);
 
-        //Redirect after insert complate
-        redirect($fs_redirect);
+		//Redirect after insert complate
+		redirect($fs_redirect);
 
-    }//End if($fs_errorMsg == "")
+	}//End if($fs_errorMsg == "")
 
-}//End if($action == "insert")
+}//End if($action == "execute")
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <?=$load_header?>
-    <?
-    //add form for javacheck
-    $myform->addFormname("add");
-    $myform->checkjavascript();
-    //chuyển các trường thành biến để lấy giá trị thay cho dùng kiểu getValue
-    $myform->evaluate();
-    $fs_errorMsg .= $myform->strErrorField;
-    ?>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<?=$load_header?>
+<?
+//add form for javacheck
+$myform->addFormname("add");
+
+$myform->checkjavascript();
+//chuyển các trường thành biến để lấy giá trị thay cho dùng kiểu getValue
+$myform->evaluate();
+$fs_errorMsg .= $myform->strErrorField;
+
+//lay du lieu cua record can sua doi
+$db_data 	= new db_query("SELECT * FROM " . $fs_table . " WHERE " . $id_field . " = " . $record_id);
+if($row 		= mysql_fetch_assoc($db_data->result)){
+	foreach($row as $key=>$value){
+		if($key!='lang_id' && $key!='admin_id') $$key = $value;
+	}
+}else{
+		exit();
+}
+$ban_str_end_time	= date("H:i:s", time());
+$ban_str_end_date	= "";
+if($ban_end_time > 0){
+	$ban_str_end_time = date("H:i:s", $ban_end_time);
+	$ban_str_end_date = date("d/m/Y", $ban_end_time);
+}
+
+?>
 </head>
 <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
 <? /*------------------------------------------------------------------------------------------------*/ ?>
 <?=template_top($fs_title)?>
 <? /*------------------------------------------------------------------------------------------------*/ ?>
-<p align="center" style="padding-left:10px;">
-    <?
-    $form = new form();
-    $form->create_form("add", $fs_action, "post", "multipart/form-data");
-    $form->create_table();
-    ?>
+	<p align="center" style="padding-left:10px;">
+	<?
+	$form = new form();
+	$form->create_form("add", $fs_action, "post", "multipart/form-data");
+	$form->create_table();
+	?>
     <?=$form->text_note('Những ô có dấu sao (<font class="form_asterisk">*</font>) là bắt buộc phải nhập.')?>
     <?=$form->errorMsg($fs_errorMsg)?>
     <?=$form->text("Tên danh mục", "db_categories_name", "db_categories_name", $db_categories_name, "Tên danh mục", 1, 250, "", 255, "", "", "")?>
@@ -120,8 +133,8 @@ if($action == "execute"){
     $form->close_table();
     $form->close_form();
     unset($form);
-    ?>
-</p>
+	?>
+	</p>
 <? /*------------------------------------------------------------------------------------------------*/ ?>
 <?=template_bottom() ?>
 <? /*------------------------------------------------------------------------------------------------*/ ?>

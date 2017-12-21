@@ -821,7 +821,7 @@ class generate_infomation_attribute{
 					//kiểu multi select
 					case 1:
 						//------------------------------------------------------------------------>
-							//chèn tiêu đề infomation category vào
+							//chèn tiêu đề infomation tintuc vào
 							$strreturn 	.= '<div class="info_category">' . $value["ica_name"] . '</div>';
 							//hiển thị theo dạng 2 cột
 							

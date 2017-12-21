@@ -30,10 +30,10 @@ $arrType             = array (	1 => "Tin tức",
 );
 
 $arrPositon				= array(	1 => "Banner top",
-                                    2 => "Banner category left",
+                                    2 => "Banner tintuc left",
                                     3 => "Banner right",
                                     4 => "Banner bottom",
-                                    5 => "Banner category center",
+                                    5 => "Banner tintuc center",
                                     6 => "Banner home product",
                                     7 => "Banner Tin tức - R1",
                                     8 => "Banner Tin tức - R2",

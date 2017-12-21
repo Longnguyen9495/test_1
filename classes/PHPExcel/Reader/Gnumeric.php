@@ -18,7 +18,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  *
- * @category   PHPExcel
+ * @tintuc   PHPExcel
  * @package    PHPExcel_Reader
  * @copyright  Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
@@ -38,7 +38,7 @@ if (!defined('PHPEXCEL_ROOT')) {
 /**
  * PHPExcel_Reader_Gnumeric
  *
- * @category   PHPExcel
+ * @tintuc   PHPExcel
  * @package    PHPExcel_Reader
  * @copyright  Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  */
@@ -322,7 +322,7 @@ class PHPExcel_Reader_Gnumeric implements PHPExcel_Reader_IReader
 									case 'publisher' :
 											$docProps->setCompany(trim($propertyValue));
 											break;
-									case 'category' :
+									case 'tintuc' :
 											$docProps->setCategory(trim($propertyValue));
 											break;
 									case 'manager' :
@@ -347,7 +347,7 @@ class PHPExcel_Reader_Gnumeric implements PHPExcel_Reader_IReader
 					case 'keywords' :
 						$docProps->setKeywords(trim($propertyValue));
 						break;
-					case 'category' :
+					case 'tintuc' :
 						$docProps->setCategory(trim($propertyValue));
 						break;
 					case 'manager' :

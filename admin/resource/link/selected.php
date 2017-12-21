@@ -12,7 +12,7 @@ $fs_action	= getURL();
 $object		= getValue("object", "str", "GET", "");
 $iCat			= getValue("iCat");
 
-// Xác định module khi user đã chọn category
+// Xác định module khi user đã chọn tintuc
 $db_module	= new db_query("SELECT cat_type FROM categories_multi WHERE cat_id = " . $iCat . " AND lang_id = " . $lang_id);
 $module		= ($row = mysql_fetch_array($db_module->result)) ? $row["cat_type"] : "";
 $db_module->close();
@@ -49,7 +49,7 @@ foreach($array_data as $key => $value){
 //---------------------------- Create link to Category -----------------------------------
 $db_category 	= new db_query("SELECT cat_id AS iCat, cat_name AS nTitle FROM categories_multi WHERE cat_id = " . $iCat);
 $row				= mysql_fetch_assoc($db_category->result);
-$link_category	= ($iCat == 0) ? "" : createLink("category", $row);
+$link_category	= ($iCat == 0) ? "" : createLink("tintuc", $row);
 unset($db_category);
 
 $form = new form();
@@ -79,8 +79,8 @@ $form->create_table('', '', 'style="width: 98%;"');
 		</select>
 	</td>
 </tr>
-<?=$form->text("Link tới category", "link_category", "link_category", $link_category, "Link tới category", 0, 250, "", 1000, "", 'disabled="disabled"', "")?>
-<?=$form->button("button", "create_link_category", "create_link_category", "Tạo link", "Tạo link tới category", '" onClick="link_to_category()"', "");?>
+<?=$form->text("Link tới tintuc", "link_category", "link_category", $link_category, "Link tới tintuc", 0, 250, "", 1000, "", 'disabled="disabled"', "")?>
+<?=$form->button("button", "create_link_category", "create_link_category", "Tạo link", "Tạo link tới tintuc", '" onClick="link_to_category()"', "");?>
 <?=$form->hidden("object", "object", $object, "");?>
 <?
 $form->close_table();

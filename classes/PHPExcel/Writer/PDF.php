@@ -18,7 +18,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Writer
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  * @license		http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
@@ -33,7 +33,7 @@ require_once PHPEXCEL_ROOT . 'PHPExcel/Shared/PDF/tcpdf.php';
 /**
  * PHPExcel_Writer_PDF
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Writer
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  */

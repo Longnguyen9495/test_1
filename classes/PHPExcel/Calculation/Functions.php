@@ -18,7 +18,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  * @license		http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
@@ -58,7 +58,7 @@ if ($savedPrecision < 16) {
 /**
  * PHPExcel_Calculation_Functions
  *
- * @category	PHPExcel
+ * @tintuc	PHPExcel
  * @package		PHPExcel_Calculation
  * @copyright	Copyright (c) 2006 - 2010 PHPExcel (http://www.codeplex.com/PHPExcel)
  */
@@ -111,7 +111,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Set the Compatibility Mode
 	 *
 	 *	@access	public
-	 *	@category Function Configuration
+	 *	@tintuc Function Configuration
 	 *	@param	 string		$compatibilityMode		Compatibility Mode
 	 *												Permitted values are:
 	 *													PHPExcel_Calculation_Functions::COMPATIBILITY_EXCEL			'Excel'
@@ -134,7 +134,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Return the current Compatibility Mode
 	 *
 	 *	@access	public
-	 *	@category Function Configuration
+	 *	@tintuc Function Configuration
 	 *	@return	 string		Compatibility Mode
 	 *							Possible Return values are:
 	 *								PHPExcel_Calculation_Functions::COMPATIBILITY_EXCEL			'Excel'
@@ -150,7 +150,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Set the Return Date Format used by functions that return a date/time (Excel, PHP Serialized Numeric or PHP Object)
 	 *
 	 *	@access	public
-	 *	@category Function Configuration
+	 *	@tintuc Function Configuration
 	 *	@param	 string	$returnDateType			Return Date Format
 	 *												Permitted values are:
 	 *													PHPExcel_Calculation_Functions::RETURNDATE_PHP_NUMERIC		'P'
@@ -173,7 +173,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Return the current Return Date Format for functions that return a date/time (Excel, PHP Serialized Numeric or PHP Object)
 	 *
 	 *	@access	public
-	 *	@category Function Configuration
+	 *	@tintuc Function Configuration
 	 *	@return	 string		Return Date Format
 	 *							Possible Return values are:
 	 *								PHPExcel_Calculation_Functions::RETURNDATE_PHP_NUMERIC		'P'
@@ -189,7 +189,7 @@ class PHPExcel_Calculation_Functions {
 	 *	DUMMY
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#Not Yet Implemented
 	 */
 	public static function DUMMY() {
@@ -201,7 +201,7 @@ class PHPExcel_Calculation_Functions {
 	 *	DIV0
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#Not Yet Implemented
 	 */
 	public static function DIV0() {
@@ -219,7 +219,7 @@ class PHPExcel_Calculation_Functions {
 	 *		#N/A is the error value that means "no value is available."
 	 *
 	 *	@access	public
-	 *	@category Logical Functions
+	 *	@tintuc Logical Functions
 	 *	@return	string	#N/A!
 	 */
 	public static function NA() {
@@ -233,7 +233,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Returns the error value #NUM!
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#NUM!
 	 */
 	public static function NaN() {
@@ -247,7 +247,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Returns the error value #NAME?
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#NAME?
 	 */
 	public static function NAME() {
@@ -261,7 +261,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Returns the error value #REF!
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#REF!
 	 */
 	public static function REF() {
@@ -275,7 +275,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Returns the error value #NULL!
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#REF!
 	 */
 	public static function NULL() {
@@ -289,7 +289,7 @@ class PHPExcel_Calculation_Functions {
 	 *	Returns the error value #VALUE!
 	 *
 	 *	@access	public
-	 *	@category Error Returns
+	 *	@tintuc Error Returns
 	 *	@return	string	#VALUE!
 	 */
 	public static function VALUE() {

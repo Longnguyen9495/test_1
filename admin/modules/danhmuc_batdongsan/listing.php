@@ -20,7 +20,7 @@ if ($search_id > 0) $sqlWhere .= " AND db_id = " . $search_id;
 
 // Search từ khóa
 if ($search_keyword != "") {
-    $sqlWhere .= " AND db_name LIKE '%" . $search_keyword . "%'";
+    $sqlWhere .= " AND db_categories_name LIKE '%" . $search_keyword . "%'";
 }
 
 
@@ -32,7 +32,7 @@ if ($create_date > 0 && $str_create_date != "" && $str_create_date != "dd/mm/yyy
 }
 
 // Phân trang
-$page_size = 5;
+$page_size = 10;
 $page_prefix = "Trang: ";
 $normal_class = "page";
 $selected_class = "page_current";
@@ -77,7 +77,6 @@ $db_listing = new db_query("	SELECT *
         }
 
         .form-control-search {
-            font-family: arial;
             font-size: 12px;
             height: 23px;
             padding: 2px 5px;
@@ -99,6 +98,7 @@ $db_listing = new db_query("	SELECT *
             padding: 5px;
             box-shadow: 0px 1px 2px #999999;
             border: 1px #DDDDDD solid;
+            margin-bottom: 5px;
         }
 
         table td {
@@ -124,80 +124,57 @@ $db_listing = new db_query("	SELECT *
             margin: 0 5px;
         }
 
+        legend {
+            margin-bottom: 0;
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
-<legend>Danh Sách Bất Động Sản</legend>
+<legend>Danh Mục Bất Động Sản</legend>
 <div class="search">
     <form action="" method="get">
         <table>
-            <tbody>
             <tr>
+                <td class="form-label-sm">ID :</td>
+                <td><input type="text" class="form-control form-control-search form-control-sm" placeholder="Link..."
+                           name="search_id" id="search_id" value="<?= $search_id ?>"></td>
                 <td class="form-label-sm">Name :</td>
                 <td><input type="text" class="form-control form-control-search form-control-sm" placeholder="Name..."
                            name="search_keyword" id="search_keyword" value="<?= $search_keyword ?>"></td>
-                <td class="form-label-sm">ID :</td>
-                <td><input type="text" class="form-control form-control-search form-control-sm" placeholder="Link..."
-                           name="search_id" value="<?= $search_id ?>"></td>
-                <td class="form-label-sm">Type :</td>
-                <td>
-                    <select class="form-control form-control-search form-control-sm" id="search_type" name="search_type"
-                            style="height: 25px">
-                        <option value="">Chọn Lĩnh vực</option>
-                        <?php foreach ($arrTypes as $key => $value) { ?>
-                            <option value="<?= $key ?>"<?= $key == $search_type ? 'selected = selected' : null ?>><?= $value ?></option>
-                        <? } ?>
-                    </select>
-                </td>
-                <td class="form-label-sm">Date :</td>
-                <td>
-                    <input type="date" class="form-control form-control-search form-control-sm date"
-                           placeholder="Date..." name="date_pha" value="<?= $str_create_date ?>"</td>
                 <td>
                     <button class="btn btn-info btn-search">Tìm Kiếm</button>
                 </td>
             </tr>
-            </tbody>
         </table>
     </form>
 </div>
 <table class="table table-condensed table-hover table-bordered">
-
-
     <thead>
     <tr>
         <th>STT</th>
-        <th width="100px">Tên bất động sản</th>
-        <th>Hình ảnh</th>
-        <th>Link</th>
+        <th width="100px">Tên Danh Mục</th>
         <th>Mô tả chi tiết</th>
+        <th>SEO từ khóa</th>
+        <th>SEO tiêu đề</th>
+        <th>SEO mô tả chi tiết</th>
         <th>Active</th>
-        <th>Hình thức</th>
-        <th>Thời gian</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
     </thead>
     <tbody>
     <?
-    $No = ($current_page - 1) * $page_size;
     while ($row = mysql_fetch_assoc($db_listing->result)) {
         ?>
         <tr>
             <td><?= $row['db_id'] ?></td>
-            <td><?= $row['db_name'] ?></td>
-            <td align="center">
-                <a href="" border="0" target="_blank">
-                    <img src="<?= $fs_filepath . $row['db_image'] ?>" width="100" height="20" style="max-width: 100%"/>
-                </a>
-            </td>
-            <td><?= $row['db_link'] ?></td>
+            <td><?= $row['db_categories_name'] ?></td>
             <td><?= $row['db_description'] ?></td>
-            <td>
-                <input type="checkbox">
-            </td>
-            <td><?= $arrTypes[$row['db_type']] ?></td>
-            <td><?= date("d/m/Y", $row['db_date']) ?></td>
+            <td><?= $row['db_seo_keyword'] ?></td>
+            <td><?= $row['db_seo_title'] ?></td>
+            <td><?= $row['db_seo_description'] ?></td>
+            <td><input type="checkbox"></td>
             <td>
                 <a style="font-size: 14px;"
                    href="edit.php?record_id=<?= $row['db_id'] ?>&url=<?= base64_encode($_SERVER['REQUEST_URI']) ?>"><img
@@ -231,8 +208,6 @@ $db_listing = new db_query("	SELECT *
 </table>
 </body>
 </html>
-<script type="text/javascript">
-    function check_actives_ajax() {
-        // alert(111);
-    }
+<script>
+
 </script>
