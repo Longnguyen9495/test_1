@@ -1,0 +1,59 @@
+22/12/2017 05:31:59 ::1 /admin/modules/City/listing.php?search_id=0&search_keyword=long
+C:\xampp\htdocs\dailymotion\admin\modules\city\listing.php
+ -----***---- 
+Unknown column 'db_categories_name' in 'where clause' :  
+  SELECT count(*) AS count
+												FROM db_city
+												WHERE 1  AND db_categories_name LIKE '%long%'
+ -----***---- 
+22/12/2017 05:36:09 ::1 /admin/modules/City/listing.php?
+_FILE_
+ -----***---- 
+Table 'db_video.city' doesn't exist :  
+SELECT db_id,db_name
+          FROM city
+          WHERE cit_parent_id = 0 
+          ORDER BY cit_order ASC
+ -----***---- 
+22/12/2017 05:37:38 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:38 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:50 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:50 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:50 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:51 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 
+22/12/2017 05:37:51 ::1 /admin/modules/City/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM city WHERE cit_parent_id = 
+ -----***---- 

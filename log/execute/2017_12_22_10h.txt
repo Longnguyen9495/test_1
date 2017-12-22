@@ -1,0 +1,30 @@
+1|admin|22/12/2017 10:04:26 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:04:31 ::1 /admin/modules/City/delete.php?record_id=8&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:04:34 ::1 /admin/modules/City/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:04:54 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:05:16 ::1 /admin/modules/City/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:05:54 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 10:06:02 ::1 /admin/modules/danhmuc_batdongsan/delete.php?record_id=14&url=L2FkbWluL21vZHVsZXMvZGFuaG11Y19iYXRkb25nc2FuL2xpc3RpbmcucGhw
+DELETE FROM list_batdongsan WHERE db_id IN(14)
+ -----***---- 
+1|admin|22/12/2017 10:06:49 ::1 /admin/modules/City/delete.php?record_id=7&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(7)
+ -----***---- 
+1|admin|22/12/2017 10:07:19 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(6)
+ -----***---- 
+1|admin|22/12/2017 10:07:38 ::1 /admin/modules/City/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(9)
+ -----***---- 

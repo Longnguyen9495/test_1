@@ -1,0 +1,6 @@
+22/12/2017 04:34:09 ::1 /admin/modules/City/add.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'long' at line 1 :  
+SELECT * FROM db_city WHERE db_parent_id = long
+ -----***---- 

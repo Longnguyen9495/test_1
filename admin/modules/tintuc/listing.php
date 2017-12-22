@@ -6,12 +6,6 @@ $list 				= new fsDataGird($id_field,$name_field,translate_text("Tin Tức Listi
 
 $ban_type 			= $arrType;
 $ban_position		= $arrPositon;
-
-//
-$query = new db_query("select db_id,db_name from danhmuc_batdongsan");
-while ($row = mysql_fetch_assoc($query->result)){
-    $db_categories_id[$row['db_id']] = $row['db_name'];
-}
 /*
 1: Ten truong trong bang
 2: Tieu de header
@@ -22,9 +16,10 @@ while ($row = mysql_fetch_assoc($query->result)){
 4: co sap xep hay khong, co thi de la 1, khong thi de la 0
 5: co tim kiem hay khong, co thi de la 1, khong thi de la 0
 */
+
 $list->add($name_field,translate_text("Tên tin tức"),"string",1,1);
 $list->add("db_picture",translate_text("Ảnh minh họa"),"picture",1,0);
-$list->add("db_categories_id","Loại danh mục","array",0,1);
+$list->add("db_categories_id","Loại danh mục","string",0,1);
 $list->add("db_active",translate_text("active"),"checkbox",1,0);
 $list->add("db_decription",translate_text("Chi tiết"),1,0);
 $list->add("db_date",translate_text("Date"),"date",1,1);

@@ -1,0 +1,15 @@
+1|admin|22/12/2017 04:21:35 ::1 /admin/modules/City/delete.php?
+DELETE FROM db_city WHERE db_id IN(5)
+ -----***---- 
+1|admin|22/12/2017 04:25:42 ::1 /admin/modules/City/delete.php?
+DELETE FROM db_city WHERE db_id IN(4)
+ -----***---- 
+1|admin|22/12/2017 04:25:43 ::1 /admin/modules/City/delete.php?
+DELETE FROM db_city WHERE db_id IN(3)
+ -----***---- 
+1|admin|22/12/2017 04:25:45 ::1 /admin/modules/City/delete.php?
+DELETE FROM db_city WHERE db_id IN(2)
+ -----***---- 
+1|admin|22/12/2017 04:25:46 ::1 /admin/modules/City/delete.php?
+DELETE FROM db_city WHERE db_id IN(1)
+ -----***---- 

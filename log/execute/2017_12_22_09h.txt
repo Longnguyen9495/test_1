@@ -1,0 +1,21 @@
+1|admin|22/12/2017 09:39:32 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 09:40:31 ::1 /admin/modules/City/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 09:41:39 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 09:52:42 ::1 /admin/modules/tintuc/delete.php?
+DELETE FROM db_tintuc WHERE db_id IN(8)
+ -----***---- 
+1|admin|22/12/2017 09:58:01 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 09:58:04 ::1 /admin/modules/City/delete.php?record_id=6&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 
+1|admin|22/12/2017 09:59:27 ::1 /admin/modules/City/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(0)
+ -----***---- 

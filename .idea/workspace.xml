@@ -2,183 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/delete.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/listing.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/admin_user/add.php" afterPath="$PROJECT_DIR$/admin/modules/admin_user/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/admin_user/edit.php" afterPath="$PROJECT_DIR$/admin/modules/admin_user/edit.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/banners/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/banners/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/add.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/delete.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/delete.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/edit.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/edit.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan/listing.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/add.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/delete.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/delete.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/edit.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/edit.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/categories_multi/delete.php" afterPath="$PROJECT_DIR$/admin/modules/categories_multi/delete.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/categories_multi/edit.php" afterPath="$PROJECT_DIR$/admin/modules/categories_multi/edit.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/categories_multi/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/categories_multi/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/category/add.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/category/delete.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/delete.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/category/edit.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/edit.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/category/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/category/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/video/add.php" afterPath="$PROJECT_DIR$/admin/modules/video/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/resource/link/selected.php" afterPath="$PROJECT_DIR$/admin/resource/link/selected.php" />
-      <change beforePath="$PROJECT_DIR$/admin/resource/security/functions.php" afterPath="$PROJECT_DIR$/admin/resource/security/functions.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel.php" afterPath="$PROJECT_DIR$/classes/PHPExcel.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Autoloader.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Autoloader.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/APC.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/APC.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/CacheBase.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/DiscISAM.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/ICache.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/ICache.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Memcache.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Memory.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Memory.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/PHPTemp.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/CachedObjectStorage/Wincache.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/DateTime.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/DateTime.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Engineering.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Engineering.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Exception.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Exception.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/ExceptionHandler.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/ExceptionHandler.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Financial.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Financial.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/FormulaParser.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/FormulaParser.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/FormulaToken.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/FormulaToken.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Function.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Function.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Functions.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Functions.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Logical.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Logical.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/LookupRef.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/LookupRef.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/MathTrig.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/MathTrig.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Statistical.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/Statistical.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Calculation/TextData.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Calculation/TextData.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/AdvancedValueBinder.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/AdvancedValueBinder.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/DataType.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/DataType.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/DataValidation.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/DataValidation.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/DefaultValueBinder.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/DefaultValueBinder.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/Hyperlink.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/Hyperlink.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Cell/IValueBinder.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Cell/IValueBinder.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Comment.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Comment.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/DocumentProperties.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/DocumentProperties.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/DocumentSecurity.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/DocumentSecurity.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/HashTable.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/HashTable.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/IComparable.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/IComparable.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/IOFactory.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/IOFactory.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/NamedRange.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/NamedRange.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/CSV.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/CSV.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/DefaultReadFilter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/DefaultReadFilter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel2003XML.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel2003XML.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel2007.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel2007.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel5.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel5.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel5/Escher.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Excel5/Escher.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Gnumeric.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Gnumeric.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/IReadFilter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/IReadFilter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/IReader.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/IReader.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/OOCalc.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/OOCalc.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/SYLK.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/SYLK.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Reader/Serialized.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Reader/Serialized.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/ReferenceHelper.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/ReferenceHelper.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/RichText.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/RichText.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/RichText/ITextElement.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/RichText/ITextElement.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/RichText/Run.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/RichText/Run.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/RichText/TextElement.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/RichText/TextElement.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Settings.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Settings.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/CodePage.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/CodePage.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Date.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Date.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Drawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Drawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Excel5.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Excel5.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/File.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/File.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/Font.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/Font.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS/File.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS/File.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLE/PPS/Root.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLERead.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/OLERead.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/PasswordHasher.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/PasswordHasher.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/String.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/String.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/XMLWriter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/XMLWriter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/ZipStreamWrapper.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/ZipStreamWrapper.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/bestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/bestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/linearBestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/linearBestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/powerBestFitClass.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Shared/trend/powerBestFitClass.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Alignment.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Alignment.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Border.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Border.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Borders.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Borders.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Color.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Color.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Conditional.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Conditional.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Fill.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Fill.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Font.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Font.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/NumberFormat.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/NumberFormat.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Style/Protection.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Style/Protection.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/BaseDrawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/BaseDrawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/CellIterator.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/CellIterator.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/ColumnDimension.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/ColumnDimension.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Drawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Drawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Drawing/Shadow.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Drawing/Shadow.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/HeaderFooter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/HeaderFooter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/MemoryDrawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/MemoryDrawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/PageMargins.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/PageMargins.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/PageSetup.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/PageSetup.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Protection.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Protection.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Row.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/Row.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/RowDimension.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/RowDimension.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/RowIterator.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/RowIterator.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/SheetView.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Worksheet/SheetView.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/WorksheetIterator.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/WorksheetIterator.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/CSV.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/CSV.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Comments.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Comments.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/ContentTypes.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/ContentTypes.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/DocProps.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/DocProps.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Drawing.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Drawing.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Rels.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Rels.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/StringTable.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/StringTable.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Style.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Style.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Theme.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Theme.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Workbook.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Workbook.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Worksheet.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/Worksheet.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/WriterPart.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel2007/WriterPart.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/BIFFwriter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/BIFFwriter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Escher.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Escher.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Font.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Font.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Parser.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Parser.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Workbook.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Workbook.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Worksheet.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Worksheet.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Xf.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Excel5/Xf.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/HTML.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/HTML.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/IWriter.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/IWriter.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/PDF.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/PDF.php" />
-      <change beforePath="$PROJECT_DIR$/classes/PHPExcel/Writer/Serialized.php" afterPath="$PROJECT_DIR$/classes/PHPExcel/Writer/Serialized.php" />
-      <change beforePath="$PROJECT_DIR$/classes/generate_information_attribute.php" afterPath="$PROJECT_DIR$/classes/generate_information_attribute.php" />
-      <change beforePath="$PROJECT_DIR$/classes/history.php" afterPath="$PROJECT_DIR$/classes/history.php" />
-      <change beforePath="$PROJECT_DIR$/classes/menu.php" afterPath="$PROJECT_DIR$/classes/menu.php" />
-      <change beforePath="$PROJECT_DIR$/classes/social/google/contrib/Google_ShoppingService.php" afterPath="$PROJECT_DIR$/classes/social/google/contrib/Google_ShoppingService.php" />
-      <change beforePath="$PROJECT_DIR$/classes/social/google/contrib/Google_YouTubeService.php" afterPath="$PROJECT_DIR$/classes/social/google/contrib/Google_YouTubeService.php" />
-      <change beforePath="$PROJECT_DIR$/functions/function_website.php" afterPath="$PROJECT_DIR$/functions/function_website.php" />
-      <change beforePath="$PROJECT_DIR$/functions/functions.php" afterPath="$PROJECT_DIR$/functions/functions.php" />
-      <change beforePath="$PROJECT_DIR$/functions/rewrite_functions.php" afterPath="$PROJECT_DIR$/functions/rewrite_functions.php" />
-      <change beforePath="$PROJECT_DIR$/sqlupdate/db_videos.sql" afterPath="$PROJECT_DIR$/sqlupdate/db_videos.sql" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc/add.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
     </list>
     <ignored path="videos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,115 +24,124 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1315">
-                    <caret line="128" column="30" lean-forward="false" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
-                    <folding>
-                      <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="videos" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
+      <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/city/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="210">
+              <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
               <folding>
-                <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
+                <marker date="1513933552004" expanded="true" signature="1394:1474" ph="SELECT count... " />
+                <marker date="1513933552004" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513933552004" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-              <folding>
-                <marker date="1513845926537" expanded="true" signature="1510:1590" ph="SELECT count... " />
-                <marker date="1513845926537" expanded="true" signature="2091:2226" ph="SELECT * FRO... ${$fs_table}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="149" column="17" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="17" />
-              <folding>
-                <marker date="1513844195326" expanded="true" signature="968:1020" ph="SELECT db_id... list_batdongsan" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xuly.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <marker date="1513840661536" expanded="true" signature="114:151" ph="SELECT * FRO... list_batdongsan" />
-                <marker date="1513840661536" expanded="true" signature="114:160" ph="SELECT * FRO... list_batdongsan" />
-                <marker date="1513840661536" expanded="true" signature="114:177" ph="SELECT * FRO... list_batdongsan" />
-                <marker date="1513840661536" expanded="true" signature="114:178" ph="SELECT * FRO... list_batdongsan" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="inc_security.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php">
+        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <marker date="1513826664624" expanded="true" signature="1649:1700" ph="SELECT * FRO... list_batdongsan" />
-              </folding>
+            <state relative-caret-position="193">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
+        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="370">
+              <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
               <folding>
-                <marker date="1513826586830" expanded="true" signature="1480:1560" ph="SELECT count... " />
-                <marker date="1513826586830" expanded="true" signature="2061:2196" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513152674920" expanded="true" signature="279:353" ph="DELETE FROM ${$fs_table}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="7" column="103" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/city/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+              <folding>
+                <marker date="1513912888810" expanded="true" signature="3187:3245" ph="SELECT * FRO... ${$fs_table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/modules/city/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1513933675016" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="36" column="84" lean-forward="true" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+              <folding>
+                <marker date="1513149208928" expanded="true" signature="2966:3024" ph="SELECT * FRO... ${$fs_table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc_security.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/city/inc_security.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <marker date="1513933460127" expanded="true" signature="548:591" ph="SELECT * FRO... db_city" />
               </folding>
             </state>
           </provider>
@@ -349,7 +190,6 @@
         <option value="$PROJECT_DIR$/admin/modules/video/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/category/inc_security.php" />
         <option value="$PROJECT_DIR$/admin/modules/video/inc_security.php" />
-        <option value="$PROJECT_DIR$/admin/modules/banners/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/banners/delete.php" />
         <option value="$PROJECT_DIR$/admin/modules/banners/inc_security.php" />
         <option value="$PROJECT_DIR$/admin/modules/category/detele.php" />
@@ -372,17 +212,24 @@
         <option value="$PROJECT_DIR$/admin/modules/batdongsan/aaa.php" />
         <option value="$PROJECT_DIR$/admin/modules/batdongsan/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/category/add.php" />
-        <option value="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/batdongsan_categories/listing.php" />
-        <option value="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/batdongsan_categories/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/batdongsan/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/batdongsan_categories/inc_security.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php" />
-        <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php" />
+        <option value="$PROJECT_DIR$/admin/modules/banners/add.php" />
+        <option value="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/edit.php" />
+        <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/add.php" />
+        <option value="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
+        <option value="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/listing.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/delete.php" />
       </list>
     </option>
   </component>
@@ -394,10 +241,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="754" />
+    <option name="x" value="18" />
+    <option name="y" value="102" />
+    <option name="width" value="1360" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -420,8 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,6 +290,41 @@
             <path>
               <item name="videos" type="b2602c69:ProjectViewProjectNode" />
               <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="city" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="danhmuc_batdongsan" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tintuc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tintuc_batdongsan" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -460,6 +342,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dailymotion\admin\modules\tintuc" />
+      <recent name="C:\xampp\htdocs\dailymotion\admin\modules\city" />
       <recent name="C:\xampp\htdocs\dailymotion\admin\modules\batdongsan" />
       <recent name="C:\xampp\htdocs\dailymotion\admin\modules\batdongsan_categories" />
       <recent name="C:\xampp\htdocs\dailymotion\admin\modules\category_batdongsan" />
@@ -513,28 +397,33 @@
       <workItem from="1513647599924" duration="20803000" />
       <workItem from="1513733416663" duration="949000" />
       <workItem from="1513820228950" duration="10214000" />
-      <workItem from="1513837399115" duration="5833000" />
+      <workItem from="1513837399115" duration="7092000" />
+      <workItem from="1513850204786" duration="5000" />
+      <workItem from="1513850235810" duration="2717000" />
+      <workItem from="1513906882931" duration="102000" />
+      <workItem from="1513907008789" duration="5032000" />
+      <workItem from="1513912677094" duration="15470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108704000" />
+    <option name="totallyTimeSpent" value="133289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,52 +449,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/modules/banners/add.php</url>
-          <line>118</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/admin/modules/11111/listing.php</url>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/modules/tintuc/add.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/admin/modules/city/add.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/modules/tintuc/add.php</url>
-          <line>131</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/modules/tintuc/add.php</url>
-          <line>132</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/admin/modules/city/inc_security.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/modules/11111/inc_security.php" />
-    <entry file="file://$PROJECT_DIR$/admin/modules/11111/add.php" />
-    <entry file="file://$PROJECT_DIR$/data/image-batdongsan/ofn1513225608.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/image-batdongsan/nre1513308137.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/image-batdongsan/ijj1513304879.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/videoproduct/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -631,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,11 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding>
-            <marker date="1497953078000" expanded="true" signature="6109:6388" ph="SELECT pha_e... phagia" />
-            <marker date="1497953078000" expanded="true" signature="8380:8386" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="8463:8469" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1168">
           <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,18 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="1052" column="9" lean-forward="true" selection-start-line="1052" selection-start-column="9" selection-end-line="1052" selection-end-column="9" />
-          <folding>
-            <marker date="1513672796622" expanded="true" signature="869:913" ph="SELECT * FRO... languages" />
-            <marker date="1513672796622" expanded="true" signature="22894:22907" ph="/*...*/" />
-            <marker date="1513672796622" expanded="true" signature="22922:22929" ph="/*...*/" />
-            <marker date="1513672796622" expanded="true" signature="24838:24958" ph="INSERT INTO logs_all... " />
-            <marker date="1513672796622" expanded="true" signature="32500:32744" ph="..." />
-            <marker date="1513672796622" expanded="false" signature="32522:32535" ph="..." />
-            <marker date="1513672796622" expanded="false" signature="32566:32579" ph="..." />
-            <marker date="1513672796622" expanded="false" signature="32611:32624" ph="..." />
-            <marker date="1513672796622" expanded="false" signature="32656:32669" ph="..." />
-            <marker date="1513672796622" expanded="false" signature="32706:32719" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,38 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/categories_multi/active.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -779,39 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/translate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -822,40 +608,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/batdongsan/aaa.php" />
     <entry file="file://$PROJECT_DIR$/admin/modules/batdongsan/xuly.php" />
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
-          <folding>
-            <marker date="1513826414444" expanded="true" signature="336:380" ph="SELECT db_id... batdongsan" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" column="103" lean-forward="true" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -877,39 +631,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7440">
+          <caret line="372" column="16" lean-forward="false" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="316" column="48" lean-forward="true" selection-start-line="316" selection-start-column="48" selection-end-line="316" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/categories_multi/active.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="550">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="60" selection-end-column="1" />
           <folding>
             <marker date="1513826664624" expanded="true" signature="1649:1700" ph="SELECT * FRO... list_batdongsan" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php">
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="120" column="103" lean-forward="true" selection-start-line="120" selection-start-column="103" selection-end-line="120" selection-end-column="103" />
           <folding>
-            <marker date="1513826586830" expanded="true" signature="1480:1560" ph="SELECT count... " />
-            <marker date="1513826586830" expanded="true" signature="2061:2196" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513913004769" expanded="true" signature="968:1020" ph="SELECT db_id... list_batdongsan" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,53 +686,190 @@
         <state relative-caret-position="160">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
-            <marker date="1513840661536" expanded="true" signature="114:151" ph="SELECT * FRO... list_batdongsan" />
-            <marker date="1513840661536" expanded="true" signature="114:160" ph="SELECT * FRO... list_batdongsan" />
-            <marker date="1513840661536" expanded="true" signature="114:177" ph="SELECT * FRO... list_batdongsan" />
-            <marker date="1513840661536" expanded="true" signature="114:178" ph="SELECT * FRO... list_batdongsan" />
+            <marker date="1513840661536" expanded="true" signature="114:178" ph="SELECT db_na... batdongsan" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/listing.php">
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="316" column="48" lean-forward="true" selection-start-line="316" selection-start-column="48" selection-end-line="316" selection-end-column="48" />
-          <folding>
-            <marker date="1513564858814" expanded="true" signature="541:642" ph="SELECT cat_i... categories_multi" />
-            <marker date="1513564858814" expanded="true" signature="4585:4665" ph="SELECT count... " />
-            <marker date="1513564858814" expanded="true" signature="5175:5319" ph="SELECT * FRO... ${$fs_table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="149" column="17" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="17" />
-          <folding>
-            <marker date="1513844195326" expanded="true" signature="968:1020" ph="SELECT db_id... list_batdongsan" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="315">
+          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <marker date="1513568870379" expanded="true" signature="1424:1498" ph="SELECT count... " />
+            <marker date="1513568870379" expanded="true" signature="1552:1710" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="125" />
+          <folding>
+            <element signature="e#2103#3107#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3580">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1513826586830" expanded="true" signature="1480:1560" ph="SELECT count... " />
+            <marker date="1513826586830" expanded="true" signature="2061:2196" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="108" column="112" lean-forward="true" selection-start-line="108" selection-start-column="112" selection-end-line="108" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <marker date="1513932757639" expanded="true" signature="1256:1330" ph="SELECT count... " />
+            <marker date="1513932757639" expanded="true" signature="1384:1542" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="84" lean-forward="true" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+          <folding>
+            <marker date="1513149208928" expanded="true" signature="2966:3024" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <marker date="1513933460127" expanded="true" signature="548:591" ph="SELECT * FRO... db_city" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
+          <folding>
+            <marker date="1513933552004" expanded="true" signature="1394:1474" ph="SELECT count... " />
+            <marker date="1513933552004" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513933552004" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+        <state relative-caret-position="370">
+          <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
           <folding>
-            <marker date="1513845926537" expanded="true" signature="1510:1590" ph="SELECT count... " />
-            <marker date="1513845926537" expanded="true" signature="2091:2226" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <marker date="1513912888810" expanded="true" signature="3187:3245" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <marker date="1513152674920" expanded="true" signature="279:353" ph="DELETE FROM ${$fs_table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="103" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1513933675016" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
           </folding>
         </state>
       </provider>
