@@ -158,8 +158,7 @@ $db_listing = new db_query("	SELECT *
     </thead>
     <tbody>
     <?
-    while ($row = mysql_fetch_assoc($db_listing->result))
-//    foreach ($db_parent_id as $key => $row)
+    foreach ($db_parent_id as $key => $row)
     {
         ?>
         <tr>
@@ -167,7 +166,7 @@ $db_listing = new db_query("	SELECT *
             <td><?= $row['db_name'] ?></td>
             <td><input type="checkbox"></td>
             <td><?= $row['db_price'] ?></td>
-            <td><?= $row['db_price_id'] ?></td>
+            <td><?= $arrayTransport[$row['db_price_id']] ?></td>
             <td>
                 <a style="font-size: 14px;"
                    href="edit.php?record_id=<?= $row['db_id'] ?>&url=<?= base64_encode($_SERVER['REQUEST_URI']) ?>"><img

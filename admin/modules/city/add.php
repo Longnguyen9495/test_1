@@ -47,7 +47,7 @@ $myform->add("db_parent_id", "db_parent_id", 0, 0, "", 0, "", 0, "");
 $myform->add("db_name", "db_name", 0, 0, "", 1, "Bạn chưa nhập tên banner.", 0, "");
 $myform->add("db_active", "db_active", 1, 0, 0, 0, "", 0, "");
 $myform->add("db_price", "db_price", 1, 0, 0, 0, "", 0, "");
-$myform->add("db_price_id", "db_price_id", 1, 0, 0, 0, "", 0, "");
+$myform->add("db_price_id", "db_price_id", 1, 0, "", 0, "", 0, "");
 $myform->addTable($fs_table);
 //Get action variable for add new data
 $action = getValue("action", "str", "POST", "");
@@ -125,8 +125,8 @@ if ($action == "execute") {
     </tr>
     <?= $form->text("Tên City", "db_name", "db_name", $db_name, "Tên City", 1, 250, "", 255, "", "", "") ?>
     <?= $form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "") ?>
-    <?= $form->text("Tên Giá", "db_price", "db_price", $db_price, "Tên banner", 1, 250, "", 255, "", "", "") ?>
-    <?=$form->select("Hình thức vận chuyển", "db_price_id", "db_price_id", $db_price_id, $db_price_id, "Vận chuyển", 0, 100, "", "", "", "")?>
+    <?= $form->text("Đơn Giá", "db_price", "db_price", $db_price, "Tên banner", 1, 250, "", 255, "", "", "") ?>
+    <?=$form->select("Hình thức vận chuyển", "db_price_id", "db_price_id", $arrayTransport, $db_price_id, "Vận chuyển", 0, 100, "", "", "", "")?>
     <?= $form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, ""); ?>
     <?= $form->hidden("action", "action", "execute", ""); ?>
     <?

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/add.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/delete.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/edit.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/modules/city/listing.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc/add.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/city/add.php" afterPath="$PROJECT_DIR$/admin/modules/city/add.php" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/city/inc_security.php" afterPath="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/city/listing.php" afterPath="$PROJECT_DIR$/admin/modules/city/listing.php" />
+      <change beforePath="$PROJECT_DIR$/log/execute/2017_12_22_10h.txt" afterPath="$PROJECT_DIR$/log/execute/2017_12_22_10h.txt" />
     </list>
     <ignored path="videos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,15 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listing.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/modules/city/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="167" column="34" lean-forward="false" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
               <folding>
-                <marker date="1513933552004" expanded="true" signature="1394:1474" ph="SELECT count... " />
-                <marker date="1513933552004" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
-                <marker date="1513933552004" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513934210598" expanded="true" signature="1394:1474" ph="SELECT count... " />
+                <marker date="1513934210598" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1513934210598" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/city/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
               </folding>
             </state>
           </provider>
@@ -53,47 +70,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php">
+      <file leaf-file-name="inc_security.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+            <state relative-caret-position="350">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/delete.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/banners/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="61" />
               <folding>
-                <marker date="1513152674920" expanded="true" signature="279:353" ph="DELETE FROM ${$fs_table}... " />
+                <element signature="e#2103#3107#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/delete.php">
+      <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/banners/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="7" column="103" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="454">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
-                <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+                <marker date="1513568870379" expanded="true" signature="1424:1498" ph="SELECT count... " />
+                <marker date="1513568870379" expanded="true" signature="1552:1710" ph="SELECT * FRO... ${$fs_table}" />
               </folding>
             </state>
           </provider>
@@ -111,25 +117,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/modules/city/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="260">
+              <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding>
                 <marker date="1513933675016" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="84" lean-forward="true" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
-              <folding>
-                <marker date="1513149208928" expanded="true" signature="2966:3024" ph="SELECT * FRO... ${$fs_table}" />
               </folding>
             </state>
           </provider>
@@ -138,10 +132,10 @@
       <file leaf-file-name="inc_security.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/modules/city/inc_security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="70">
+              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="15" />
               <folding>
-                <marker date="1513933460127" expanded="true" signature="548:591" ph="SELECT * FRO... db_city" />
+                <marker date="1513934042337" expanded="true" signature="551:594" ph="SELECT * FRO... db_city" />
               </folding>
             </state>
           </provider>
@@ -224,12 +218,12 @@
         <option value="$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php" />
         <option value="$PROJECT_DIR$/admin/modules/city/edit.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
-        <option value="$PROJECT_DIR$/admin/modules/city/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc/add.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc/listing.php" />
-        <option value="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
-        <option value="$PROJECT_DIR$/admin/modules/city/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/city/delete.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/inc_security.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/add.php" />
+        <option value="$PROJECT_DIR$/admin/modules/city/listing.php" />
       </list>
     </option>
   </component>
@@ -240,9 +234,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1436" />
     <option name="width" value="1360" />
     <option name="height" value="738" />
   </component>
@@ -402,18 +395,18 @@
       <workItem from="1513850235810" duration="2717000" />
       <workItem from="1513906882931" duration="102000" />
       <workItem from="1513907008789" duration="5032000" />
-      <workItem from="1513912677094" duration="15470000" />
+      <workItem from="1513912677094" duration="16004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133289000" />
+    <option name="totallyTimeSpent" value="133823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-1436" y="0" width="1360" height="738" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2653846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -691,53 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1513568870379" expanded="true" signature="1424:1498" ph="SELECT count... " />
-            <marker date="1513568870379" expanded="true" signature="1552:1710" ph="SELECT * FRO... ${$fs_table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="125" />
-          <folding>
-            <element signature="e#2103#3107#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/city/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3580">
@@ -786,36 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/city/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <marker date="1513933460127" expanded="true" signature="548:591" ph="SELECT * FRO... db_city" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/city/listing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
-          <folding>
-            <marker date="1513933552004" expanded="true" signature="1394:1474" ph="SELECT count... " />
-            <marker date="1513933552004" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
-            <marker date="1513933552004" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/listing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -830,16 +746,6 @@
           <caret line="15" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
           <folding>
             <marker date="1513322285159" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/city/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding>
-            <marker date="1513912888810" expanded="true" signature="3187:3245" ph="SELECT * FRO... ${$fs_table}" />
           </folding>
         </state>
       </provider>
@@ -864,12 +770,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1513826204866" expanded="true" signature="369:421" ph="SELECT db_id... list_batdongsan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="e#2103#3107#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/danhmuc_batdongsan/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/city/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="260">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding>
             <marker date="1513933675016" expanded="true" signature="278:352" ph="DELETE FROM ${$fs_table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <marker date="1513912888810" expanded="true" signature="3187:3245" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <marker date="1513934042337" expanded="true" signature="551:594" ph="SELECT * FRO... db_city" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <marker date="1513568870379" expanded="true" signature="1424:1498" ph="SELECT count... " />
+            <marker date="1513568870379" expanded="true" signature="1552:1710" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/city/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="167" column="34" lean-forward="false" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+          <folding>
+            <marker date="1513934210598" expanded="true" signature="1394:1474" ph="SELECT count... " />
+            <marker date="1513934210598" expanded="true" signature="1975:2035" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1513934210598" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
           </folding>
         </state>
       </provider>

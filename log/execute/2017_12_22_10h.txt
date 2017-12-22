@@ -28,3 +28,30 @@ DELETE FROM db_city WHERE db_id IN(6)
 1|admin|22/12/2017 10:07:38 ::1 /admin/modules/City/delete.php?record_id=9&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
 DELETE FROM db_city WHERE db_id IN(9)
  -----***---- 
+1|admin|22/12/2017 10:12:59 ::1 /admin/modules/City/delete.php?record_id=8&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(8)
+ -----***---- 
+1|admin|22/12/2017 10:13:00 ::1 /admin/modules/City/delete.php?record_id=10&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(10)
+ -----***---- 
+1|admin|22/12/2017 10:13:01 ::1 /admin/modules/City/delete.php?record_id=11&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(11)
+ -----***---- 
+1|admin|22/12/2017 10:16:58 ::1 /admin/modules/City/delete.php?record_id=12&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(12)
+ -----***---- 
+1|admin|22/12/2017 10:17:44 ::1 /admin/modules/City/delete.php?record_id=15&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(15)
+ -----***---- 
+1|admin|22/12/2017 10:17:46 ::1 /admin/modules/City/delete.php?record_id=16&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(16)
+ -----***---- 
+1|admin|22/12/2017 10:18:17 ::1 /admin/modules/City/delete.php?record_id=17&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(17)
+ -----***---- 
+1|admin|22/12/2017 10:18:18 ::1 /admin/modules/City/delete.php?record_id=18&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(18)
+ -----***---- 
+1|admin|22/12/2017 10:18:19 ::1 /admin/modules/City/delete.php?record_id=19&url=L2FkbWluL21vZHVsZXMvQ2l0eS9saXN0aW5nLnBocA==
+DELETE FROM db_city WHERE db_id IN(19)
+ -----***---- 
