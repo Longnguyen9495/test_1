@@ -110,8 +110,6 @@
 
         .information_detail_mixset .img_track_mixset img {
             border-radius: 4px;
-            width: 150px;
-            height: 150px;
         }
 
         .information_detail_mixset .img_track_mixset img:hover {
@@ -128,7 +126,7 @@
         .detail_information_mixset .information_detail_mixset {
             width: 20%;
             float: left;
-            padding: 0px 10px;
+            padding: 0px 3px;
         }
 
         .detail_track_mixset a {
