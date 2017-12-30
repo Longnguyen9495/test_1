@@ -84,7 +84,7 @@ $db_admin_listing = new db_query ("SELECT *
 				<td align="left" class="text">
 					<?
 					$db_access = new db_query("SELECT *
-      											   FROM admin_user, admin_user_right, modules
+      											   FROM admin_user, admin_user_right, includes
       											   WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_id =" . $row['adm_id'], __FILE__, "USE_SLAVE");
 
 					while ($row_access = mysql_fetch_assoc($db_access->result)){

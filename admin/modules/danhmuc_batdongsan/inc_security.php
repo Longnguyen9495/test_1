@@ -15,13 +15,13 @@ $break_page	= "{---break---}";
 $arrTarget				= array (	"_blank"=> "Trang mới",
                                     "_self"	=> "Hiện hành",
 );
-$arrTypes             = array (	1 => "NHÀ ĐẤT BÁN",
-                                2 => "NHÀ ĐẤT CHO THUÊ",
-                                3 => "BÁN ĐẤT BÌNH DƯƠNG",
-                                4 => "BÁN ĐẤT ĐÀ NẴNG",
-                                5 => "TIN TỨC",
-                                6 => "LIÊN HỆ - GÓP Ý",
-                                7 => "LIÊN KẾT",
+$arrTypes               = array (	1 => "NHÀ ĐẤT BÁN",
+                                    2 => "NHÀ ĐẤT CHO THUÊ",
+                                    3 => "BÁN ĐẤT BÌNH DƯƠNG",
+                                    4 => "BÁN ĐẤT ĐÀ NẴNG",
+                                    5 => "TIN TỨC",
+                                    6 => "LIÊN HỆ - GÓP Ý",
+                                    7 => "LIÊN KẾT",
 );
 
 $arrPositon				= array(	1 => "Banner top",

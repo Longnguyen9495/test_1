@@ -7,16 +7,16 @@ $record_id 		= getValue("record_id", "int", "GET", 0);
 
 //Khai báo biến khi thêm mới
 $after_save_data	= getValue("after_save_data", "str", "POST", "listing.php");
-$add					= "add.php";
-$listing				= "listing.php";
+$add				= "add.php";
+$listing			= "listing.php";
 $fs_title			= "Edit Banner";
 $fs_action			= getURL();
 $fs_redirect		= $after_save_data;
 $fs_errorMsg		= "";
 
 $ban_end_time 		= 0;
-$ban_str_end_time = getValue('ban_str_end_time', "str", "POST", '');
-$ban_str_end_date = getValue('ban_str_end_date', "str", "POST", '');
+$ban_str_end_time   = getValue('ban_str_end_time', "str", "POST", '');
+$ban_str_end_date   = getValue('ban_str_end_date', "str", "POST", '');
 if($ban_str_end_date != ''){
 	$ban_end_time		= convertDateTime($ban_str_end_date, $ban_str_end_time);
 }

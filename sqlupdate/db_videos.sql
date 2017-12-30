@@ -1174,7 +1174,7 @@ INSERT INTO `menus` VALUES ('107', 'Xe Somi Romooc', null, '/tintuc/xe-somi-romo
 INSERT INTO `menus` VALUES ('108', 'Xe cuốn ép rác', null, '/tintuc/xe-cuon-ep-rac-id191', '_self', '1', '5', '8', '98', '0', null, '1', '1', '1');
 
 -- ----------------------------
--- Table structure for modules
+-- Table structure for includes
 -- ----------------------------
 DROP TABLE IF EXISTS `modules`;
 CREATE TABLE `modules` (
@@ -1191,7 +1191,7 @@ CREATE TABLE `modules` (
 ) ENGINE=MyISAM AUTO_INCREMENT=115 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of modules
+-- Records of includes
 -- ----------------------------
 INSERT INTO `modules` VALUES ('11', 'Cấu hình chung', 'configuration', 'Cấu hình cho site', 'configuration.php', '0', null, '1', '0');
 INSERT INTO `modules` VALUES ('14', 'Quản lý TK admin', 'admin_user', 'Thêm mới|Danh sách', 'add.php|listing.php', '0', null, '1', '0');
