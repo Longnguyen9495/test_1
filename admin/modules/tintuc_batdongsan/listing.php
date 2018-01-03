@@ -184,7 +184,7 @@ $db_listing = new db_query("	SELECT *
             <td><?= $row['db_name'] ?></td>
             <td align="center">
                 <a href="" border="0" target="_blank">
-                    <img src="<?= $fs_filepath . $row['db_image'] ?>" width="100" height="20" style="max-width: 100%"/>
+                    <img class="img-reponsive" src="<?= $fs_filepath  . $row['db_image'] ?>" width="100" height="100" style="max-width: 100%"/>
                 </a>
             </td>
             <td><?= $row['db_link'] ?></td>

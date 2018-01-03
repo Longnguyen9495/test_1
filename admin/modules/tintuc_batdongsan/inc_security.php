@@ -10,8 +10,8 @@ if(checkAccessModule($module_id) != 1) redirect($fs_denypath);
 $fs_table				= "batdongsan";
 $id_field				= "db_id";
 $name_field				= "db_name";
-$fs_fieldupload		= "db_image";
-$fs_filepath			= "../../../data/image-danhmuc_batdongsan/";
+$fs_fieldupload		    = "db_image";
+$fs_filepath			= "../../../data/image_tintuc_batdongsan/";
 $fs_extension			= "gif,jpg,jpe,jpeg,png,swf";
 $fs_filesize			= 500;
 $width_small_image	= 200;
@@ -22,7 +22,7 @@ $fs_insert_logo		= 0;
 $break_page	= "{---break---}";
 //Array variable
 $arrTarget				= array (	"_blank"=> "Trang mới",
-											"_self"	=> "Hiện hành",
+                                    "_self"	=> "Hiện hành",
 										);
 $arrTypes             = array (	1 => "NHÀ ĐẤT BÁN",
                                  2 => "NHÀ ĐẤT CHO THUÊ",

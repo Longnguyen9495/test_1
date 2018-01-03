@@ -1,0 +1,12 @@
+03/01/2018 04:19:31 ::1 /api_product/add_order.php?
+
+ -----***---- 
+Table 'db_video.orders_c2c_temp' doesn't exist :  
+SHOW FIELDS FROM orders_c2c_temp
+ -----***---- 
+03/01/2018 04:19:32 ::1 /api_product/add_order.php?
+
+ -----***---- 
+Table 'db_video.orders_c2c_temp' doesn't exist :  
+SHOW FIELDS FROM orders_c2c_temp
+ -----***---- 

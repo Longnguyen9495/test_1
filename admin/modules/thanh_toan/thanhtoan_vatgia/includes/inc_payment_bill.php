@@ -77,6 +77,7 @@
             font-size: 14px;
             border-radius: 0;
             outline: none;
+            width: 100%;
         }
 
         .form_label > i {
@@ -95,7 +96,7 @@
         }
 
         .form_input > .form_select {
-            width: 48%;
+            width: 50%;
             height: 35px;
             border: none;
             border-bottom: 1px #d9d9d9 solid;
@@ -198,7 +199,7 @@
                 </span>
                     </label>
                     <label class="form_label form_city" id="label_ord_city">
-                        <i class="ion-ios-location-outliner" aria-hidden="true"></i>
+                        <i class="ion-ios-home-outline" aria-hidden="true"></i>
                         <span class="form_input">
                    <select name="ord_city" id="ord_city" class="form_select">
                        <option value="0">Tỉnh thành phố</option>
