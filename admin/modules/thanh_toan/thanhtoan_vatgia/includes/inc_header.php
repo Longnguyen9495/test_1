@@ -143,7 +143,6 @@
         <div class="process_line">
             <div></div>
         </div>
-
     </div>
     <div class="process_step ">
         <i class="img success"></i>

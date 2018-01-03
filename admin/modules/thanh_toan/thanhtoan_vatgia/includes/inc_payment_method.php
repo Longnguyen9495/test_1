@@ -75,7 +75,9 @@
             padding: 0 15px;
         }
 
-        .form_input input {
+        .form_input_method .ord_name {
+            height: auto !important;
+            width: auto !important;
             vertical-align: middle;
         }
 
@@ -109,7 +111,7 @@
 
         .checkout .checkout_text {
             float: left;
-            width: 55%;
+            width: 75%;
             font-size: 16px;
         }
 
@@ -147,7 +149,7 @@
             background: #F44f00;
             height: 45px;
             float: right;
-            margin-top: -1px;
+            margin-top: 0;
             text-align: center;
             color: white;
             cursor: pointer;
@@ -159,48 +161,40 @@
     </style>
 </head>
 <body>
-<div class="inc_header" id="inc_header">
-    <? include("../includes/inc_header.php"); ?>
-</div>
-<div id="home">
-    <form id="form_step_1">
-        <div class="checkout_title" style="clear: both">Hình thức thanh toán</div>
-        <div class="checkout_address" id="user_address">
-            <div class="address" id="address">
-                <div class="ord_address_form">
-                    <label class="form_label" id="label_ord_name">
-                        <span class="form_input">
-                    <input type="checkbox" name="ord_name" id="ord_name">
+<div id="form_step_1">
+    <div class="checkout_title" style="clear: both">Hình thức thanh toán</div>
+    <div class="checkout_address" id="user_address">
+        <div class="address" id="address">
+            <div class="ord_address_form">
+                <label class="form_label" id="label_ord_name">
+                        <span class="form_input_method">
+                    <input type="radio" name="ord_name" class="ord_name" id="ord_name">
                 Thanh toán qua hình thức online</span>
-                    </label>
-                </div>
-                <div class="checkout_line"></div>
+                </label>
+            </div>
+            <div class="checkout_line"></div>
+        </div>
+    </div>
+    <div class="checkout_title">Đơn hàng của bạn</div>
+    <div class="check_oder">
+        <div class="checkout">
+            <div class="checkout_text">
+                <span>đăng bởi:<strong>Nguyen Thanh Tung</strong></span>
+                <i>Ngày tham gia: 22/07/2017</i>
+            </div>
+            <div class="img_user"><img src=""></div>
+        </div>
+        <div class="product">
+            <div class="img_product">
+                <img src="https://mediamyad.vatgia.vn/photo/users_b_upload/2017/12/wrk1513217620.png">
+            </div>
+            <div class="infomation_product">
+                <p class="text_product">Chân máy giặt - tủ lạnh inox Cảnh Phong</p>
+                <span></span><br>
+                <span class="text_color">12.000.000đ</span>
             </div>
         </div>
-        <div class="checkout_title">Đơn hàng của bạn</div>
-        <div class="check_oder">
-            <div class="checkout">
-                <div class="checkout_text">
-                    <span>đăng bởi:<strong>Nguyen Thanh Tung</strong></span>
-                    <i>Ngày tham gia: 22/07/2017</i>
-                </div>
-                <div class="img_user"><img src=""></div>
-            </div>
-            <div class="product">
-                <div class="img_product">
-                    <img src="https://mediamyad.vatgia.vn/photo/users_b_upload/2017/12/wrk1513217620.png">
-                </div>
-                <div class="infomation_product">
-                    <p class="text_product">Chân máy giặt - tủ lạnh inox Cảnh Phong</p>
-                    <span></span><br>
-                    <span class="text_color">12.000.000đ</span>
-                </div>
-            </div>
-        </div>
-        <div class="inc_input_payment" id="inc_input_payment">
-            <? include("../includes/inc_input_payment.php"); ?>
-        </div>
-    </form>
+    </div>
 </div>
 
 </body>

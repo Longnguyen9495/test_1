@@ -113,49 +113,9 @@
             margin: 10px 0;
         }
 
-        .check_oder {
-            margin: 10px 15px;
-        }
-
-        .check_oder .checkout {
-            width: 100%;
-            height: 100px;
-            border-bottom: 1px #d9d9d9 solid;
-        }
-
-        .checkout .checkout_text {
-            float: left;
-            width: 55%;
-            font-size: 16px;
-        }
-
         .checkout_text i {
             font-size: 13px;
             color: #c2c2c2;
-        }
-
-        .checkout .img_user {
-            float: right;
-            border-radius: 50%;
-            background-color: #333;
-            width: 60px;
-            height: 60px;
-        }
-
-        .check_oder .product {
-            width: 100%;
-            display: block;
-            margin: 10px 0;
-        }
-
-        .img_product {
-            width: 30%;
-            float: left;
-        }
-
-        .infomation_product {
-            width: 65%;
-            float: right;
         }
 
         .checkout_btn a {
@@ -163,7 +123,7 @@
             background: #F44f00;
             height: 45px;
             float: right;
-            margin-top: -1px;
+            margin-top: 0;
             text-align: center;
             color: white;
             cursor: pointer;
@@ -175,32 +135,28 @@
     </style>
 </head>
 <body>
-<div class="inc_header" id="inc_header">
-    <? include("../includes/inc_header.php"); ?>
-</div>
-<div id="home">
-    <form id="form_step_1">
-        <div class="checkout_title" style="clear: both">
-            Thông tin đặt hàng
-        </div>
-        <div class="checkout_address" id="user_address">
-            <div class="address" id="address">
-                <div class="ord_address_form">
-                    <label class="form_label" id="label_ord_name">
-                        <i class="ion-ios-person-outline" aria-hidden="true"></i>
-                        <span class="form_input">
+<div id="form_step_1">
+    <div class="checkout_title" style="clear: both">
+        Thông tin đặt hàng
+    </div>
+    <div class="checkout_address" id="user_address">
+        <div class="address" id="address">
+            <div class="ord_address_form">
+                <label class="form_label" id="label_ord_name">
+                    <i class="ion-ios-person-outline" aria-hidden="true"></i>
+                    <span class="form_input">
                     <input type="tel" name="ord_name" id="ord_name" value="" placeholder="Họ tên người nhận">
                 </span>
-                    </label>
-                    <label class="form_label" id="label_ord_phone">
-                        <i class="ion-ios-telephone-outline" aria-hidden="true"></i>
-                        <span class="form_input">
+                </label>
+                <label class="form_label" id="label_ord_phone">
+                    <i class="ion-ios-telephone-outline" aria-hidden="true"></i>
+                    <span class="form_input">
                     <input type="tel" name="ord_phone" id="ord_phone" value="" placeholder="Điện thoại di động">
                 </span>
-                    </label>
-                    <label class="form_label form_city" id="label_ord_city">
-                        <i class="ion-ios-home-outline" aria-hidden="true"></i>
-                        <span class="form_input">
+                </label>
+                <label class="form_label form_city" id="label_ord_city">
+                    <i class="ion-ios-home-outline" aria-hidden="true"></i>
+                    <span class="form_input">
                    <select name="ord_city" id="ord_city" class="form_select">
                        <option value="0">Tỉnh thành phố</option>
                        <option value="5">Hà Nội</option>
@@ -267,54 +223,30 @@
                        <option value="666">Vĩnh Phúc</option>
                        <option value="676">Yên Bái</option>
                    </select>
-                            <!--                    <i class="form_tick flaticon-v9_checkout_tick"></i>-->
+                        <!--                    <i class="form_tick flaticon-v9_checkout_tick"></i>-->
                 </span>
-                    </label>
-                    <label class="form_label form_district" id="label_ord_district">
+                </label>
+                <label class="form_label form_district" id="label_ord_district">
                 <span class="form_input">
                    <select name="ord_district" id="ord_district" class="form_select">
                        <option value="0">Quận huyện</option>
                    </select>
                     <i class="form_tick flaticon-v9_checkout_tick"></i>
                 </span>
-                    </label>
-                    <label class="form_label" id="label_ord_address">
-                        <i class=""></i>
-                        <span class="form_input">
+                </label>
+                <label class="form_label" id="label_ord_address">
+                    <i class=""></i>
+                    <span class="form_input">
                     <input type="text" name="ord_address" id="ord_address" value=""
                            placeholder="Số nhà, đường phố, toà nhà, ...">
                     <i class="form_tick flaticon-v9_checkout_tick"></i>
                 </span>
-                    </label>
-                </div>
-                <div class="checkout_line"></div>
+                </label>
+            </div>
+            <div class="checkout_line"></div>
 
-            </div>
         </div>
-        <div class="checkout_title">Đơn hàng của bạn</div>
-        <div class="check_oder">
-            <div class="checkout">
-                <div class="checkout_text">
-                    <span>đăng bởi:<strong>Nguyen Thanh Tung</strong></span><img src="">
-                    <i>Ngày tham gia: 22/07/2017</i>
-                </div>
-                <div class="img_user"><img src=""></div>
-            </div>
-            <div class="product">
-                <div class="img_product">
-                    <img src="https://mediamyad.vatgia.vn/photo/users_b_upload/2017/12/wrk1513217620.png">
-                </div>
-                <div class="infomation_product">
-                    <p class="text_product">Chân máy giặt - tủ lạnh inox Cảnh Phong</p>
-                    <span></span><br>
-                    <span class="text_color">12.000.000đ</span>
-                </div>
-            </div>
-        </div>
-        <div class="inc_input_payment" id="inc_input_payment">
-            <? include("../includes/inc_input_payment.php"); ?>
-        </div>
-    </form>
+    </div>
 </div>
 
 </body>
