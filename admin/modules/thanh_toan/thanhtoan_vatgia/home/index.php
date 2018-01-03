@@ -108,21 +108,21 @@
 
         var paymentMethod = $("#inc_payment_method").is(":visible");
 
-        if (paymentBill) {
-            $("#inc_payment_bill:visible").hide();
-            $("#inc_payment_method:visible").show();
+        if (fromPayment) {
+            $(paymentBill).hide();
+            $(paymentMethod).show();
         }
 
 
-        if (paymentMethod) {
-            var frm = $("form[name='fromPayment']");
-            /*if(!checkPaymentUser()) return false;*/
-            frm.find("a.pmt_button span.text").html("Vui lòng đợi...");
-
-            frm.submit();
-
-            return true;
-        }
-        return false;
+        // if (paymentMethod) {
+        //     var frm = $("form[name='fromPayment']");
+        //     /*if(!checkPaymentUser()) return false;*/
+        //     frm.find("a.pmt_button span.text").html("Vui lòng đợi...");
+        //
+        //     frm.submit();
+        //
+        //     return true;
+        // }
+        // return false;
     }
 </script>

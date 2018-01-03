@@ -244,10 +244,8 @@
                 </label>
             </div>
             <div class="checkout_line"></div>
-
         </div>
     </div>
 </div>
-
 </body>
 </html>
