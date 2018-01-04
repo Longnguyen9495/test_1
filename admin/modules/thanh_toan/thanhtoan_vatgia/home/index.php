@@ -3,6 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <style>
         * {
             margin: 0;
@@ -79,50 +81,114 @@
     </style>
 </head>
 <body>
-<div class="inc_header" id="inc_header">
+<div class="inc_header" id="inc_header">=
     <? include("../includes/inc_header.php"); ?>
 </div>
-<form action="" method="POST" name="fromPayment">
+<form action="" method="POST" name="fromPayment" onsubmit="return validatelogin()">
     <div class="inc_payment_bill" id="inc_payment_bill">
         <? include("../includes/inc_payment_bill.php"); ?>
     </div>
 
-    <div class="inc_payment_method" id="inc_payment_method">
+    <div class="inc_payment_method" id="inc_payment_method" style="display: none">
         <? include("../includes/inc_payment_method.php"); ?>
+    </div>
+
+    <div class="checkout_title">Đơn hàng của bạn</div>
+    <div class="check_oder">
+        <div class="checkout">
+            <div class="checkout_text">
+                <span>đăng bởi:<strong>Nguyen Thanh Tung</strong></span>
+                <i>Ngày tham gia: 22/07/2017</i>
+            </div>
+            <div class="img_user"><img src=""></div>
+        </div>
+        <div class="product">
+            <div class="img_product">
+                <img src="https://mediamyad.vatgia.vn/photo/users_b_upload/2017/12/wrk1513217620.png">
+            </div>
+            <div class="infomation_product">
+                <p class="text_product">Chân máy giặt - tủ lạnh inox Cảnh Phong</p>
+                <span></span><br>
+                <span class="text_color">12.000.000đ</span>
+            </div>
+        </div>
     </div>
 </form>
 <div class="checkout_button_boder">
     <div class="checkout_button">
-        <button id="" class="checkout_btn" onclick="return submitStep1();"><a href="javascript:;">Tiếp tục</a></button>
+        <button id="" class="checkout_btn" onclick="return paymentSubmit();"><a href="javascript:;">Tiếp tục</a>
+        </button>
         <span class="total_btn">Tổng: <span class="total_price">6.022.000₫</span></span>
     </div>
 </div>
 </body>
 </html>
 <script type="text/javascript">
-    function submitStep1() {
 
-        // check visible
+    //check phone
+    function phonenumber(inputtxt) {
+        var phoneno = /^[0-9]{10,11}$/;
+        return phoneno.test(inputtxt);
+    }
 
-        var paymentBill = $("#inc_payment_bill").is(":visible");
+    function validatelogin() {
 
-        var paymentMethod = $("#inc_payment_method").is(":visible");
+        // check name
+        if ($('#ord_name').val() == "" || $('#ord_name').val().length < 10) {
+            $('.requiredfirstname').text('Tối thiểu 10 kí tự');
+            $('#ord_name').focus();
+            return false;
+        }
+        else {
+            $('.requiredfirstname').text('');
+        }
+        //street_address
+        if ($('#ord_phone').val() == "" || $('#ord_phone').val().length < 20) {
+            $('.requiredstreet_address').text('Tối thiểu 20 kí tự');
+            $('#ord_phone').focus();
+            return false;
+        }
+        else {
+            $('.requiredstreet_address').text('');
+        }
+        //phone
 
-        if (fromPayment) {
-            $(paymentBill).hide();
-            $(paymentMethod).show();
+        if ($("#telephone").val() == "") {
+            $('.requiredtelephone').text('Mời nhập số điện thoại');
+            $('#telephone').focus();
+            return false;
         }
 
+        if (phonenumber($("#ord_address").val()) == false) {
+            $('.requiredtelephone').text('Số điện thoại phải nhập dạng số, có 10 hoặc 11 số');
+            $('#ord_address').focus();
+            return false;
+        }
+        else {
+            $('.requiredtelephone').text('');
+        }
+        // check if rồi thông báo thành công
+        if ($("#ord_name").val() != "" &&
+            $("#ord_phone").val() != "" &&
+            $('#ord_address').val() != "" &&)
+        {
+            alert('Chúc mừng bạn đã đăng ký thành công !');
+            $('.required_sub').text('thanh cong');
+            // return false;
+        }
+    }
 
-        // if (paymentMethod) {
-        //     var frm = $("form[name='fromPayment']");
-        //     /*if(!checkPaymentUser()) return false;*/
-        //     frm.find("a.pmt_button span.text").html("Vui lòng đợi...");
-        //
-        //     frm.submit();
-        //
-        //     return true;
-        // }
-        // return false;
+    function paymentSubmit() {
+
+        // check visible
+        var paymentBill = $("#inc_payment_bill").is(":visible");
+        var paymentMethod = $("#inc_payment_method").is(":visible");
+
+
+        if (paymentBill) {
+            $("#inc_payment_method").show();
+            $("#inc_payment_bill").hide();
+        }
     }
 </script>
+

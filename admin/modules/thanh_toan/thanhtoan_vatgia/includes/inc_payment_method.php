@@ -175,26 +175,6 @@
             <div class="checkout_line"></div>
         </div>
     </div>
-    <div class="checkout_title">Đơn hàng của bạn</div>
-    <div class="check_oder">
-        <div class="checkout">
-            <div class="checkout_text">
-                <span>đăng bởi:<strong>Nguyen Thanh Tung</strong></span>
-                <i>Ngày tham gia: 22/07/2017</i>
-            </div>
-            <div class="img_user"><img src=""></div>
-        </div>
-        <div class="product">
-            <div class="img_product">
-                <img src="https://mediamyad.vatgia.vn/photo/users_b_upload/2017/12/wrk1513217620.png">
-            </div>
-            <div class="infomation_product">
-                <p class="text_product">Chân máy giặt - tủ lạnh inox Cảnh Phong</p>
-                <span></span><br>
-                <span class="text_color">12.000.000đ</span>
-            </div>
-        </div>
-    </div>
 </div>
 
 </body>
