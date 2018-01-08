@@ -168,6 +168,9 @@ $db_listing = new db_query("	SELECT *
         <th>Hình ảnh</th>
         <th>Link</th>
         <th>Mô tả chi tiết</th>
+        <th>Thành Phố</th>
+        <th>Quận Huyện</th>
+        <th>Mô tả chi tiết</th>
         <th>Active</th>
         <th>Thời gian</th>
         <th>Edit</th>

@@ -1,0 +1,42 @@
+08/01/2018 07:32:53 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:32:54 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:32:54 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:32:55 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:32:55 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:33:25 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1 :  
+SELECT * FROM orders_c2c_temp WHERE oct_id = 2LIMIT 1
+ -----***---- 
+08/01/2018 07:49:15 ::1 /thanhtoan_vatgia/index.php?recode_id=1
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 

@@ -1,0 +1,162 @@
+08/01/2018 08:01:29 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:30 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:30 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:30 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:31 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:50 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:51 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:51 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:51 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:52 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:52 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:52 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:01:52 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:04:54 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:04:57 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:17 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:18 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:18 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:24 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:25 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:25 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:25 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:26 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:26 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:26 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:26 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 
+08/01/2018 08:05:27 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SHOW FIELDS FROM 
+ -----***---- 

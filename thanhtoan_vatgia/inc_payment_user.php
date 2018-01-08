@@ -171,7 +171,7 @@
 <div id="home">
     <form id="form_step_1">
         <div class="img_success">
-            <img src="../css/image/logo2.png" alt="">
+            <img src="css/image/logo2.png" alt="">
         </div>
         <span class="text_t1">Đặt hàng thành công !</span>
         <p class="text_t2">Mã đơn hàng: <span>txnc2002_306634519</span></p>

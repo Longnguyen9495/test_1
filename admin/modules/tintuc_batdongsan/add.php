@@ -85,6 +85,18 @@ if ($action == "execute") {
     }//End if($fs_errorMsg == "")
 
 }//End if($action == "insert")
+
+// connect mysql city
+
+$arrType = array();
+$db_city = new db_query("SELECT cit_id,cit_name FROM city  WHERE cit_parent_id=0");
+while($city = mysql_fetch_array($db_city->result)){
+    $arrType[$city['cit_id']] = $city['cit_name'];
+
+}
+
+$db_city->close();
+unset($db_city);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -126,6 +138,27 @@ if ($action == "execute") {
     <?= $form->text("Tên bất động sản", "db_name", "db_name", $db_name, "Tên banner", 1, 250, "", 255, "", "", "") ?>
     <?= $form->getFile("Ảnh minh họa", "db_image", "db_image", "Ảnh minh họa", 0, 32, "", '<br />(Dung lượng tối đa <font color="#FF0000">' . $fs_filesize . ' Kb</font>)'); ?>
     <?= $form->text("Link", "db_link", "db_link", $db_link, "Link", 1, 250, "", 255, "", "", "") ?>
+    <tr>
+        <td align="right" nowrap class="textBold" width="100"><?= translate_text("Thành Phố") ?> *</td>
+        <td>
+            <select name="city" id="city" class="form-control" onchange="loadDistrict('city','nCity',0)">
+                <option value="">--[ <?= translate_text("Chọn Thành Phố") ?> ]--</option>
+                <? foreach ($arrType as $key => $nCit ){ ?>
+                    <option title="Chuồng Bầu" value="<?= $key ?>"<?=($key == $city) ? "selected='selected'" : "" ?>><?= $nCit?></option>
+                <? } ?>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="right" nowrap class="textBold" width="100"><?= translate_text("Quận Huyện") ?> *</td>
+        <td>
+            <select name="nCity" id="nCity" class="form-control" >
+                <option value="">--[ <?= translate_text("Chọn Quận Huyện") ?> ]--</option>
+                <option value="" ></option>
+            </select>
+        </td>
+    </tr>
     <?= $form->textarea("Mô tả chi tiết", "db_description", "db_description", $db_description, "Mô tả chi tiết", 0, 450, 250, "", "", "") ?>
     <?= $form->checkbox("Kích hoạt", "db_active", "db_active", 1, $db_active, "Kích hoạt", 0, "", "") ?>
     <?= $form->button("submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "submit" . $form->ec . "reset", "Cập nhật" . $form->ec . "Làm lại", "Cập nhật" . $form->ec . "Làm lại", $form->ec, ""); ?>
@@ -151,4 +184,20 @@ if ($action == "execute") {
             }
         });
     });
+    function loadDistrict(div_city, div_district, current) {
+
+        $("#" + div_district).html('<option value="0">Giong</option>');
+        var iCit = $("#" + div_city).val();
+        if (iCit > 0) {
+            var ajaxURL = "ajax_city.php?iCit=" + iCit;
+            if (current > 0) ajaxURL += "&iDist=" + current;
+            $("#" + div_district).load(ajaxURL, function (response, status, xhr) {
+                if (status == "success") {
+                    // Mở luôn ô chọn quận huyện
+                    //if($("#" + div_district).val() <= 0) open($("#" + div_district));
+                }
+            });
+
+        }
+    }
 </script>

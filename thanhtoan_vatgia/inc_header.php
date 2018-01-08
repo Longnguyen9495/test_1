@@ -72,19 +72,19 @@
         }
 
         .process_step .info {
-            background-image: url(../css/image/icon_new.png);
+            background-image: url(css/image/icon_new.png);
             background-position: 0 0px;
             background-size: 150px;
         }
 
         .process_step .pay {
-            background-image: url(../css/image/icon_new.png);
+            background-image: url(css/image/icon_new.png);
             background-position: -50px -50px;
             background-size: 150px;
         }
 
         .process_step .success {
-            background-image: url(../css/image/icon_new.png);
+            background-image: url(css/image/icon_new.png);
             background-position: -100px -50px;
             background-size: 150px;
         }
@@ -139,7 +139,7 @@
     </div>
     <div class="process_step ">
         <i class="img pay"></i>
-        <span class="process_text">Thanh toán</span>
+        <span class="process_text pay_text">Thanh toán</span>
         <div class="process_line">
             <div></div>
         </div>
