@@ -34,7 +34,7 @@
         .process_line > div {
             width: 100%;
             height: 100%;
-            background: #fbb999;
+            $rowProduct999;
         }
 
         .process_step.active .
@@ -168,7 +168,7 @@
             <div class="ord_address_form">
                 <label class="form_label" id="label_ord_name">
                         <span class="form_input_method">
-                    <input type="radio" name="ord_name" class="ord_name" id="ord_name">
+                    <input type="radio" name="pmt_method_payment_cod" class="ord_name" id="pmt_method_payment_cod" value="1">
                 Thanh toán qua hình thức online</span>
                 </label>
             </div>

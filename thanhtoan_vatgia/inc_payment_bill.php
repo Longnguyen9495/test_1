@@ -1,7 +1,7 @@
 <?
 // connect mysql city
-$arrType                                = array();
-$db_city                                = new db_query("SELECT cit_id,cit_name FROM city  WHERE cit_parent_id=0");
+$arrType = array();
+$db_city = new db_query("SELECT cit_id,cit_name FROM city  WHERE cit_parent_id=0");
 while ($city = mysql_fetch_array($db_city->result)) {
     $arrType[$city['cit_id']] = $city['cit_name'];
 
@@ -91,7 +91,8 @@ unset($db_city);
             font-size: 14px;
             border-radius: 0;
             outline: none;
-            width: 97%;
+            width: 96%;
+            float: right;
         }
 
         .form_label > i {
@@ -110,7 +111,7 @@ unset($db_city);
         }
 
         .form_input > .form_select {
-            width: 48%;
+            width: 47%;
             height: 35px;
             border: none;
             border-bottom: 1px #d9d9d9 solid;
@@ -172,27 +173,36 @@ unset($db_city);
     <div class="checkout_address" id="user_address">
         <div class="address" id="address">
             <div class="ord_address_form">
-                <form action="" method="post" onsubmit="return validatelogin()">
-                    <label class="form_label" id="label_ord_name">
-                        <div class="form_input">
-                            <i class="icon_form_paymentBill ion-ios-person-outline" aria-hidden="true"></i>
-                            <input type="tel" name="ord_name" id="ord_name" value="" placeholder="Họ tên người nhận">
-                        </div>
-                        <span id="error" class="required errorName_vi"></span>
-                    </label>
-                    <label class="form_label" id="label_ord_phone">
-                        <div class="form_input">
-                            <i class="icon_form_paymentBill ion-ios-telephone-outline" aria-hidden="true"></i>
-                            <input type="tel" name="ord_phone" id="ord_phone" value="" placeholder="Điện thoại di động">
-                        </div>
-                        <span id="error_phone" class="required errorName_vi"></span>
-                    </label>
-                    <label class="form_label form_city" id="label_ord_city">
-                        <i class="icon_form_paymentBill ion-ios-home-outline" aria-hidden="true"></i>
+
+                <label class="form_label" id="label_ord_name">
+                    <div class="form_input">
+                        <i class="icon_form_paymentBill ion-ios-person-outline" aria-hidden="true"></i>
+                        <input type="tel" name="order_name" id="order_name" value="" placeholder="Họ tên người nhận">
+                    </div>
+
+                    <span id="error" class="required errorName_vi"></span>
+                </label>
+                <label class="form_label" id="label_ord_name">
+                    <div class="form_input">
+                        <i class="icon_form_paymentBill ion-ios-email-outline" aria-hidden="true"></i>
+                        <input type="tel" name="order_email" id="order_email" value="" placeholder="Email người nhận">
+                    </div>
+
+                    <span id="error" class="required errorEmail_vi"></span>
+                </label>
+                <label class="form_label" id="label_ord_phone">
+                    <div class="form_input">
+                        <i class="icon_form_paymentBill ion-ios-telephone-outline" aria-hidden="true"></i>
+                        <input type="tel" name="order_phone" id="order_phone" value="" placeholder="Điện thoại di động">
+                    </div>
+                    <span id="error_phone" class="required errorName_vi"></span>
+                </label>
+                <label class="form_label form_city" id="label_ord_city">
+                    <i class="icon_form_paymentBill ion-ios-home-outline" aria-hidden="true"></i>
                         <div class="form_city">
                             <div class="form_input">
-                                <select name="city" id="city" class="form-control form_select"
-                                        onchange="loadDistrict('city','nCity',0)" style="margin-left: 5px">
+                                <select name="order_city" id="order_city" class="form-control form_select"
+                                        onchange="loadDistrict('order_city','order_nCity',0)" style="margin-left: 25px">
                                     <option value="">Thành Phố</option>
                                     <? foreach ($arrType as $key => $nCit) { ?>
                                         <option title=""
@@ -204,22 +214,22 @@ unset($db_city);
                         </div>
                         <div class="form_district">
                             <div class="form_input">
-                                <select name="nCity" id="nCity" class="form-control form_select"
+                                <select name="order_nCity" id="order_nCity" class="form-control form_select"
                                         style="margin-left: 15px">
                                     <option value="">Quận huyện</option>
                                 </select>
                             </div>
                             <span id="error" class="required errorName_vi"></span>
                         </div>
-                    </label>
-                    <label class="form_label" id="label_ord_address">
-                        <div class="form_input">
-                            <input style="margin-left: 35px" type="text" name="ord_address" id="ord_address" value=""
-                                   placeholder="Số nhà, đường phố, toà nhà, ...">
-                        </div>
-                        <span id="error_address" class="required errorName_vi"></span>
-                    </label>
-                </form>
+                </label>
+                <label class="form_label" id="label_ord_address">
+                    <div class="form_input">
+                        <input style="margin-left: 35px" type="text" name="order_address" id="order_address" value=""
+                               placeholder="Số nhà, đường phố, toà nhà, ...">
+                    </div>
+                    <span id="error_address" class="required errorName_vi"></span>
+                </label>
+
             </div>
             <div class="checkout_line"></div>
         </div>
@@ -227,21 +237,4 @@ unset($db_city);
 </div>
 </body>
 </html>
-<script>
-    function loadDistrict(div_city, div_district, current) {
 
-        $("#" + div_district).html('<option value="0">Quận Huyện</option>');
-        var iCit = $("#" + div_city).val();
-        if (iCit > 0) {
-            var ajaxURL = "ajax_city.php?iCit=" + iCit;
-            if (current > 0) ajaxURL += "&iDist=" + current;
-            $("#" + div_district).load(ajaxURL, function (response, status, xhr) {
-                if (status == "success") {
-                    // Mở luôn ô chọn quận huyện
-                    // if($("#" + div_district).val() <= 0) open($("#" + div_district));
-                }
-            });
-
-        }
-    }
-</script>

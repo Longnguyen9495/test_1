@@ -165,9 +165,6 @@
     </style>
 </head>
 <body>
-<div class="inc_header" id="inc_header">
-    <? include("../includes/inc_header.php"); ?>
-</div>
 <div id="home">
     <form id="form_step_1">
         <div class="img_success">
@@ -183,9 +180,10 @@
         <div class="checkout_button_boder">
             <div class="checkout_button">
                 <a href="">
-                    <label class="checkout_btn" onclick="submitStep1()"><i class="ion-ios-home-outline"></i>Quay Về
-                        Trang
-                        Chủ</label></a>
+                    <button class="checkout_btn" onclick="submitStep1()"><i class="ion-ios-home-outline"></i><a
+                                href="inc_payment_user.php?record_id=1">Quay Về
+                            Trang
+                            Chủ</a></button></a>
             </div>
         </div>
     </form>

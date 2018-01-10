@@ -1,0 +1,18 @@
+09/01/2018 03:33:44 ::1 /thanhtoan_vatgia/index.php?recode_id=5
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM order_c2c' at line 1 :  
+SELECT * FORM order_c2c
+ -----***---- 
+09/01/2018 03:33:44 ::1 /thanhtoan_vatgia/index.php?recode_id=5
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM order_c2c' at line 1 :  
+SELECT * FORM order_c2c
+ -----***---- 
+09/01/2018 03:33:51 ::1 /thanhtoan_vatgia/index.php?recode_id=5
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM order_c2c' at line 1 :  
+SELECT * FORM order_c2c
+ -----***---- 

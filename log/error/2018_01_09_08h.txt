@@ -1,0 +1,230 @@
+09/01/2018 08:14:22 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:14:23 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:14:23 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:14:23 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:14:23 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:16 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:16 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:16 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:17 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:17 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:15:17 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:10 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:10 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:11 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:11 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:11 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:12 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
+09/01/2018 08:16:13 ::1 /thanhtoan_vatgia/index.php?recode_id=2
+USE_SLAVE
+ -----***---- 
+Table 'db_video.user_address' doesn't exist :  
+	SELECT ua_id,ua_name, ua_email, ua_address, ua_city, ua_district, ua_phone, ua_order
+										FROM user_address
+										WHERE ua_user_id = 0
+										ORDER BY ua_order DESC, ua_date DESC
+										LIMIT 1
+ -----***---- 
