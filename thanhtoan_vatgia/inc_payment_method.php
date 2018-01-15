@@ -34,18 +34,6 @@
         .process_line > div {
             width: 100%;
             height: 100%;
-            $rowProduct999;
-        }
-
-        .process_step.active .
-        process_text
-
-        (
-        2
-        )
-        {
-            color: #F44f00
-        ;
         }
 
         .process_step > span {

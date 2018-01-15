@@ -1,0 +1,72 @@
+15/01/2018 03:17:29 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:18:36 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:18:37 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:31 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:32 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:32 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:33 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:33 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 03:21:33 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 

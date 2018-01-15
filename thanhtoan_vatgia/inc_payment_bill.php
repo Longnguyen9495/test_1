@@ -161,7 +161,7 @@ unset($db_city);
             font-size: 12px;
             text-align: left;
             line-height: 20px;
-            margin-left: 35px;
+            margin-left: 55px;
         }
     </style>
 </head>
@@ -186,16 +186,15 @@ unset($db_city);
                     <div class="form_input">
                         <i class="icon_form_paymentBill ion-ios-email-outline" aria-hidden="true"></i>
                         <input type="tel" name="order_email" id="order_email" value="" placeholder="Email người nhận">
+                        <span id="error_email" class="required errorEmail_vi"></span>
                     </div>
-
-                    <span id="error" class="required errorEmail_vi"></span>
                 </label>
                 <label class="form_label" id="label_ord_phone">
                     <div class="form_input">
                         <i class="icon_form_paymentBill ion-ios-telephone-outline" aria-hidden="true"></i>
                         <input type="tel" name="order_phone" id="order_phone" value="" placeholder="Điện thoại di động">
+                        <span id="error_phone" class="required errorName_vi"></span>
                     </div>
-                    <span id="error_phone" class="required errorName_vi"></span>
                 </label>
                 <label class="form_label form_city" id="label_ord_city">
                     <i class="icon_form_paymentBill ion-ios-home-outline" aria-hidden="true"></i>

@@ -175,7 +175,7 @@ if ($action == "themmoi") {
     <? include("inc_header.php"); ?>
 </div>
 
-<form action="" method="POST" name="frmPayment">
+<form action="" method="POST" name="frmPayment" ">
     <div class="inc_payment_bill" id="inc_payment_bill">
         <? include("inc_payment_bill.php"); ?>
     </div>
@@ -185,25 +185,27 @@ if ($action == "themmoi") {
         <? include("inc_payment_method.php"); ?>
     </div>
 
-
     <? include("inc_order_don.php"); ?>
 
     <div style="position: fixed; bottom: 0px; background: #FFFFFF; z-index: 10; width: 100%; left: 0px; border-top: 1px solid #dcdcdc; box-shadow: 0px -1px 3px #999;">
-        <input type="hidden" name="action" value="themmoi">
+    <input type="hidden" name="action" value="themmoi">
 
 
-        <div class="checkout_button_boder">
-            <div class="checkout_button">
-                <button id="pmt_button" class="pmt_button checkout_btn" onclick="return paymentSubmit();">Tiếp
-                    tục
-                </button>
-                <span class="total_btn">Tổng: <span class="total_price">6.022.000₫</span></span>
-
-            </div>
-
+    <div class="checkout_button_boder">
+        <div class="checkout_button">
+            <button id="pmt_button" class="pmt_button checkout_btn" onclick="return paymentSubmit();">Tiếp
+                tục
+            </button>
+            <span class="total_btn">Tổng: <span class="total_price">6.022.000₫</span></span>
 
         </div>
+
+
+    </div>
+</div>
 </form>
+</body>
+</html>
 
 
 <script type="text/javascript">
@@ -212,56 +214,6 @@ if ($action == "themmoi") {
         var phoneno = /^[0-9]{10,11}$/;
         return phoneno.test(inputtxt);
     }
-
-    // function validatelogin() {
-    //     var uso_user_name  = $("#order_name").val();
-    //     var uso_user_phone = $("#order_phone").val();
-    //     var uso_user_address = $("#order_adress").val();
-    //
-    //     if(uso_user_name == ""){
-    //         $("#error").html("Vui lòng nhập tên khách hàng");
-    //         $("#order_name").focus();
-    //         return false;
-    //     }
-    //     else{
-    //         $('#error').text('');
-    //     }
-    //     if (uso_user_name == "" ||uso_user_name.length < 10) {
-    //         $('#error').text('Tối thiểu 10 kí tự');
-    //         $('#order_name').focus();
-    //         return false;
-    //     }
-    //     else{
-    //         $('#error').text('');
-    //     }
-    //     if (uso_user_phone == "") {
-    //         $('#error_phone').text('Mời nhập số điện thoại');
-    //         $('#order_phone').focus();
-    //         return false;
-    //     }
-    //     else{
-    //         $('#error_phone').text('');
-    //     }
-    //     if (phonenumber($('#order_phone').val()) == false) {
-    //         $('#error_phone').text('Số điện thoại phải nhập dạng số, có 10 hoặc 11 số');
-    //         $('#order_phone').focus();
-    //         return false;
-    //     }
-    //     else {
-    //         $('#error_phone').text('');
-    //     }
-    //     if(uso_user_address == ""){
-    //         $("#error_address").html("Vui lòng nhập địa chỉ nhận hàng");
-    //         $("#order_adress").focus();
-    //         return false;
-    //     }
-    //     else{
-    //         $('#error_address').text('');
-    //     }
-    //     $("#button_buy").css('cursor', 'not-allowed').attr("disabled", "disabled").val('Vui lòng đợi...').blur();
-    //     return true;
-    // }
-
 
     function loadDistrict(div_city, div_district, current) {
 
@@ -280,6 +232,64 @@ if ($action == "themmoi") {
         }
     }
 
+    function validatelogin() {
+        var uso_user_name  = $("#order_name").val();
+        var uso_user_phone = $("#order_phone").val();
+        var uso_user_address = $("#order_address").val();
+        var uso_user_email = $("#order_email").val();
+
+        if(uso_user_name == ""){
+            $("#error").html("Vui lòng nhập tên khách hàng");
+            $("#order_name").focus();
+            return false;
+        }
+        else{
+            $('#error').text('');
+        }
+        if (uso_user_name == "" ||uso_user_name.length < 10) {
+            $('#error').text('Tối thiểu 10 kí tự');
+            $('#order_name').focus();
+            return false;
+        }
+        else{
+            $('#error').text('');
+        }
+        if (uso_user_email == "") {
+            $('#error_email').text('Mời nhập email');
+            $('#error_email').focus();
+            return false;
+        }
+        else{
+            $('#error_email').text('');
+        }
+        if (uso_user_phone == "") {
+            $('#error_phone').text('Mời nhập số điện thoại');
+            $('#order_phone').focus();
+            return false;
+        }
+        else{
+            $('#error_phone').text('');
+        }
+        if (phonenumber($('#order_phone').val()) == false) {
+            $('#error_phone').text('Số điện thoại phải nhập dạng số, có 10 hoặc 11 số');
+            $('#order_phone').focus();
+            return false;
+        }
+        else {
+            $('#error_phone').text('');
+        }
+        if(uso_user_address == ""){
+            $("#error_address").html("Vui lòng nhập địa chỉ nhận hàng");
+            $("#order_address").focus();
+            return false;
+        }
+        else{
+            $('#error_address').text('');
+        }
+        $("#pmt_button").val('Vui lòng đợi...').blur();
+        return true;
+    }
+
     function paymentSubmit() {
 
         // if(!validate()) return false;
@@ -291,9 +301,11 @@ if ($action == "themmoi") {
 
 
         if (paymentBill) {
-
-            $("#inc_payment_bill").hide();
-            $("#inc_payment_method").show();
+            if(!validatelogin()) return false;
+            $("#inc_payment_bill").hide(500);
+            $("#inc_payment_method").show(500);
+            $(".pay").css("background-position","-50px 0");
+            $(".pay_text").css("color","#F44f00");
         }
 
         if (checkPayment) {

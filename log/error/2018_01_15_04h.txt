@@ -1,0 +1,48 @@
+15/01/2018 04:24:49 ::1 /thanhtoan_vatgia/api/api_getOder.php?
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 04:28:03 ::1 /thanhtoan_vatgia/api/api_getOder.php?
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 04:29:43 ::1 /thanhtoan_vatgia/api/api_getOder.php?
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 04:35:58 ::1 /thanhtoan_vatgia/api/api_getOder.php?recode_id=1&page=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 04:36:06 ::1 /thanhtoan_vatgia/api/api_getOder.php?status=1&page=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 
+15/01/2018 04:36:40 ::1 /thanhtoan_vatgia/api/api_getOder.php?status=1&page=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 3 :  
+	SELECT *
+										FROM order_c2c
+										WHERE 1 0,5
+ -----***---- 

@@ -1,0 +1,112 @@
+10/01/2018 09:58:17 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:17 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:17 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:18 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:58:19 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=1&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:59:10 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:59:21 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:59:52 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1$page=5
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
+10/01/2018 09:59:56 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 

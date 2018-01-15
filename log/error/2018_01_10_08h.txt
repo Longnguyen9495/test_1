@@ -1,0 +1,8 @@
+10/01/2018 08:21:52 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api\api_getOder.php
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1' at line 3 :  
+  SELECT count(*) AS count
+												FROM 
+												WHERE 1 
+ -----***---- 
