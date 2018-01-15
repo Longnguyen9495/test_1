@@ -1,0 +1,32 @@
+15/01/2018 09:08:33 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 :  
+  SELECT count(*) AS count
+							FROM order_c2c
+							WHERE
+ -----***---- 
+15/01/2018 09:08:33 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 :  
+  SELECT count(*) AS count
+							FROM order_c2c
+							WHERE
+ -----***---- 
+15/01/2018 09:08:34 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 :  
+  SELECT count(*) AS count
+							FROM order_c2c
+							WHERE
+ -----***---- 
+15/01/2018 09:19:53 ::1 /thanhtoan_vatgia/api/api_getOder.php?userId=5&status=1&page=2
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5,5' at line 3 :  
+  SELECT *
+                FROM order_c2c
+                WHERE order_user_id = 5 AND order_status = 1  LIMIT  -5,5 
+ -----***---- 

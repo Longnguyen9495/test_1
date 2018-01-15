@@ -122,16 +122,6 @@
             margin: 10px 0;
         }
 
-        .img_product {
-            width: 30%;
-            float: left;
-        }
-
-        .infomation_product {
-            width: 65%;
-            float: right;
-        }
-
         .checkout_btn a {
             width: 150px;
             background: #F44f00;

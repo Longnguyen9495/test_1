@@ -168,6 +168,16 @@ if ($action == "themmoi") {
             font-weight: 600;
             line-height: initial;
         }
+        .img_product {
+            width: 30%;
+            float: left;
+            overflow: hidden;
+        }
+
+        .infomation_product {
+            width: 70%;
+            float: right;
+        }
     </style>
 </head>
 <body>
@@ -187,7 +197,7 @@ if ($action == "themmoi") {
 
     <? include("inc_order_don.php"); ?>
 
-    <div style="position: fixed; bottom: 0px; background: #FFFFFF; z-index: 10; width: 100%; left: 0px; border-top: 1px solid #dcdcdc; box-shadow: 0px -1px 3px #999;">
+    <div>
     <input type="hidden" name="action" value="themmoi">
 
 
@@ -209,12 +219,6 @@ if ($action == "themmoi") {
 
 
 <script type="text/javascript">
-    //check phone
-    function phonenumber(inputtxt) {
-        var phoneno = /^[0-9]{10,11}$/;
-        return phoneno.test(inputtxt);
-    }
-
     function loadDistrict(div_city, div_district, current) {
 
         $("#" + div_district).html('<option value="0">Quận Huyện</option>');
@@ -230,6 +234,18 @@ if ($action == "themmoi") {
             });
 
         }
+    }
+
+    //check phone
+    function phonenumber(inputtxt) {
+        var phoneno = /^[0-9]{10,11}$/;
+        return phoneno.test(inputtxt);
+    }
+
+    //check email
+    function IsEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
     }
 
     function validatelogin() {
@@ -256,6 +272,14 @@ if ($action == "themmoi") {
         }
         if (uso_user_email == "") {
             $('#error_email').text('Mời nhập email');
+            $('#error_email').focus();
+            return false;
+        }
+        else{
+            $('#error_email').text('');
+        }
+        if (IsEmail(uso_user_email == "") == false ) {
+            $('#error_email').text('Email sai định dạng');
             $('#error_email').focus();
             return false;
         }
