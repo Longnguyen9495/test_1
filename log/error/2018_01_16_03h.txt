@@ -1,0 +1,24 @@
+16/01/2018 03:33:55 ::1 /thanhtoan_vatgia/api/update_status.php?recode_id=73&status=1
+
+ -----***---- 
+Query was empty :  
+
+ -----***---- 
+16/01/2018 03:33:55 ::1 /thanhtoan_vatgia/api/update_status.php?recode_id=73&status=1
+
+ -----***---- 
+Query was empty :  
+
+ -----***---- 
+16/01/2018 03:33:55 ::1 /thanhtoan_vatgia/api/update_status.php?recode_id=73&status=1
+
+ -----***---- 
+Query was empty :  
+
+ -----***---- 
+16/01/2018 03:33:55 ::1 /thanhtoan_vatgia/api/update_status.php?recode_id=73&status=1
+
+ -----***---- 
+Query was empty :  
+
+ -----***---- 

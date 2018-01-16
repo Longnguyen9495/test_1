@@ -1,0 +1,72 @@
+16/01/2018 09:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 
+16/01/2018 09:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+USE_SLAVE
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY order_status' at line 4 :  
+  SELECT COUNT(*) as count, order_status
+                            FROM order_c2c
+                            WHERE order_user_id = 
+                            GROUP BY order_status
+ -----***---- 

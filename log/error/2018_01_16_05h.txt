@@ -1,0 +1,6 @@
+16/01/2018 05:19:41 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 :  
+SELECT * FROM order_c2c WHERE order_id =  
+ -----***---- 

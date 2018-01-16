@@ -1,0 +1,276 @@
+16/01/2018 07:29:43 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:29:44 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:31 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:32 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:50 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:51 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:51 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:51 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:30:51 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:11 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:11 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:12 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:16 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:17 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:17 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:33:17 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status;
+ -----***---- 
+16/01/2018 07:35:00 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status
+ -----***---- 
+16/01/2018 07:35:01 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status
+ -----***---- 
+16/01/2018 07:35:01 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status
+ -----***---- 
+16/01/2018 07:35:01 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status
+ -----***---- 
+16/01/2018 07:35:01 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c WHERE order_id = 72 GROUP BY order_status
+ -----***---- 
+16/01/2018 07:35:22 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:22 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:35:23 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:45:08 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:45:08 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:45:08 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:45:08 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 
+16/01/2018 07:45:08 ::1 /thanhtoan_vatgia/api/get_count_status.php?
+
+ -----***---- 
+Unknown column 'count_status' in 'field list' :  
+SELECT COUNT(count_status), order_status FROM order_c2c 
+ -----***---- 

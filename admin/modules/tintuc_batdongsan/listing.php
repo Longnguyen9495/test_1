@@ -56,10 +56,9 @@ unset($db_count);
 //End phân trang
 
 $db_listing = new db_query("	SELECT *
-										FROM " . $fs_table . "
-										WHERE 1 " . $sqlWhere . "
-										LIMIT " . ($current_page - 1) * $page_size . "," . $page_size,
-    __FILE__, "USE_SLAVE");
+								FROM " . $fs_table . "
+								WHERE 1 " . $sqlWhere . "
+								LIMIT " . ($current_page - 1) * $page_size . "," . $page_size,                                        __FILE__, "USE_SLAVE");
 
 ?>
 <html>

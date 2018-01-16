@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
       <change beforePath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
-      <change beforePath="$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php" />
-      <change beforePath="$PROJECT_DIR$/thanhtoan_vatgia/inc_payment_method.php" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/inc_payment_method.php" />
-      <change beforePath="$PROJECT_DIR$/thanhtoan_vatgia/index.php" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/index.php" />
+      <change beforePath="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" />
     </list>
     <ignored path="videos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,33 +23,14 @@
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/index.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-580">
-                    <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+                  <state relative-caret-position="160">
+                    <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="33" />
                     <folding>
                       <marker date="1516002036286" expanded="true" signature="82:189" ph="SELECT * FRO... orders_c2c_temp" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="api_getOder.php" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="0">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="46" />
-                    <folding>
-                      <marker date="1516004680557" expanded="true" signature="540:577" ph="SELECT count... " />
-                      <marker date="1516004680557" expanded="true" signature="1052:1163" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1177" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1178" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1179" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1185" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1217" ph="SELECT * FRO... order_c2c" />
-                      <marker date="1516004680557" expanded="true" signature="1052:1220" ph="SELECT * FRO... order_c2c" />
                     </folding>
                   </state>
                 </provider>
@@ -61,11 +39,48 @@
             <file leaf-file-name="update_status.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="200">
-                    <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+                  <state relative-caret-position="420">
+                    <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                     <folding>
-                      <marker date="1516005289037" expanded="true" signature="371:422" ph="UPDATE order_status... " />
+                      <marker date="1516073941663" expanded="true" signature="282:317" ph="UPDATE *... " />
+                      <marker date="1516073941663" expanded="true" signature="282:355" ph="UPDATE user_address... " />
+                      <marker date="1516073941663" expanded="true" signature="282:356" ph="UPDATE user_address... " />
+                      <marker date="1516073941663" expanded="true" signature="282:374" ph="UPDATE user_address... " />
+                      <marker date="1516073941663" expanded="true" signature="282:375" ph="UPDATE user_address... " />
+                      <marker date="1516073941663" expanded="true" signature="448:488" ph="SELECT * FRO... order_c2c" />
+                      <marker date="1516073941663" expanded="true" signature="448:489" ph="SELECT * FRO... order_c2c" />
+                      <marker date="1516073941663" expanded="true" signature="448:507" ph="SELECT * FRO... order_c2c" />
+                      <marker date="1516073941663" expanded="true" signature="717:752" ph="UPDATE order_c2c... " />
+                      <marker date="1516073941663" expanded="true" signature="717:790" ph="UPDATE order_c2c... " />
+                      <marker date="1516073941663" expanded="true" signature="717:791" ph="UPDATE order_c2c... " />
+                      <marker date="1516073941663" expanded="true" signature="717:793" ph="UPDATE order_c2c... " />
+                      <marker date="1516073941663" expanded="true" signature="717:794" ph="UPDATE order_c2c... " />
+                      <marker date="1516073941663" expanded="true" signature="717:813" ph="UPDATE order_c2c... " />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="get_count_status.php" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="740">
+                    <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                    <folding>
+                      <marker date="1516092445652" expanded="true" signature="683:690" ph="SELECT count... " />
+                      <marker date="1516092445652" expanded="true" signature="683:754" ph="SELECT COUNT... " />
+                      <marker date="1516092445652" expanded="true" signature="683:886" ph="SELECT COUNT... " />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/classes/database.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="212">
+                    <caret line="254" column="13" lean-forward="false" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -80,11 +95,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api_getOder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-640">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="55" />
+              <folding>
+                <marker date="1516004680557" expanded="true" signature="540:577" ph="SELECT count... " />
+                <marker date="1516004680557" expanded="true" signature="1052:1163" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1177" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1178" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1179" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1185" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1217" ph="SELECT * FRO... order_c2c" />
+                <marker date="1516004680557" expanded="true" signature="1052:1220" ph="SELECT * FRO... order_c2c" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="327" column="0" lean-forward="true" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+              <folding>
+                <marker date="1515491465733" expanded="true" signature="309:386" ph="SELECT cit_i... city" />
+                <marker date="1515491465733" expanded="true" signature="1610:1654" ph="SELECT * FRO... languages" />
+                <marker date="1515491465733" expanded="true" signature="23635:23648" ph="/*...*/" />
+                <marker date="1515491465733" expanded="true" signature="23663:23670" ph="/*...*/" />
+                <marker date="1515491465733" expanded="true" signature="25579:25699" ph="INSERT INTO logs_all... " />
+                <marker date="1515491465733" expanded="true" signature="33241:33485" ph="..." />
+                <marker date="1515491465733" expanded="false" signature="33263:33276" ph="..." />
+                <marker date="1515491465733" expanded="false" signature="33307:33320" ph="..." />
+                <marker date="1515491465733" expanded="false" signature="33352:33365" ph="..." />
+                <marker date="1515491465733" expanded="false" signature="33397:33410" ph="..." />
+                <marker date="1515491465733" expanded="false" signature="33447:33460" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="inc_order_don.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/inc_order_don.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
               <folding>
                 <marker date="1515564778416" expanded="true" signature="51:158" ph="SELECT * FRO... orders_c2c_temp" />
               </folding>
@@ -92,14 +148,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="inc_security.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="25" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="listing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1260">
-              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            <state relative-caret-position="1280">
+              <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
               <folding>
-                <marker date="1516002386497" expanded="true" signature="1480:1560" ph="SELECT count... " />
-                <marker date="1516002386497" expanded="true" signature="2061:2196" ph="SELECT * FRO... ${$fs_table}" />
+                <marker date="1516084688830" expanded="true" signature="1480:1560" ph="SELECT count... " />
+                <marker date="1516084688830" expanded="true" signature="2061:2190" ph="SELECT * FRO... ${$fs_table}" />
               </folding>
             </state>
           </provider>
@@ -109,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <marker date="1515383678711" expanded="true" signature="1677:1728" ph="SELECT * FRO... list_batdongsan" />
               </folding>
@@ -117,12 +183,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xuly.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xuly.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <marker date="1515207465842" expanded="true" signature="114:178" ph="SELECT db_na... batdongsan" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc_payment_all.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/thanhtoan_vatgia/thanhtoan_vatgia_fix/inc_payment_all.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="86" selection-end-column="28" />
+              <folding>
+                <marker date="1515472317048" expanded="true" signature="1877:2100" ph="SELECT ua_id... user_address" />
+                <marker date="1515472317048" expanded="true" signature="2584:2635" ph="UPDATE user_address... " />
+                <marker date="1515472317048" expanded="true" signature="2785:2842" ph="SELECT * FRO... users" />
+                <marker date="1515472317048" expanded="true" signature="2967:3047" ph="SELECT * FRO... orders_c2c_temp" />
+                <marker date="1515472317048" expanded="true" signature="6670:6713" ph="DELETE FROM orders_c2c_temp... " />
+                <marker date="1515472317048" expanded="true" signature="6776:6825" ph="DELETE FROM orders_c2c_update... " />
+                <marker date="1515472317048" expanded="true" signature="21373:21385" ph="..." />
+                <marker date="1515472317048" expanded="true" signature="22273:22353" ph="..." />
+                <marker date="1515472317048" expanded="true" signature="22491:22507" ph="..." />
+                <marker date="1515472317048" expanded="true" signature="22539:22575" ph="..." />
+                <marker date="1515472317048" expanded="true" signature="22616:22622" ph=" " />
+                <marker date="1515472317048" expanded="true" signature="22622:22628" ph=" " />
+                <marker date="1515472317048" expanded="true" signature="22628:22634" ph=" " />
+                <marker date="1515472317048" expanded="true" signature="22634:22640" ph=" " />
+                <marker date="1515472317048" expanded="true" signature="22668:22695" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+              <folding>
+                <marker date="1513653847705" expanded="true" signature="3074:3132" ph="SELECT * FRO... ${$fs_table}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +237,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>checkout_button_boder</find>
       <find>process_line</find>
       <find>.checkout .checkout_text</find>
       <find>.process_line</find>
@@ -161,6 +266,7 @@
       <find>button_buy</find>
       <find>update</find>
       <find>.infomation_product</find>
+      <find>$db_update</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -174,7 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/modules/city/listing.php" />
         <option value="$PROJECT_DIR$/admin/modules/thanh_toan/page_1.php" />
         <option value="$PROJECT_DIR$/admin/modules/thanh_toan/info.php" />
         <option value="$PROJECT_DIR$/admin/modules/thanh_toan/Payment_success.php" />
@@ -221,10 +326,11 @@
         <option value="$PROJECT_DIR$/thanhtoan_vatgia/inc_payment_method.php" />
         <option value="$PROJECT_DIR$/thanhtoan_vatgia/index.php" />
         <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/add.php" />
-        <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
         <option value="$PROJECT_DIR$/thanhtoan_vatgia/home/index.php" />
         <option value="$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php" />
         <option value="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" />
+        <option value="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
+        <option value="$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php" />
       </list>
     </option>
   </component>
@@ -239,8 +345,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1274" />
-    <option name="y" value="30" />
+    <option name="x" value="-1370" />
+    <option name="y" value="-8" />
     <option name="width" value="1358" />
     <option name="height" value="745" />
   </component>
@@ -265,7 +371,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +395,13 @@
               <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="banners" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailymotion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tintuc_batdongsan" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -306,7 +419,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,19 +430,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/dailymotion/admin/modules/banners/inc_security.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\home" />
-      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api" />
-      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\font" />
-      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\resource" />
-      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\home" />
       <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia" />
       <recent name="C:\xampp\htdocs\dailymotion" />
       <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\resource" />
       <recent name="C:\xampp\htdocs\dailymotion\admin\modules\thanh_toan\thanhtoan_vatgia\recource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\home" />
+      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\api" />
+      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\font" />
+      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia\resource" />
+      <recent name="C:\xampp\htdocs\dailymotion\thanhtoan_vatgia" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,35 +517,37 @@
       <workItem from="1515461951348" duration="20463000" />
       <workItem from="1515547283839" duration="13245000" />
       <workItem from="1515568852454" duration="4189000" />
-      <workItem from="1515979092007" duration="18931000" />
+      <workItem from="1515979092007" duration="20368000" />
+      <workItem from="1516066938189" duration="255000" />
+      <workItem from="1516067222943" duration="16557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341383000" />
+    <option name="totallyTimeSpent" value="359632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20668693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21276596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -470,8 +585,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/modules/thanh_toan/thanhtoan_vatgia/recource/ajax_city.php" />
-    <entry file="file://$PROJECT_DIR$/admin/modules/thanh_toan/thanhtoan_vatgia/includes/inc_header.php" />
     <entry file="file://$PROJECT_DIR$/admin/modules/thanh_toan/thanhtoan_vatgia/includes/inc_payment_bill.php" />
     <entry file="file://$PROJECT_DIR$/admin/modules/thanh_toan/thanhtoan_vatgia/recource/config.php" />
     <entry file="file://$PROJECT_DIR$/home/config.php">
@@ -497,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-865">
@@ -524,26 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2568">
           <caret line="112" column="6" lean-forward="false" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-          <folding>
-            <marker date="1497953078000" expanded="true" signature="1658:1664" ph="•" />
-            <marker date="1497953078000" expanded="true" signature="3049:3055" ph="•" />
-            <marker date="1497953078000" expanded="true" signature="5453:5511" ph="INSERT INTO ${$this-&gt;table_name}... " />
-            <marker date="1497953078000" expanded="true" signature="5840:5887" ph="INSERT INTO ${$table}... " />
-            <marker date="1497953078000" expanded="true" signature="20405:20419" ph="..." />
-            <marker date="1497953078000" expanded="true" signature="20752:20758" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20758:20764" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20764:20770" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20770:20776" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20851:20857" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20857:20863" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20863:20869" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="20869:20875" ph=" " />
-            <marker date="1497953078000" expanded="true" signature="22664:22690" ph="DROP TABLE I... " />
-            <marker date="1497953078000" expanded="true" signature="22740:22836" ph="CREATE table... temp_" />
-            <marker date="1497953078000" expanded="true" signature="23578:23673" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1497953078000" expanded="true" signature="23609:23673" ph="SELECT * FRO... temp_" />
-            <marker date="1497953078000" expanded="true" signature="23719:23745" ph="DROP TABLE I... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,29 +652,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <marker date="1514530510461" expanded="true" signature="636:815" ph="SELECT * FRO... admin_user" />
-            <marker date="1514530510461" expanded="true" signature="3479:3645" ph="SELECT * FRO... admin_user" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_lazada/inc_payment_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_lazada/inc_payment_method.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_lazada/inc_payment_info.php" />
+    <entry file="file://$PROJECT_DIR$/thanhtoan_lazada/inc_payment_method.php" />
     <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/css/image/icon_new.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -598,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="177" column="117" lean-forward="false" selection-start-line="177" selection-start-column="94" selection-end-line="177" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="79" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,10 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-580">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1513568870379" expanded="true" signature="1424:1498" ph="SELECT count... " />
-            <marker date="1513568870379" expanded="true" signature="1552:1710" ph="SELECT * FRO... ${$fs_table}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2510">
           <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,10 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <marker date="1513934210598" expanded="true" signature="1394:1474" ph="SELECT count... " />
-            <marker date="1513934210598" expanded="true" signature="1975:2110" ph="SELECT * FRO... ${$fs_table}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,11 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1497953078000" expanded="true" signature="4501:4567" ph="SELECT tra_t... admin_translate" />
-            <marker date="1497953078000" expanded="true" signature="4792:4819" ph="SELECT * fro... configuration" />
-            <marker date="1497953078000" expanded="true" signature="5423:5583" ph="SELECT * FRO... admin_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,9 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="184" column="42" lean-forward="false" selection-start-line="184" selection-start-column="42" selection-end-line="184" selection-end-column="42" />
-          <folding>
-            <marker date="1515982294793" expanded="true" signature="70:125" ph="SELECT cit_i... city" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="122" column="9" lean-forward="false" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,33 +749,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="142" column="85" lean-forward="false" selection-start-line="142" selection-start-column="85" selection-end-line="142" selection-end-column="85" />
-          <folding>
-            <marker date="1516002348051" expanded="true" signature="3320:3375" ph="SELECT cit_i... city" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.650/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/home/news.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.650/index.php" />
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/home/news.sql" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,99 +765,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/home/index.php" />
     <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <marker date="1516002036286" expanded="true" signature="82:189" ph="SELECT * FRO... orders_c2c_temp" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/inc_security.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <marker date="1515383678711" expanded="true" signature="1677:1728" ph="SELECT * FRO... list_batdongsan" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="180">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
-            <marker date="1516002386497" expanded="true" signature="1480:1560" ph="SELECT count... " />
-            <marker date="1516002386497" expanded="true" signature="2061:2196" ph="SELECT * FRO... ${$fs_table}" />
+            <marker date="1515207465842" expanded="true" signature="114:178" ph="SELECT db_na... batdongsan" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/functions.php">
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="315" column="9" lean-forward="false" selection-start-line="315" selection-start-column="9" selection-end-line="315" selection-end-column="9" />
+        <state relative-caret-position="480">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding>
-            <marker date="1515491465733" expanded="true" signature="309:386" ph="SELECT cit_i... city" />
-            <marker date="1515491465733" expanded="true" signature="1610:1654" ph="SELECT * FRO... languages" />
-            <marker date="1515491465733" expanded="true" signature="23635:23648" ph="/*...*/" />
-            <marker date="1515491465733" expanded="true" signature="23663:23670" ph="/*...*/" />
-            <marker date="1515491465733" expanded="true" signature="25579:25699" ph="INSERT INTO logs_all... " />
-            <marker date="1515491465733" expanded="true" signature="33241:33485" ph="..." />
-            <marker date="1515491465733" expanded="false" signature="33263:33276" ph="..." />
-            <marker date="1515491465733" expanded="false" signature="33307:33320" ph="..." />
-            <marker date="1515491465733" expanded="false" signature="33352:33365" ph="..." />
-            <marker date="1515491465733" expanded="false" signature="33397:33410" ph="..." />
-            <marker date="1515491465733" expanded="false" signature="33447:33460" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/inc_order_don.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <marker date="1515564778416" expanded="true" signature="51:158" ph="SELECT * FRO... orders_c2c_temp" />
+            <marker date="1513653847705" expanded="true" signature="3074:3132" ph="SELECT * FRO... ${$fs_table}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/thanhtoan_vatgia/thanhtoan_vatgia_fix/inc_payment_all.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+        <state relative-caret-position="840">
+          <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="86" selection-end-column="28" />
           <folding>
             <marker date="1515472317048" expanded="true" signature="1877:2100" ph="SELECT ua_id... user_address" />
             <marker date="1515472317048" expanded="true" signature="2584:2635" ph="UPDATE user_address... " />
@@ -849,18 +830,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/xuly.php">
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/inc_order_don.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <marker date="1515564778416" expanded="true" signature="51:158" ph="SELECT * FRO... orders_c2c_temp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/banners/inc_security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="25" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding>
+            <marker date="1516084688830" expanded="true" signature="1480:1560" ph="SELECT count... " />
+            <marker date="1516084688830" expanded="true" signature="2061:2190" ph="SELECT * FRO... ${$fs_table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1516002036286" expanded="true" signature="82:189" ph="SELECT * FRO... orders_c2c_temp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="254" column="13" lean-forward="false" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="327" column="0" lean-forward="true" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding>
+            <marker date="1515491465733" expanded="true" signature="309:386" ph="SELECT cit_i... city" />
+            <marker date="1515491465733" expanded="true" signature="1610:1654" ph="SELECT * FRO... languages" />
+            <marker date="1515491465733" expanded="true" signature="23635:23648" ph="/*...*/" />
+            <marker date="1515491465733" expanded="true" signature="23663:23670" ph="/*...*/" />
+            <marker date="1515491465733" expanded="true" signature="25579:25699" ph="INSERT INTO logs_all... " />
+            <marker date="1515491465733" expanded="true" signature="33241:33485" ph="..." />
+            <marker date="1515491465733" expanded="false" signature="33263:33276" ph="..." />
+            <marker date="1515491465733" expanded="false" signature="33307:33320" ph="..." />
+            <marker date="1515491465733" expanded="false" signature="33352:33365" ph="..." />
+            <marker date="1515491465733" expanded="false" signature="33397:33410" ph="..." />
+            <marker date="1515491465733" expanded="false" signature="33447:33460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1516092445652" expanded="true" signature="683:690" ph="SELECT count... " />
+            <marker date="1516092445652" expanded="true" signature="683:754" ph="SELECT COUNT... " />
+            <marker date="1516092445652" expanded="true" signature="683:886" ph="SELECT COUNT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1516073941663" expanded="true" signature="282:317" ph="UPDATE *... " />
+            <marker date="1516073941663" expanded="true" signature="282:355" ph="UPDATE user_address... " />
+            <marker date="1516073941663" expanded="true" signature="282:356" ph="UPDATE user_address... " />
+            <marker date="1516073941663" expanded="true" signature="282:374" ph="UPDATE user_address... " />
+            <marker date="1516073941663" expanded="true" signature="282:375" ph="UPDATE user_address... " />
+            <marker date="1516073941663" expanded="true" signature="448:488" ph="SELECT * FRO... order_c2c" />
+            <marker date="1516073941663" expanded="true" signature="448:489" ph="SELECT * FRO... order_c2c" />
+            <marker date="1516073941663" expanded="true" signature="448:507" ph="SELECT * FRO... order_c2c" />
+            <marker date="1516073941663" expanded="true" signature="717:752" ph="UPDATE order_c2c... " />
+            <marker date="1516073941663" expanded="true" signature="717:790" ph="UPDATE order_c2c... " />
+            <marker date="1516073941663" expanded="true" signature="717:791" ph="UPDATE order_c2c... " />
+            <marker date="1516073941663" expanded="true" signature="717:793" ph="UPDATE order_c2c... " />
+            <marker date="1516073941663" expanded="true" signature="717:794" ph="UPDATE order_c2c... " />
+            <marker date="1516073941663" expanded="true" signature="717:813" ph="UPDATE order_c2c... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="-640">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="55" />
           <folding>
             <marker date="1516004680557" expanded="true" signature="540:577" ph="SELECT count... " />
             <marker date="1516004680557" expanded="true" signature="1052:1163" ph="SELECT * FRO... order_c2c" />
@@ -870,16 +945,6 @@
             <marker date="1516004680557" expanded="true" signature="1052:1185" ph="SELECT * FRO... order_c2c" />
             <marker date="1516004680557" expanded="true" signature="1052:1217" ph="SELECT * FRO... order_c2c" />
             <marker date="1516004680557" expanded="true" signature="1052:1220" ph="SELECT * FRO... order_c2c" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <marker date="1516005289037" expanded="true" signature="371:422" ph="UPDATE order_status... " />
           </folding>
         </state>
       </provider>
