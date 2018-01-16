@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" afterPath="$PROJECT_DIR$/admin/modules/tintuc_batdongsan/listing.php" />
-      <change beforePath="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" afterPath="$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php" />
-    </list>
+    <list default="true" id="5ef89654-e5fa-4d30-8259-9d0659a6d215" name="Default" comment="" />
     <ignored path="videos.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +31,7 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="update_status.php" pinned="false" current-in-tab="true">
+            <file leaf-file-name="update_status.php" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="420">
@@ -61,11 +56,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="get_count_status.php" pinned="false" current-in-tab="false">
+            <file leaf-file-name="get_count_status.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="740">
-                    <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                  <state relative-caret-position="135">
+                    <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
                     <folding>
                       <marker date="1516092445652" expanded="true" signature="683:690" ph="SELECT count... " />
                       <marker date="1516092445652" expanded="true" signature="683:754" ph="SELECT COUNT... " />
@@ -98,8 +93,8 @@
       <file leaf-file-name="api_getOder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
               <folding>
                 <marker date="1516004680557" expanded="true" signature="540:577" ph="SELECT count... " />
                 <marker date="1516004680557" expanded="true" signature="1052:1163" ph="SELECT * FRO... order_c2c" />
@@ -519,12 +514,12 @@
       <workItem from="1515568852454" duration="4189000" />
       <workItem from="1515979092007" duration="20368000" />
       <workItem from="1516066938189" duration="255000" />
-      <workItem from="1516067222943" duration="16557000" />
+      <workItem from="1516067222943" duration="18480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359632000" />
+    <option name="totallyTimeSpent" value="361555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="754" extended-state="6" />
@@ -897,18 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1516092445652" expanded="true" signature="683:690" ph="SELECT count... " />
-            <marker date="1516092445652" expanded="true" signature="683:754" ph="SELECT COUNT... " />
-            <marker date="1516092445652" expanded="true" signature="683:886" ph="SELECT COUNT... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/update_status.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -934,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/api_getOder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="120">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding>
             <marker date="1516004680557" expanded="true" signature="540:577" ph="SELECT count... " />
             <marker date="1516004680557" expanded="true" signature="1052:1163" ph="SELECT * FRO... order_c2c" />
@@ -945,6 +928,18 @@
             <marker date="1516004680557" expanded="true" signature="1052:1185" ph="SELECT * FRO... order_c2c" />
             <marker date="1516004680557" expanded="true" signature="1052:1217" ph="SELECT * FRO... order_c2c" />
             <marker date="1516004680557" expanded="true" signature="1052:1220" ph="SELECT * FRO... order_c2c" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanhtoan_vatgia/api/get_count_status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1516092445652" expanded="true" signature="683:690" ph="SELECT count... " />
+            <marker date="1516092445652" expanded="true" signature="683:754" ph="SELECT COUNT... " />
+            <marker date="1516092445652" expanded="true" signature="683:886" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
