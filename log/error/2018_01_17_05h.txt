@@ -1,0 +1,8 @@
+17/01/2018 05:02:12 ::1 /admin/modules/thanhtoan_vatgia/listing.php?search_keyword=long&search_id=0&search_type=&date_pha=
+C:\xampp\htdocs\dailymotion\admin\modules\thanhtoan_vatgia\listing.php
+ -----***---- 
+Unknown column 'db_name' in 'where clause' :  
+  SELECT count(*) AS count
+												FROM order_c2c
+												WHERE 1  AND db_name LIKE '%long%'
+ -----***---- 

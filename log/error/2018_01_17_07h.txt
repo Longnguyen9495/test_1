@@ -1,0 +1,8 @@
+17/01/2018 07:50:46 ::1 /admin/modules/thanhtoan_vatgia/listing.php?search_keyword=&search_id=0&search_type=&date_pha=2018-01-18
+C:\xampp\htdocs\dailymotion\admin\modules\thanhtoan_vatgia\listing.php
+ -----***---- 
+Unknown column 'db_date' in 'where clause' :  
+  SELECT count(*) AS count
+												FROM order_c2c
+												WHERE 1  AND db_date >= 1689026400
+ -----***---- 

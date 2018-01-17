@@ -278,14 +278,14 @@ if ($action == "themmoi") {
         else{
             $('#error_email').text('');
         }
-        if (IsEmail(uso_user_email == "") == false ) {
-            $('#error_email').text('Email sai định dạng');
-            $('#error_email').focus();
-            return false;
-        }
-        else{
-            $('#error_email').text('');
-        }
+        // if (IsEmail(uso_user_email == "") == false ) {
+        //     $('#error_email').text('Email sai định dạng');
+        //     $('#error_email').focus();
+        //     return false;
+        // }
+        // else{
+        //     $('#error_email').text('');
+        // }
         if (uso_user_phone == "") {
             $('#error_phone').text('Mời nhập số điện thoại');
             $('#order_phone').focus();

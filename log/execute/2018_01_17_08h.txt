@@ -1,0 +1,3 @@
+1|admin|17/01/2018 08:37:00 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=100&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(100)
+ -----***---- 

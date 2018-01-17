@@ -1,0 +1,24 @@
+1|admin|17/01/2018 07:47:13 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:47:14 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:55:07 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocD9zZWFyY2hfa2V5d29yZD0mc2VhcmNoX2lkPTAmc2VhcmNoX3R5cGU9JmRhdGVfcGhhPQ==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:55:07 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocD9zZWFyY2hfa2V5d29yZD0mc2VhcmNoX2lkPTAmc2VhcmNoX3R5cGU9JmRhdGVfcGhhPQ==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:55:14 ::1 /admin/modules/videoproduct/delete.php?
+DELETE FROM video_product WHERE video_id IN(24)
+ -----***---- 
+1|admin|17/01/2018 07:55:16 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:55:17 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(0)
+ -----***---- 
+1|admin|17/01/2018 07:55:32 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=99&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(99)
+ -----***---- 
