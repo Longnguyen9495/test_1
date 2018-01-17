@@ -28,8 +28,7 @@ $db_count = new db_query("  SELECT COUNT(*) as count, order_status
                             FROM " . $fs_table . "
                             WHERE order_user_id = " . $iUse . "
                             GROUP BY order_status",
-    "USE_SLAVE");
-
+                            "USE_SLAVE");
 while ($listing_count = mysql_fetch_assoc($db_count->result)) {
     if (isset($arrOrderStatus[$listing_count['order_status']])) $arrOrdersPurchased[$arrOrderStatus[$listing_count['order_status']]] = $listing_count['count'];
     $response->code = 1;
