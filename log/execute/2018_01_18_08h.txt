@@ -1,0 +1,21 @@
+1|admin|18/01/2018 08:12:05 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 
+1|admin|18/01/2018 08:12:17 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 
+1|admin|18/01/2018 08:12:21 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 
+1|admin|18/01/2018 08:12:28 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 
+1|admin|18/01/2018 08:46:16 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=1
+DELETE FROM order_c2c WHERE order_id IN(1)
+ -----***---- 
+1|admin|18/01/2018 08:46:22 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=1
+DELETE FROM order_c2c WHERE order_id IN(1)
+ -----***---- 
+1|admin|18/01/2018 08:46:28 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=101&url=L2FkbWluL21vZHVsZXMvdGhhbmh0b2FuX3ZhdGdpYS9saXN0aW5nLnBocA==
+DELETE FROM order_c2c WHERE order_id IN(101)
+ -----***---- 

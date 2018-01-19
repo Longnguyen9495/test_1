@@ -1,0 +1,102 @@
+18/01/2018 04:47:37 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:47:38 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:48:37 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:48:37 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:48:38 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:48:40 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:05 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:06 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:06 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:06 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:06 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:14 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:15 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:15 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:15 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:15 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 
+18/01/2018 04:49:18 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FORM orders_c2c_temp' at line 1 :  
+SELECT * FORM orders_c2c_temp 
+ -----***---- 

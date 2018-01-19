@@ -1,0 +1,30 @@
+18/01/2018 07:23:51 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+Unknown column 'order_id' in 'where clause' :  
+SELECT * FROM orders_c2c_temp WHERE order_id = 0 
+ -----***---- 
+18/01/2018 07:23:52 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+Unknown column 'order_id' in 'where clause' :  
+SELECT * FROM orders_c2c_temp WHERE order_id = 0 
+ -----***---- 
+18/01/2018 07:23:52 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+Unknown column 'order_id' in 'where clause' :  
+SELECT * FROM orders_c2c_temp WHERE order_id = 0 
+ -----***---- 
+18/01/2018 07:23:52 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+Unknown column 'order_id' in 'where clause' :  
+SELECT * FROM orders_c2c_temp WHERE order_id = 0 
+ -----***---- 
+18/01/2018 07:23:52 ::1 /admin/modules/thanhtoan_vatgia/listing.php?
+
+ -----***---- 
+Unknown column 'order_id' in 'where clause' :  
+SELECT * FROM orders_c2c_temp WHERE order_id = 0 
+ -----***---- 

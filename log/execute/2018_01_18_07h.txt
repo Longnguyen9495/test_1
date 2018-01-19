@@ -1,0 +1,6 @@
+1|admin|18/01/2018 07:31:03 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 
+1|admin|18/01/2018 07:42:40 ::1 /admin/modules/thanhtoan_vatgia/delete.php?record_id=
+DELETE FROM order_c2c WHERE order_id IN()
+ -----***---- 

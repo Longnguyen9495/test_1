@@ -73,13 +73,14 @@ $db_listing = new db_query("	SELECT *
 								FROM " . $fs_table . "
 								WHERE 1 " . $sqlWhere . "
 								LIMIT " . ($current_page - 1) * $page_size . "," . $page_size,                                        __FILE__, "USE_SLAVE");
-
 ?>
 <html>
 <head>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script language="javascript" src=" ../../resource/js/grid.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
         body {
             font-family: Arial, Tahoma, Geneva, sans-serif;
@@ -200,7 +201,9 @@ $db_listing = new db_query("	SELECT *
         ?>
         <tr>
             <td><?= $row['order_id'] ?></td>
-            <td><?= $row['order_user_id'] ?></td>
+            <td><?= $row['order_user_id'] ?><br><a title="Xem Chi tiết" class="thickbox noborder" href="inc_popup_product.php?recode_id=<?=$row['order_id']?>" type="button" style="text-decoration: none; cursor: pointer;color: red;"><?=$row["order_id"]?></a>
+
+            </td>
             <td><?= number_format($row['order_title_money']) ?> đ</td>
             <td><?= $row['order_name'] ?></td>
             <td><?= $row['order_email'] ?></td>
@@ -228,9 +231,10 @@ $db_listing = new db_query("	SELECT *
                    href="delete.php?record_id=<?= $row['order_id'] ?>&url=<?= base64_encode($_SERVER['REQUEST_URI']) ?>"><img
                             src="../../resource/images/grid/delete.gif" border="0"></a>
             </td>
+
+
         </tr>
     <? } ?>
-
     </tbody>
 </table>
 <table width="100%" class="page_break">
