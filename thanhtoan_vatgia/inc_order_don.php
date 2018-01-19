@@ -1,13 +1,13 @@
 <?
-$record_id = getValue("recode_id");
-$query = "  SELECT *
+$record_id  = getValue("recode_id");
+$query      = "  SELECT *
             FROM orders_c2c_temp
             WHERE oct_id = " . $record_id . "
             LIMIT 1";
-$db_query = new db_query($query);
+$db_query   = new db_query($query);
 ?>
 <div class="checkout_title">Đơn hàng của bạn</div>
-    <div class="check_oder">
+<div class="check_oder">
         <?while ($row = mysql_fetch_assoc($db_query->result)){?>
         <div class="checkout">
             <div class="checkout_text">

@@ -2,22 +2,22 @@
 require_once("inc_security.php");
 
 // thiết lập thành phần gán giá trị
-$sqlWhere = '';
-$search_id = getValue("search_id", "int", "GET", 0);
-$search_keyword = getValue("search_keyword", "str", "GET", "", 1);
-$search_type = getValue("search_type", "int", "GET", 0);
+$sqlWhere           = '';
+$search_id          = getValue("search_id", "int", "GET", 0);
+$search_keyword     = getValue("search_keyword", "str", "GET", "", 1);
+$search_type        = getValue("search_type", "int", "GET", 0);
 
 // lấy dữ liệu từ db city
-$arrayCity = array();
-$query = new db_query("SELECT cit_id,cit_name FROM city WHERE cit_parent_id = 0");
-while ($rowCity = mysql_fetch_assoc($query->result)){
+$arrayCity          = array();
+$query              = new db_query("SELECT cit_id,cit_name FROM city WHERE cit_parent_id = 0");
+while ($rowCity     = mysql_fetch_assoc($query->result)) {
     $arrayCity[$rowCity['cit_id']] = $rowCity['cit_name'];
 }
 $query->close();
 unset($query);
-$arraySdistrict = array();
-$query_sdistrict = new db_query("SELECT cit_id,cit_name FROM city" );
-while ($rowCitys = mysql_fetch_assoc($query_sdistrict->result)){
+$arraySdistrict     = array();
+$query_sdistrict    = new db_query("SELECT cit_id,cit_name FROM city");
+while ($rowCitys    = mysql_fetch_assoc($query_sdistrict->result)) {
     $arraySdistrict[$rowCitys['cit_id']] = $rowCitys['cit_name'];
 }
 
@@ -36,32 +36,32 @@ if ($search_keyword != "") {
 
 
 // Search theo date
-$str_create_date = getValue("date_pha", "str", "GET", "dd/mm/yyyy", 1);
-$create_date = convertDateTime($str_create_date, "00:00:00");
+$str_create_date    = getValue("date_pha", "str", "GET", "dd/mm/yyyy", 1);
+$create_date        = convertDateTime($str_create_date, "00:00:00");
 if ($create_date > 0 && $str_create_date != "" && $str_create_date != "dd/mm/yyyy") {
     $sqlWhere .= " AND order_date >= " . $create_date;
 }
 
 // Phân trang
-$page_size = 5;
-$page_prefix = "Trang: ";
-$normal_class = "page";
-$selected_class = "page_current";
-$previous = '<img align="absmiddle" border="0" src="../../resource/images/grid/prev.gif">';
-$next = '<img align="absmiddle" border="0" src="../../resource/images/grid/next.gif">';
-$first = '<img align="absmiddle" border="0" src="../../resource/images/grid/first.gif">';
-$last = '<img align="absmiddle" border="0" src="../../resource/images/grid/last.gif">';
-$break_type = 1;
-$url = getURL(0, 0, 1, 1, "page");
-$total_quantity = 0; // tổng sô lượng
+$page_size          = 5;
+$page_prefix        = "Trang: ";
+$normal_class       = "page";
+$selected_class     = "page_current";
+$previous           = '<img align="absmiddle" border="0" src="../../resource/images/grid/prev.gif">';
+$next               = '<img align="absmiddle" border="0" src="../../resource/images/grid/next.gif">';
+$first              = '<img align="absmiddle" border="0" src="../../resource/images/grid/first.gif">';
+$last               = '<img align="absmiddle" border="0" src="../../resource/images/grid/last.gif">';
+$break_type         = 1;
+$url                = getURL(0, 0, 1, 1, "page");
+$total_quantity     = 0; // tổng sô lượng
 $db_count = new db_query("  SELECT count(*) AS count
 												FROM " . $fs_table . "
 												WHERE 1 " . $sqlWhere,
     __FILE__, "USE_SLAVE");
 
-$listing_count = mysql_fetch_array($db_count->result);
-$total_record = $listing_count["count"];
-$current_page = getValue("page", "int", "GET", 1);
+$listing_count      = mysql_fetch_array($db_count->result);
+$total_record       = $listing_count["count"];
+$current_page       = getValue("page", "int", "GET", 1);
 if ($total_record % $page_size == 0) $num_of_page = $total_record / $page_size;
 else $num_of_page = (int)($total_record / $page_size) + 1;
 if ($current_page > $num_of_page) $current_page = $num_of_page;
@@ -69,10 +69,10 @@ if ($current_page < 1) $current_page = 1;
 unset($db_count);
 //End phân trang
 
-$db_listing = new db_query("	SELECT *
+$db_listing         = new db_query("	SELECT *
 								FROM " . $fs_table . "
 								WHERE 1 " . $sqlWhere . "
-								LIMIT " . ($current_page - 1) * $page_size . "," . $page_size,                                        __FILE__, "USE_SLAVE");
+								LIMIT " . ($current_page - 1) * $page_size . "," . $page_size, __FILE__, "USE_SLAVE");
 ?>
 <html>
 <head>
@@ -134,6 +134,7 @@ $db_listing = new db_query("	SELECT *
         .search .form-control {
             margin: 0 5px;
         }
+
         .order_adress {
             width: 20%;
             text-align: left;
@@ -201,20 +202,23 @@ $db_listing = new db_query("	SELECT *
         ?>
         <tr>
             <td><?= $row['order_id'] ?></td>
-            <td><?= $row['order_user_id'] ?><br><a title="Xem Chi tiết" class="thickbox noborder" href="inc_popup_product.php?recode_id=<?=$row['order_id']?>" type="button" style="text-decoration: none; cursor: pointer;color: red;"><?=$row["order_id"]?></a>
+            <td><?= $row['order_user_id'] ?><br>
+                <a title="Xem Chi tiết" class="thickbox noborder" href="inc_popup_product.php?recode_id=<?= $row['order_id'] ?>"
+                                                   type="button"
+                                                   style="text-decoration: none; cursor: pointer;color: red;"><?= $row["order_id"] ?></a>
 
             </td>
             <td><?= number_format($row['order_title_money']) ?> đ</td>
             <td><?= $row['order_name'] ?></td>
             <td><?= $row['order_email'] ?></td>
             <td class="order_adress">
-                <? if( $row['order_city'] > 0 ){?>
+                <? if ($row['order_city'] > 0) { ?>
                     <span>Thành Phố :<?= $arrayCity[$row['order_city']] ?></span>
-                <?}?>
+                <? } ?>
                 <br>
-                <? if( $row['order_sdistrict'] > 0 ){?>
-                <span>Quận/Tỉnh :<?= $arraySdistrict[$row['order_sdistrict']] ?></span>
-                <?}?>
+                <? if ($row['order_sdistrict'] > 0) { ?>
+                    <span>Quận/Tỉnh :<?= $arraySdistrict[$row['order_sdistrict']] ?></span>
+                <? } ?>
                 <br>
                 <span>Địa Chỉ :<?= $row['order_adress'] ?></span>
             </td>

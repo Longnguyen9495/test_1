@@ -40,6 +40,7 @@ $phone = $row['order_phone'];
             padding-right: 12px;
             width: 200px;
             padding-bottom: 5px;
+            padding-top: 5px;
         }
 
         .table_popup tr td {
@@ -153,7 +154,6 @@ $phone = $row['order_phone'];
             </table>
         </td>
     </tr>
-
     <tr>
         <td>
             <table width="100%" cellspacing="0" cellpadding="5" border="1" bordercolor="#999999"

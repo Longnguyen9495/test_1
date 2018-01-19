@@ -15,7 +15,7 @@ $temp['id'] = $rowOrderTmp['oct_id'];
 $temp['name'] = $rowOrderTmp['oct_product_name'];
 $temp['quantity'] = $rowOrderTmp['oct_product_quantity'];
 $temp['price'] = $rowOrderTmp['oct_product_price'];
-$temp['picture'] = $rowOrderTmp['oct_price'];
+$temp['picture'] = $rowOrderTmp['oct_img'];
 $temp['product_id'] = $rowOrderTmp['oct_product_id'];
 
 

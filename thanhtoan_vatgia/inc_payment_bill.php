@@ -1,7 +1,7 @@
 <?
 // connect mysql city
-$arrType = array();
-$db_city = new db_query("SELECT cit_id,cit_name FROM city  WHERE cit_parent_id=0");
+$arrType    = array();
+$db_city    = new db_query("SELECT cit_id,cit_name FROM city  WHERE cit_parent_id=0");
 while ($city = mysql_fetch_array($db_city->result)) {
     $arrType[$city['cit_id']] = $city['cit_name'];
 
@@ -44,19 +44,16 @@ unset($db_city);
         }
 
         /* home */
-
         .process_line > div {
             width: 100%;
             height: 100%;
             background: #fbb999;
         }
-
         .process_step > span {
             display: block;
             color: #000;
             margin-top: 8px;
         }
-
         .process_step > i {
             background: #fbb999;
             width: 50px;
@@ -69,7 +66,6 @@ unset($db_city);
             font-size: 20px;
             margin-top: 13px;
         }
-
         .checkout_title {
             border-top: 1px #f9f9fb solid;
             color: #333;
@@ -77,11 +73,9 @@ unset($db_city);
             line-height: 35px;
             padding: 0 15px;
         }
-
         #address {
             padding: 0 15px;
         }
-
         .form_input > input {
             height: 35px;
             border: none;
@@ -94,7 +88,6 @@ unset($db_city);
             width: 96%;
             float: right;
         }
-
         .form_label > i {
             width: auto;
             height: 35px;
@@ -103,13 +96,11 @@ unset($db_city);
             font-size: 37px;
             margin-top: 3px;
         }
-
         .form_input {
             display: block;
             position: relative;
             width: 100%;
         }
-
         .form_input > .form_select {
             width: 47%;
             height: 35px;
@@ -123,17 +114,14 @@ unset($db_city);
             float: left;
             outline: none;
         }
-
         .form_label {
             display: block;
             margin: 10px 0;
         }
-
         .checkout_text i {
             font-size: 13px;
             color: #c2c2c2;
         }
-
         .checkout_btn a {
             width: 150px;
             background: #F44f00;
@@ -148,14 +136,12 @@ unset($db_city);
             font-weight: 700;
             text-decoration: none;
         }
-
         .icon_form_paymentBill {
             width: 3%;
             font-size: 45px;
             vertical-align: middle;
             color: #b7b7b7;
         }
-
         .required {
             color: red;
             font-size: 12px;
@@ -173,7 +159,6 @@ unset($db_city);
     <div class="checkout_address" id="user_address">
         <div class="address" id="address">
             <div class="ord_address_form">
-
                 <label class="form_label" id="label_ord_name">
                     <div class="form_input">
                         <i class="icon_form_paymentBill ion-ios-person-outline" aria-hidden="true"></i>

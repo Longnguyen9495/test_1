@@ -181,7 +181,7 @@
             <div class="checkout_button">
                 <a href="">
                     <button class="checkout_btn" onclick="submitStep1()"><i class="ion-ios-home-outline"></i><a
-                                href="inc_payment_user.php?record_id=1">Quay Về
+                                href="index.php?recode_id=1">Quay Về
                             Trang
                             Chủ</a></button></a>
             </div>

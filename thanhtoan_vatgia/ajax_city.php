@@ -2,11 +2,11 @@
 require_once("config.php");
 
 
-$iCit = getValue("iCit");
+$iCit           = getValue("iCit");
 
-$iDistCurrent = getValue("iDist");
+$iDistCurrent   = getValue("iDist");
 
-$htmlReturn = '<option value="0">Quận/Huyện</option>';
+$htmlReturn     = '<option value="0">Quận/Huyện</option>';
 
 if ($iCit > 0) {
     $arrDistrict = arrDistrict($iCit);
